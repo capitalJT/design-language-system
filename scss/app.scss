@@ -4,47 +4,41 @@
 // Or selectively include components
 @import "foundation/components/grid";
 @import "foundation/components/accordion";
-@import "foundation/components/alert-boxes";
+// @import "foundation/components/alert-boxes";
 @import "foundation/components/block-grid";
-@import "foundation/components/breadcrumbs";
-@import "foundation/components/button-groups";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/button-groups";
 @import "foundation/components/buttons";
 @import "foundation/components/clearing";
 @import "foundation/components/dropdown";
-@import "foundation/components/dropdown-buttons";
-@import "foundation/components/flex-video";
+// @import "foundation/components/dropdown-buttons";
+// @import "foundation/components/flex-video"; 
 @import "foundation/components/forms";
 @import "foundation/components/icon-bar";
 @import "foundation/components/inline-lists";
-@import "foundation/components/joyride";
-@import "foundation/components/keystrokes";
+// @import "foundation/components/joyride";
+// @import "foundation/components/keystrokes";
 @import "foundation/components/labels";
-@import "foundation/components/magellan";
-@import "foundation/components/orbit";
-@import "foundation/components/pagination";
-@import "foundation/components/panels";
-@import "foundation/components/pricing-tables";
-@import "foundation/components/progress-bars";
-@import "foundation/components/range-slider";
+// @import "foundation/components/magellan";
+// @import "foundation/components/orbit";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/range-slider";
 @import "foundation/components/reveal";
-@import "foundation/components/side-nav";
-@import "foundation/components/split-buttons";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/split-buttons";
 @import "foundation/components/sub-nav";
 @import "foundation/components/switches";
-@import "foundation/components/tables";
-@import "foundation/components/tabs";
-@import "foundation/components/thumbs";
-@import "foundation/components/tooltips";
+// @import "foundation/components/tables";
+// @import "foundation/components/tabs";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
 @import "foundation/components/top-bar";
 @import "foundation/components/type";
-@import "foundation/components/offcanvas";
+// @import "foundation/components/offcanvas";
 @import "foundation/components/visibility";
-
-.code{
-	table{
-		border:none;
-	}
-}
 
 footer{
 	background-color: #ccc;
@@ -56,10 +50,6 @@ footer{
 	height:45px;
 }
 
-.row{
-	max-width: 74em;
-}
-
 @mixin flexbox() {
 	display: -webkit-box;
 	display: -moz-box;
@@ -69,15 +59,6 @@ footer{
 	// -ms-flex-direction: row;
 	-ms-flex-align: start;
 }
-
-.hide-for-mobile{
-	display:none;
-}
-
-.hide-for-tablet{
-	display:none;
-}
-
 
 //This style is for git hub gists
 .file-data {
@@ -98,23 +79,18 @@ footer{
 @import "jt-body-content";
 
 
-@media only screen and (min-width: 40.063em) {
-	.hide-for-mobile{
-		display:inline-block;
-	}
-	.hide-for-tablet{
-		display:none;
+
+.arabic{
+	h1,h2,h3,h4,h5,h6{
+		font-family: 'Al-Jazeera-Arabic-Bold';
 	}
 }
 
-@media only screen and (min-width: 64.063em) {
-	.hide-for-tablet{
-		display:inline-block;
+.helvetica{
+	h1,h2,h3,h4,h5,h6{
+		font-family: 'Helvetica-Neue-LT-Bold';
 	}
 }
-
-
-
 
 
 
