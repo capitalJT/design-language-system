@@ -9,5 +9,6 @@
   include 'includes/inputs.php';
   include 'includes/alerts.php';
   include 'includes/panels.php';
+  include 'includes/icons.php';
   include 'includes/footer.php';
- ?>
+?>

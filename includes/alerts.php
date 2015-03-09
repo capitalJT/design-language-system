@@ -12,29 +12,29 @@
 			</div>
 
 			<div data-alert class="alert-box success">
-			  This is a standard alert.
+			  This is a success alert.
 			  <a href="#" class="close">&times;</a>
 			</div>
 
 			<div data-alert class="alert-box warning">
-			  This is a standard alert.
+			  This is a warning alert.
 			  <a href="#" class="close">&times;</a>
 			</div>
 		</div>
 
 		<div class="large-6 columns">
 			<div data-alert class="alert-box info">
-			  This is a standard alert.
+			  This is a info alert.
 			  <a href="#" class="close">&times;</a>
 			</div>
 
 			<div data-alert class="alert-box alert">
-			  This is a standard alert.
+			  This is an alert box.
 			  <a href="#" class="close">&times;</a>
 			</div>
 
 			<div data-alert class="alert-box secondary">
-			  This is a standard alert.
+			  This is a secondary alert.
 			  <a href="#" class="close">&times;</a>
 			</div>
 		</div>

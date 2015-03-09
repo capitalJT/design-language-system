@@ -1,0 +1,52 @@
+$black: rgba(0,0,0,0);
+$gold: #d8a32a;
+$navy: rgb(12,19,53);
+$pale-sky: #6b717f;
+
+$color-shadow: rgba($black, .125);
+$color-light-shade: rgba($black, .2);
+$color-dark-shade: #9d9d9d;
+$color-primary: $navy;
+$color-accent: $gold;
+$color-text: darken($pale-sky, 15);
+
+$top-color: rgba(0,0,0,0);
+$bottom-color: rgba(0,0,0,0.9);
+
+@mixin linear-gradient($top-color, $bottom-color) {
+	background: -webkit-linear-gradient($top-color, $bottom-color); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient($top-color, $bottom-color); /* For Opera 11.1 to 12.0 */
+	background: -ms-linear-gradient($top-color, $bottom-color); /* For IE 10 */
+	background: -moz-linear-gradient($top-color, $bottom-color); /* For Opera 11.1 to 12.0 */
+	background: linear-gradient($top-color, $bottom-color); /* Standard syntax (must be last) */
+}
+
+@mixin rotate( $val: 90deg ) {
+  -webkit-transform: rotate($val);
+     -moz-transform: rotate($val);
+      -ms-transform: rotate($val);
+       -o-transform: rotate($val);
+          transform: rotate($val);
+}
+
+@mixin flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	// -ms-flex-direction: row;
+	-ms-flex-align: start;
+}
+
+a{
+	color:$gold;
+}
+
+a:hover, a:focus{
+	color: $color-primary;
+}
+
+p{
+	margin-bottom: 10px;
+}

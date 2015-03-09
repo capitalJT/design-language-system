@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "ajmn-font";
+  src:url("../fonts/Icons/ajmn-font.eot");
+  src:url("../fonts/Icons/ajmn-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Icons/ajmn-font.woff") format("woff"),
+    url("../fonts/Icons/ajmn-font.ttf") format("truetype"),
+    url("../fonts/Icons/ajmn-font.svg#ajmn-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[class^="ajmn-"]:before,
+[class*=" ajmn-"]:before {
+  font-family: "ajmn-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ajmn-alert:before {
+  content: "a";
+}
+.ajmn-arrow:before {
+  content: "b";
+}
+.ajmn-calendar:before {
+  content: "c";
+}
+.ajmn-carel-right:before {
+  content: "d";
+}
+.ajmn-caret-down:before {
+  content: "e";
+}
+.ajmn-caret-left:before {
+  content: "f";
+}
+.ajmn-caret-up:before {
+  content: "g";
+}
+.ajmn-chat:before {
+  content: "h";
+}
+.ajmn-clock:before {
+  content: "i";
+}
+.ajmn-closed-quotes:before {
+  content: "j";
+}
+.ajmn-cog:before {
+  content: "k";
+}
+.ajmn-double-left-arrow:before {
+  content: "l";
+}
+.ajmn-double-right-arrow:before {
+  content: "m";
+}
+.ajmn-download:before {
+  content: "n";
+}
+.ajmn-facebook:before {
+  content: "o";
+}
+.ajmn-fast-forward:before {
+  content: "p";
+}
+.ajmn-full-screen:before {
+  content: "q";
+}
+.ajmn-google-plus:before {
+  content: "r";
+}
+.ajmn-grid:before {
+  content: "s";
+}
+.ajmn-info:before {
+  content: "t";
+}
+.ajmn-instagram:before {
+  content: "u";
+}
+.ajmn-justified:before {
+  content: "v";
+}
+.ajmn-left-aligned:before {
+  content: "w";
+}
+.ajmn-left-arrow:before {
+  content: "x";
+}
+.ajmn-linkedin:before {
+  content: "y";
+}
+.ajmn-list:before {
+  content: "z";
+}
+.ajmn-record:before {
+  content: "A";
+}
+.ajmn-profile:before {
+  content: "B";
+}
+.ajmn-printer:before {
+  content: "C";
+}
+.ajmn-plus:before {
+  content: "D";
+}
+.ajmn-play:before {
+  content: "E";
+}
+.ajmn-photo-gallery:before {
+  content: "F";
+}
+.ajmn-photo:before {
+  content: "G";
+}
+.ajmn-pause:before {
+  content: "H";
+}
+.ajmn-open-quotes:before {
+  content: "I";
+}
+.ajmn-more:before {
+  content: "J";
+}
+.ajmn-menu:before {
+  content: "K";
+}
+.ajmn-mail:before {
+  content: "L";
+}
+.ajmn-location-pin:before {
+  content: "M";
+}
+.ajmn-rewind:before {
+  content: "N";
+}
+.ajmn-right-aligned:before {
+  content: "O";
+}
+.ajmn-right-arrow:before {
+  content: "P";
+}
+.ajmn-ring:before {
+  content: "Q";
+}
+.ajmn-rotate:before {
+  content: "R";
+}
+.ajmn-rss:before {
+  content: "S";
+}
+.ajmn-search:before {
+  content: "T";
+}
+.ajmn-star:before {
+  content: "U";
+}
+.ajmn-stop:before {
+  content: "V";
+}
+.ajmn-trash:before {
+  content: "W";
+}
+.ajmn-twitter:before {
+  content: "X";
+}
+.ajmn-video:before {
+  content: "Y";
+}
+.ajmn-video-gallery:before {
+  content: "Z";
+}
+.ajmn-volume-add:before {
+  content: "0";
+}
+.ajmn-volume-off:before {
+  content: "1";
+}
+.ajmn-youtube:before {
+  content: "2";
+}
+
+/*
+====================================================================
+  Fontastic Styles
+====================================================================
+*/
+
+.glyphs.css-mapping{
+  margin:0 0 60px 0;
+  li{
+    margin:0 20px;
+    padding:0;
+    display:inline-block;
+  }
+  .icon{
+    margin:0 5px 0 5px;
+    padding:13px;
+    height:50px;
+    width:50px;
+    color:#162a36;
+    font-size:24px;
+    &:hover{
+      color:green;
+    }
+  }
+}

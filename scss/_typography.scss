@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Light';
+  src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Regular';
+  src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Bold';
+  src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Heavy';
+  src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Light';
+  src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf') format('truetype');
+}
+
+.arabic-light{
+	font-family: 'Al-Jazeera-Arabic-Light';
+}
+
+.arabic-regular{
+	font-family: 'Al-Jazeera-Arabic-Regular';
+}
+
+.arabic-bold{
+	font-family: 'Al-Jazeera-Arabic-Bold';
+}
+
+.arabic-heavy{
+	font-family: 'Al-Jazeera-Arabic-Heavy';
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Bold';
+  src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Light';
+  src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Roman';
+  src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf') format('opentype');
+}
+
+.helvetica-lt-bold{
+	font-family: 'Helvetica-Neue-LT-Bold';
+}
+
+.helvetica-lt-light{
+	font-family: 'Helvetica-Neue-LT-Light';
+}
+
+.helvetica-roman{
+	font-family: 'Helvetica-Neue-LT-Roman';
+}
+
+.helvetica{
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Helvetica-Neue-LT-Bold';
+  }
+  span{
+    color:#666;
+  }
+}

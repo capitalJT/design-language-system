@@ -3,17 +3,17 @@
 
 // Or selectively include components
 @import "foundation/components/grid";
-@import "foundation/components/accordion";
+// @import "foundation/components/accordion";
 @import "foundation/components/alert-boxes";
-@import "foundation/components/block-grid";
+// @import "foundation/components/block-grid";
 // @import "foundation/components/breadcrumbs";
 @import "foundation/components/button-groups";
 @import "foundation/components/buttons";
 @import "foundation/components/clearing";
-@import "foundation/components/dropdown";
-@import "foundation/components/dropdown-buttons";
+// @import "foundation/components/dropdown";
+// @import "foundation/components/dropdown-buttons";
 // @import "foundation/components/flex-video"; 
-@import "foundation/components/forms";
+// @import "foundation/components/forms";
 @import "foundation/components/icon-bar";
 @import "foundation/components/inline-lists";
 // @import "foundation/components/joyride";
@@ -30,7 +30,7 @@
 // @import "foundation/components/side-nav";
 @import "foundation/components/split-buttons";
 @import "foundation/components/sub-nav";
-@import "foundation/components/switches";
+// @import "foundation/components/switches";
 // @import "foundation/components/tables";
 // @import "foundation/components/tabs";
 // @import "foundation/components/thumbs";
@@ -38,46 +38,18 @@
 @import "foundation/components/top-bar";
 @import "foundation/components/type";
 // @import "foundation/components/offcanvas";
-@import "foundation/components/visibility";
+// @import "foundation/components/visibility";
+
+/////////////////////////////////////////////////////////////
+
+@import "base";
+@import "typography";
+@import "brand-colors";
+@import "icon-font";
 
 .divider{
 	display: block;
 	height:45px;
-}
-
-@mixin flexbox() {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	// -ms-flex-direction: row;
-	-ms-flex-align: start;
-}
-
-//This style is for git hub gists
-.file-data {
-    -moz-tab-size: 2;
-    tab-size: 2;
-}
-
-/////////////////////////////////////////////////////////////
-
-@import "jt-base";
-@import "jt-hero";
-@import "jt-typography";
-@import "jt-brand-colors";
-@import "jt-imagery";
-@import "jt-header-1";
-@import "jt-masthead";
-@import "jt-carousel";
-@import "jt-body-content";
-
-
-.arabic{
-	h1,h2,h3,h4,h5,h6{
-		font-family: 'Al-Jazeera-Arabic-Bold';
-	}
 }
 
 footer{

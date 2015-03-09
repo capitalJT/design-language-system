@@ -1,0 +1,27 @@
+.swatches{
+	margin:0;
+	 li{
+		display: inline-block;
+		box-sizing: border-box;
+		width:19%;
+		margin:0 0.5%;
+		padding:20px;
+		float: left;
+	}
+	.color-primary{
+		background-color: $color-primary;
+		color:white;
+	}
+	.color-accent{
+		background-color: $color-accent;
+	}
+	.color-shadow{
+		background-color: $color-shadow;
+	}
+	.color-light-shade{
+		background-color: $color-light-shade;
+	}
+	.color-dark-shade{
+		background-color: $color-dark-shade;
+	}
+}

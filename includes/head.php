@@ -6,7 +6,6 @@
     <title>Al Jazeera DLS &amp; Component List</title>
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="genericons/genericons.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
 
@@ -33,21 +32,8 @@
                 <li><a data-scroll href="#inputs">Inputs</a></li>
                 <li><a data-scroll href="#alerts">Alerts</a></li>
                 <li><a data-scroll href="#panels">Panels</a></li>
+                <li><a data-scroll href="#icons">Icons</a></li>
               </ul>
-            </li>
-
-            <li class="has-dropdown">
-              <a data-scroll href="#components">Components</a>
-              <ul class="dropdown">
-                <li><a data-scroll href="#headers">Headers</a></li>
-                <li><a data-scroll href="#masthead">Masthead</a></li>
-                <li><a data-scroll href="#carousel">Carousel</a></li>
-                <li><a data-scroll href="#body-content">Body Content</a></li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="#">Link 4</a>
             </li>
 
           </ul>
