@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="45px" viewBox="0 0 44 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Fast Forward</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Fast-Forward" sketch:type="MSLayerGroup" transform="translate(-1.000000, 0.000000)" fill="#7F7F7F">
+            <path d="M22.988,0.25 C10.838,0.25 0.988,10.1 0.988,22.25 C0.988,34.4 10.838,44.25 22.988,44.25 C35.138,44.25 44.988,34.4 44.988,22.25 C44.988,10.1 35.138,0.25 22.988,0.25 L22.988,0.25 Z M22.988,42.297 C11.916,42.297 2.941,33.322 2.941,22.25 C2.941,11.178 11.916,2.203 22.988,2.203 C34.06,2.203 43.035,11.178 43.035,22.25 C43.035,33.322 34.06,42.297 22.988,42.297 L22.988,42.297 Z" id="Fill-11" sketch:type="MSShapeGroup"></path>
+            <path d="M34.406,22.25 L21.445,14.505 L21.445,19.211 L13.57,14.505 L13.57,29.995 L21.445,25.289 L21.445,29.995 L34.406,22.25" id="Fill-12" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

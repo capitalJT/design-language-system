@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="37px" viewBox="0 0 30 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Double Left Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Double-Left-Arrow" sketch:type="MSLayerGroup" fill="#7F7F7F">
+            <path d="M3.689,18.516 L20.091,2.114 L18.677,0.7 L0.861,18.516 L18.677,36.332 L20.091,34.917 L3.689,18.516" id="Fill-128" sketch:type="MSShapeGroup"></path>
+            <path d="M12.689,18.516 L29.091,2.114 L27.677,0.7 L9.861,18.516 L27.677,36.332 L29.091,34.917 L12.689,18.516" id="Fill-129" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

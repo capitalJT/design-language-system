@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="31px" viewBox="0 0 38 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Closed Quotes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Closed-Quotes" sketch:type="MSLayerGroup" fill="#7F7F7F">
+            <path d="M37.556,0.577 L20.42,0.577 L20.42,17.714 L34.966,17.714 C34.966,17.753 34.972,17.79 34.972,17.829 C34.972,23.423 30.437,27.957 24.844,27.957 C24.813,27.957 24.782,27.953 24.751,27.952 L24.751,30.537 C24.782,30.537 24.813,30.542 24.844,30.542 C31.865,30.542 37.556,24.85 37.556,17.829 C37.556,17.79 37.551,17.753 37.551,17.714 L37.556,17.714 L37.556,0.577" id="Fill-120" sketch:type="MSShapeGroup"></path>
+            <path d="M17.556,0.577 L0.42,0.577 L0.42,17.714 L14.966,17.714 C14.966,17.753 14.972,17.79 14.972,17.829 C14.972,23.423 10.437,27.957 4.844,27.957 C4.813,27.957 4.782,27.953 4.751,27.952 L4.751,30.537 C4.782,30.537 4.813,30.542 4.844,30.542 C11.865,30.542 17.556,24.85 17.556,17.829 C17.556,17.79 17.551,17.753 17.551,17.714 L17.556,17.714 L17.556,0.577" id="Fill-121" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

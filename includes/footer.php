@@ -1,18 +1,19 @@
-		<footer>
-			<div class="row">
-				<div class="large-12 columns">
-					<p>This is the footer section</p>
-				</div>	
-			</div>
-		</footer>
+	<footer>
+		<div class="row">
+			<div class="large-12 columns">
+				<p>This is the footer section</p>
+			</div>	
+		</div>
+	</footer>
 
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	  <script src="bower_components/foundation/js/foundation.min.js"></script>
-	  <script src="js/smooth-scroll.min.js"></script>
-	  <script src="js/slick.min.js"></script>
-	  <script src="js/app.js"></script>
-	  <script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
 
+    	//This is for smooth-scroll.min.js
 			smoothScroll.init({
 			  speed: 500, // Integer. How fast to complete the scroll in milliseconds
 			  easing: 'easeInOutCubic', // Easing pattern to use
@@ -22,6 +23,13 @@
 			  callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
 			});
 
-	  </script>
+			//This is for the slick.min.js
+			$('.carousel-wrapper').slick({
+				autoplay: true,
+				dots: true,
+				// arrows:false
+			});
+
+    </script>
   </body>
 </html>

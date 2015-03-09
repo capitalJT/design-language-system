@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="27px" viewBox="0 0 28 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rss</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rss" sketch:type="MSLayerGroup" fill="#7F7F7F">
+            <path d="M4.432,19.44 C6.419,19.44 8.03,21.069 8.03,23.078 C8.03,25.087 6.419,26.716 4.432,26.716 C2.445,26.716 0.833,25.087 0.833,23.078 C0.833,21.069 2.445,19.44 4.432,19.44" id="Fill-95" sketch:type="MSShapeGroup"></path>
+            <path d="M18.226,26.716 L13.128,26.716 C13.128,19.851 7.623,14.286 0.833,14.286 L0.833,9.133 C10.439,9.133 18.226,17.005 18.226,26.716" id="Fill-96" sketch:type="MSShapeGroup"></path>
+            <path d="M21.824,26.716 C21.824,14.996 12.427,5.495 0.833,5.495 L0.833,0.19 C15.325,0.19 27.072,12.066 27.072,26.716 L21.824,26.716" id="Fill-97" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

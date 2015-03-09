@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Trash</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Trash" sketch:type="MSLayerGroup" fill="#7F7F7F">
+            <path d="M17.098,9.691 L19.098,9.691 L19.098,34.886 L17.098,34.886 L17.098,9.691 Z" id="Fill-42" sketch:type="MSShapeGroup"></path>
+            <path d="M11.098,9.691 L13.098,9.691 L13.098,34.886 L11.098,34.886 L11.098,9.691 Z" id="Fill-43" sketch:type="MSShapeGroup"></path>
+            <path d="M23.098,9.691 L25.098,9.691 L25.098,34.886 L23.098,34.886 L23.098,9.691 Z" id="Fill-44" sketch:type="MSShapeGroup"></path>
+            <path d="M31.042,5.338 L27.325,5.338 L22.394,0.407 L22.375,0.426 L22.375,0.407 L13.773,0.407 L13.773,0.437 L8.872,5.338 L0.37,5.338 L0.37,7.338 L5.155,7.338 L5.155,39.24 L31.042,39.24 L31.042,7.338 L35.827,7.338 L35.827,5.338 L31.042,5.338 L31.042,5.338 Z M14.631,2.407 L21.566,2.407 L24.496,5.338 L11.7,5.338 L14.631,2.407 L14.631,2.407 Z M7.197,7.338 L29,7.338 L29,37.24 L7.197,37.24 L7.197,7.338 Z" id="Fill-45" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
