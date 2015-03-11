@@ -1,4 +1,4 @@
-$black: rgba(0,0,0,0);
+$black: rgba(0,0,0,0.9);
 $gold: #d8a32a;
 $navy: rgb(12,19,53);
 $pale-sky: #6b717f;
@@ -10,17 +10,6 @@ $color-primary: $navy;
 $color-accent: $gold;
 $color-text: darken($pale-sky, 15);
 
-$top-color: rgba(0,0,0,0);
-$bottom-color: rgba(0,0,0,0.9);
-
-@mixin linear-gradient($top-color, $bottom-color) {
-	background: -webkit-linear-gradient($top-color, $bottom-color); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient($top-color, $bottom-color); /* For Opera 11.1 to 12.0 */
-	background: -ms-linear-gradient($top-color, $bottom-color); /* For IE 10 */
-	background: -moz-linear-gradient($top-color, $bottom-color); /* For Opera 11.1 to 12.0 */
-	background: linear-gradient($top-color, $bottom-color); /* Standard syntax (must be last) */
-}
-
 @mixin rotate( $val: 90deg ) {
   -webkit-transform: rotate($val);
      -moz-transform: rotate($val);
@@ -29,24 +18,61 @@ $bottom-color: rgba(0,0,0,0.9);
           transform: rotate($val);
 }
 
+@mixin transition($val: all 0.3s ease-in-out) {
+	-webkit-transition: $val;
+	   -moz-transition: $val;
+	    -ms-transition: $val;
+	     -o-transition: $val;
+	        transition: $val;
+}
+
 @mixin flexbox() {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	// -ms-flex-direction: row;
-	-ms-flex-align: start;
+	-ms-flex-direction: row;
+	-ms-flex-align: stetch;
 }
 
-a{
-	color:$gold;
+// a mixin for height and line-height
+@mixin ht-lh($Value: 16) {
+    height: ($Value) + px;
+    line-height: ($Value) + px;
 }
 
-a:hover, a:focus{
-	color: $color-primary;
+// a mixin for height, width, and line-height
+@mixin ht-w-lh($Value: 40) {
+    height: ($Value) + px;
+    width: ($Value) + px;
+    line-height: ($Value) + px;
 }
 
-p{
-	margin-bottom: 10px;
+@mixin img-flex() {
+	width:100%;
+	height:auto;
+}
+
+//this is used within the botttom-cta component
+@mixin vertical-center() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+// a mixin for the social-search sliding effect within the header
+@mixin header-expand(){
+	height:0;
+	overflow-y: hidden;
+
+	-webkit-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
+	   -moz-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
+	    -ms-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
+	     -o-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
+	        transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 }

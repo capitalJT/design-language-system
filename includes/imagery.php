@@ -1,5 +1,4 @@
-<span id="imagery" class="divider"></span>
-<div class="row">
+<section id="imagery" class="row">
   <div class="large-12 columns">
     <h1>Imagery - Aspect Ratios</h1>
   </div>
@@ -14,4 +13,4 @@
 		<h3>Landscape</h3>
 		<img src="http://placehold.it/3200x1000">
   </div>
-</div>
+</section>

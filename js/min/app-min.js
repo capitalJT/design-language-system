@@ -1,1 +1,1 @@
-$(document).foundation();
+$(document).foundation(),$(document).ready(function(){smoothScroll.init()}),$(function(){$(window).scroll(function(){var o=$(window).scrollTop();o>70?$("#scroll-to-top").fadeIn():$("#scroll-to-top").fadeOut()})}),$("#scroll-to-top").click(function(){console.log("scrolled");var o=$("html, body");o.animate({scrollTop:0},"500","swing")});

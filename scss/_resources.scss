@@ -1,0 +1,6 @@
+#resources{
+	img{
+		margin-bottom: 10px;
+		@include img-flex();
+	}
+}

@@ -1,11 +1,9 @@
-<span id="typography" class="divider"></span>
-<div class="row">
+<section id="typography" class="row">
     <div class="large-12 columns">
         <h1>Typography</h1>
     </div>
     <hr>
-    <div class="large-12 columns content helvetica">
-        
+    <section class="large-12 columns content helvetica">
         <div class="large-9 large-push-3 columns"><h1>This is a very large header.</h1></div>
         <div class="large-3 large-pull-9 columns span h1"><span>H1: 44px / 2.75rem</span></div>
         
@@ -26,7 +24,9 @@
 
         <div class="large-9 large-push-3 columns"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sit corporis, numquam praesentium soluta dolor nam velit voluptas quas. Quasi cupiditate non ab natus eveniet harum nulla maiores, deleniti necessitatibus.</p></div>
         <div class="large-3 large-pull-9 columns span h6"><span>Paragraph: 16px / 1rem</span></div>
+    </section>
 
+    <section class="large-12 columns content helvetica">
         <div class="large-9 large-push-3 columns">
             <img src="http://placehold.it/640x360">
             <span>Brendan Smialowski / AFP / Getty Images</span>
@@ -34,9 +34,11 @@
         <div class="large-3 large-pull-9 columns span image-text">
             <span>Image</span>
         </div>
+    </section>
 
+    <section class="large-12 columns content helvetica">
         <div class="large-9 large-push-3 columns">
-            <p>A man was injured yesterday when he fell off a rickety ladder that collapsed while he was painting his house.</p>
+            <p class="lead">A man was injured yesterday when he fell off a rickety ladder that collapsed while he was painting his house.</p>
         </div>
         <div class="large-3 large-pull-9 columns span lead-text">
             <span>Lead text</span>
@@ -49,7 +51,7 @@
             </blockquote>
         </div>
         <div class="large-3 large-pull-9 columns span quote">
-            <span>Quote</span>
+            <span>Block quotation</span>
         </div>
 
         <div class="large-9 large-push-3 columns">
@@ -58,5 +60,5 @@
         <div class="large-3 large-pull-9 columns span">
             <span>Small Text</span>
         </div>
-    </div>
-</div>
+    </section>
+</section>

@@ -66,6 +66,15 @@
     font-family: 'Helvetica-Neue-LT-Bold';
   }
   span{
-    color:#666;
+    color:$color-dark-shade;
+  }
+}
+
+#typography{
+  section{
+    margin-bottom: 20px;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
   }
 }

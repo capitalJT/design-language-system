@@ -1,5 +1,4 @@
-<span id="buttons" class="divider"></span>
-<div class="row">
+<section id="buttons" class="row">
   <div class="large-12 columns">
     <h1>Buttons</h1>
   </div>
@@ -25,4 +24,4 @@
 		  <li><a href="#" class="button">Button 3</a></li>
 		</ul>
   </div>
-</div>
+</section>

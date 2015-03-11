@@ -1,0 +1,35 @@
+.header-wrapper{
+	// background-color: white;
+	// background-color: #ccc;
+	// position: fixed;
+	// z-index: 100;
+	// top:0;
+	// right:0;
+	// left:0;
+}
+.header{
+	padding:10px 0;
+	.logo{
+		height:75px;
+		width:auto;
+	}
+	nav{
+		margin-top: 15px;
+		li{
+			padding:10px;
+			display:inline-block;
+			font-family: 'Helvetica-Neue-LT-Bold';
+			&.active{
+				border-bottom:solid thick $color-primary;
+			}
+		}
+	}
+}
+.hero{
+	background-color: $color-shadow;
+	padding:55px 40px 20px;
+	h1{
+		font-size: 7em;
+		line-height: 1em;
+	}
+}

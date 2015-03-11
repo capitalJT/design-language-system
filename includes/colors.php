@@ -1,5 +1,4 @@
-<span id="brand-colors" class="divider"></span>
-<div class="row">
+<section id="brand-colors" class="row">
   <div class="large-12 columns">
     <h1>Brand Colors</h1>
   </div>
@@ -13,4 +12,4 @@
 			<li class="color-dark-shade">$color-dark-shade<br>#9d9d9d</li>
 		</ul>
   </div>
-</div>
+</section>

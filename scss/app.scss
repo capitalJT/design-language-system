@@ -1,4 +1,4 @@
-@import "settings";
+ @import "settings";
 // @import "foundation";
 
 // Or selectively include components
@@ -13,7 +13,7 @@
 // @import "foundation/components/dropdown";
 // @import "foundation/components/dropdown-buttons";
 // @import "foundation/components/flex-video"; 
-// @import "foundation/components/forms";
+@import "foundation/components/forms";
 @import "foundation/components/icon-bar";
 @import "foundation/components/inline-lists";
 // @import "foundation/components/joyride";
@@ -35,7 +35,7 @@
 // @import "foundation/components/tabs";
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
-@import "foundation/components/top-bar";
+// @import "foundation/components/top-bar";
 @import "foundation/components/type";
 // @import "foundation/components/offcanvas";
 // @import "foundation/components/visibility";
@@ -43,16 +43,82 @@
 /////////////////////////////////////////////////////////////
 
 @import "base";
+@import "masthead";
 @import "typography";
 @import "brand-colors";
 @import "icon-font";
+@import "resources";
+@import "footer";
 
-.divider{
-	display: block;
-	height:45px;
+body{
+	font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
 }
 
-footer{
-	background-color: #ccc;
-	padding:20px;
+a{
+	color:$gold;
+	&:focus{
+		color:$gold;
+	}
+	@include transition();
+	&:link{}
+	&:visited{}
+	&:active{}
+	&:hover{
+		color: $color-primary;
+	}
 }
+
+section.row{
+	margin-top:40px;
+}
+
+.toc{
+	border-left:solid thick $color-shadow;
+	h3{
+		color:$color-dark-shade;
+		font-size: 1em;
+		margin-bottom: 10px;
+	}
+	nav li{
+		font-family: 'Helvetica-Neue-LT-Bold';
+		list-style-type: none;
+		margin-bottom: 5px;
+	}
+}
+
+#scroll-to-top{
+	position: fixed;
+	z-index: 100;
+	bottom:16px;
+	right:20px;
+	display:none;
+	box-sizing: border-box;
+	@include transition();
+	@include rotate( $val: 180deg );
+	.ajmn-download{
+		display:block;
+		padding:0;
+		margin:0;
+		color:$color-accent;
+		font-size:2em;
+		text-align:center;
+	}
+}
+
+blockquote{
+	border-left:solid thick $color-light-shade;
+	padding:10px;
+	background-color: $color-shadow;
+	color:$black;
+	& cite{
+		color:$black;
+	}
+	&:before{
+		display:inline-block;
+		margin-right: 8px;
+		font-family: "ajmn-font";
+		text-align: center;
+		content:"I";
+	}
+}
+

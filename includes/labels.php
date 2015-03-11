@@ -1,5 +1,4 @@
-<span id="labels" class="divider"></span>
-<div class="row">
+<section id="labels" class="row">
   <div class="large-12 columns">
     <h1>Labels</h1>
   </div>
@@ -12,4 +11,4 @@
 		<span class="success label">Success Label</span>
 		<span class="info label">Info Label</span>
   </div>
-</div>
+</section>

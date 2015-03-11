@@ -1,5 +1,4 @@
-<span id="inputs" class="divider"></span>
-<div class="row">
+<section id="inputs" class="row">
   <div class="large-12 columns">
     <h1>Inputs</h1>
   </div>
@@ -92,4 +91,4 @@
 			</div>
 		</div>
   </div>
-</div>
+</section>

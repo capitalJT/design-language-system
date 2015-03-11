@@ -1,5 +1,4 @@
-<span id="icons" class="divider"></span>
-<div class="row">
+<section id="icons" class="row">
   <div class="large-12 columns">
     <h1>Icons</h1>
   </div>
@@ -170,4 +169,4 @@
       </li>
     </ul>
   </div>
-</div>
+</section>
