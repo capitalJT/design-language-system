@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Arrow" sketch:type="MSLayerGroup" fill="#7F7F7F">
+            <path d="M22.488,0.976 C10.338,0.976 0.488,10.825 0.488,22.976 C0.488,35.126 10.338,44.976 22.488,44.976 C34.638,44.976 44.488,35.126 44.488,22.976 C44.488,10.825 34.638,0.976 22.488,0.976 L22.488,0.976 Z M22.488,43.023 C11.416,43.023 2.441,34.048 2.441,22.976 C2.441,11.904 11.416,2.928 22.488,2.928 C33.56,2.928 42.535,11.904 42.535,22.976 C42.535,34.048 33.56,43.023 22.488,43.023 L22.488,43.023 Z" id="Fill-22" sketch:type="MSShapeGroup"></path>
+            <path d="M29.841,26.529 L23.488,32.882 L23.488,10.197 L21.488,10.197 L21.488,32.882 L15.135,26.529 L13.72,27.943 L22.488,36.711 L31.256,27.943 L29.841,26.529" id="Fill-23" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

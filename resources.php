@@ -18,55 +18,63 @@
 <section id="resources" class="row">
   <div class="large-12 columns">
     <h1>Resource Center</h1>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>AJMN logos</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>AJMN style guide</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>AJMN Typefaces</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Vector icon font library</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Interaction Examples</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Zurb Foundation</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>SASS mixins</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Sketch wireframe templates</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Color palettes - Sketch App</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Color palettes - Adobe</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>GitHub gists</p>
-    </div>
-    <div class="small-6 large-3 columns">
-      <img src="http://placehold.it/400x300">
-      <p>Something really cool is going to go in here.</p>
-    </div>
   </div>
+  <hr>
+  <article class="large-12 columns">
+    <h3>Resource Name</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>AJMN Logos</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>AJMN Style Guide</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>AJMN Typefaces</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>Vecor Icons</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>Interaction Examples</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>Zurb Foundation</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>SASS Mixins</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+  <article class="large-12 columns">
+    <h3>Wireframe Templates</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolorem beatae, non ullam consectetur voluptate?</p>
+    <a class="download-link" href="#">Link to resource</a>
+    <span class="info block">This is the file size</span>
+  </article>
+
 </section>
 
 <?php

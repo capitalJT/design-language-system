@@ -72,6 +72,18 @@ section.row{
 	margin-top:40px;
 }
 
+.home-section{
+	p{
+		width:90%;
+	}
+}
+.block{
+	display: block;
+}
+.bold{
+	font-family: 'Helvetica-Neue-LT-Bold';
+}
+
 .toc{
 	border-left:solid thick $color-shadow;
 	h3{

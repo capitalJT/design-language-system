@@ -3,4 +3,31 @@
 		margin-bottom: 10px;
 		@include img-flex();
 	}
+	article{
+		margin-bottom: 40px;
+		padding-bottom: 40px;
+		border-bottom:solid thin $color-light-shade;
+		h3,p{
+			margin-bottom:10px;
+		}
+	}
+	.download-link{
+		line-height: 1.5em;
+		padding:0;
+		display:inline-block;
+		font-family: 'Helvetica-Neue-LT-Bold';
+		margin:0 0 5px 0;
+		&:before{
+			position: relative;
+			bottom:-3px;
+			margin-right: 15px;
+			font-family: "ajmn-font";
+			text-align: center;
+			content:"n";
+		}
+	}
+	.info{
+		color:$color-dark-shade;
+		font-size: .9em;
+	}
 }

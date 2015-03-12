@@ -8753,6 +8753,33 @@ blockquote p {
   width: 100%;
   height: auto;
 }
+#resources article {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid thin rgba(0, 0, 0, 0.2);
+}
+#resources article h3, #resources article p {
+  margin-bottom: 10px;
+}
+#resources .download-link {
+  line-height: 1.5em;
+  padding: 0;
+  display: inline-block;
+  font-family: 'Helvetica-Neue-LT-Bold';
+  margin: 0 0 5px 0;
+}
+#resources .download-link:before {
+  position: relative;
+  bottom: -3px;
+  margin-right: 15px;
+  font-family: "ajmn-font";
+  text-align: center;
+  content: "n";
+}
+#resources .info {
+  color: #9d9d9d;
+  font-size: .9em;
+}
 
 footer {
   background-color: rgba(0, 0, 0, 0.125);
@@ -8785,6 +8812,18 @@ a:hover {
 
 section.row {
   margin-top: 40px;
+}
+
+.home-section p {
+  width: 90%;
+}
+
+.block {
+  display: block;
+}
+
+.bold {
+  font-family: 'Helvetica-Neue-LT-Bold';
 }
 
 .toc {

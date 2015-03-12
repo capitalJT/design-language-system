@@ -1,7 +1,7 @@
 		<footer>
 			<div class="row">
 				<div class="large-12 columns">
-					<p>This is the footer section</p>
+					<p>Copyright © 2015 Al Jazeera Media Network.</p>
 				</div>	
 			</div>
 		</footer>

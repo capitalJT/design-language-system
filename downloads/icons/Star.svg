@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Star" sketch:type="MSLayerGroup" transform="translate(-1.000000, -1.000000)" fill="#7F7F7F">
+            <path d="M22.988,0.976 C10.838,0.976 0.988,10.825 0.988,22.976 C0.988,35.126 10.838,44.976 22.988,44.976 C35.138,44.976 44.988,35.126 44.988,22.976 C44.988,10.825 35.138,0.976 22.988,0.976 L22.988,0.976 Z M22.988,43.023 C11.916,43.023 2.941,34.048 2.941,22.976 C2.941,11.904 11.916,2.928 22.988,2.928 C34.06,2.928 43.035,11.904 43.035,22.976 C43.035,34.048 34.06,43.023 22.988,43.023 L22.988,43.023 Z" id="Fill-26" sketch:type="MSShapeGroup"></path>
+            <path d="M22.988,10.968 L25.969,20.141 L35.613,20.141 L27.811,25.81 L30.791,34.983 L22.988,29.314 L15.185,34.983 L18.165,25.81 L10.363,20.141 L20.008,20.141 L22.988,10.968" id="Fill-27" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

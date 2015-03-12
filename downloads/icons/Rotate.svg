@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="43px" viewBox="0 0 40 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rotate</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M21.823,38.898 C12.421,38.898 4.798,31.275 4.798,21.873 C4.798,12.47 12.421,4.848 21.823,4.848 C24.878,4.848 27.732,5.673 30.21,7.083 L27.258,10.034 L39.948,13.434 L36.548,0.744 L33.201,4.091 C29.918,1.978 26.019,0.744 21.823,0.744 C10.154,0.744 0.695,10.204 0.695,21.873 C0.695,33.542 10.154,43.001 21.823,43.001 C28.672,43.001 34.743,39.728 38.603,34.676 L35.675,31.747 C32.587,36.07 27.54,38.898 21.823,38.898" id="Rotate" fill="#7F7F7F" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
