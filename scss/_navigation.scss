@@ -1,0 +1,87 @@
+.header{
+	nav{
+		li{
+			list-style-type: none;
+			font-family: 'Helvetica-Neue-LT-Bold';
+			a{
+				text-transform: uppercase;
+				padding:1em;
+				line-height: 1em;
+				display:block;
+				&.active{
+					border-bottom:solid thick $color-primary;
+				}
+			}
+		}
+		.has-submenu{
+			position: relative;
+			z-index: 100;
+			&:before{
+				font-family: "ajmn-font";
+				font-size: 0.6em;
+				line-height: 1em;
+				padding:0.8em;
+				color:$onyx;
+				content: 'e';
+				position: absolute;
+				right:0;
+				top:8px;
+			}
+			ul{
+				margin:0;
+				display: none;
+				background-color: #eee;
+			}
+			li{
+				display:block !important;
+			}
+		}
+	}
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+	.header{
+		nav{
+			width:100%;
+			clear: both;
+			li{
+				border-bottom:solid thin $color-light-shade;
+			}
+		}
+	}
+}
+ 
+@media only screen and (max-width: 767px) {}
+
+/* Medium screens - min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+	.header{
+		nav{
+			margin-top: 20px;
+			float: right;
+			li{
+				display:inline-block;
+			}
+			.has-submenu{
+				padding-right:12px;
+				ul{
+					position:absolute;
+					width:200px;
+					background-color: #fff;
+					a:hover{
+						background-color: #eee;
+					}
+				}
+			}
+		}
+	}
+}
+ 
+/* This is the new media query  */
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1000px) {}  
+
+/*Large screens - min-width 1025px, large screens*/
+@media only screen and (min-width: 64.063em) {}

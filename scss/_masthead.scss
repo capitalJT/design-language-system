@@ -1,28 +1,10 @@
-.header-wrapper{
-	// background-color: white;
-	// background-color: #ccc;
-	// position: fixed;
-	// z-index: 100;
-	// top:0;
-	// right:0;
-	// left:0;
-}
 .header{
 	padding:10px 0;
 	.logo{
 		height:75px;
 		width:auto;
-	}
-	nav{
-		margin-top: 15px;
-		li{
-			padding:10px;
-			display:inline-block;
-			font-family: 'Helvetica-Neue-LT-Bold';
-			&.active{
-				border-bottom:solid thick $color-primary;
-			}
-		}
+		// background-color: pink;
+		float: left;
 	}
 }
 .hero{
@@ -33,3 +15,25 @@
 		line-height: 1em;
 	}
 }
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+	.header{
+		.logo{
+			margin-bottom: 10px;
+		}
+	}
+}
+ 
+@media only screen and (max-width: 767px) {}
+
+/* Medium screens - min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {}
+ 
+/* This is the new media query  */
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1000px) {}  
+
+/*Large screens - min-width 1025px, large screens*/
+@media only screen and (min-width: 64.063em) {}

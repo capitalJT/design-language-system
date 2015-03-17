@@ -21,3 +21,9 @@ $('#scroll-to-top').click(function(){
   var body = $("html, body");
   body.animate({scrollTop:0}, '500', 'swing');
 });
+
+//Navigation hovering
+$('.has-submenu').hover(function(event){
+  event.preventDefault();
+  $(this).children('ul').stop(true).slideToggle();
+});

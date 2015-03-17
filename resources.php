@@ -24,6 +24,16 @@
   </div>
   <hr>
 
+  <article id="sass-mixins" class="large-12 columns">
+    <h3>DLS Wiki</h3>
+    <p>The DLS Wiki is a place in the repository where we can share long-form content about this project, such as how to use it, how it's been designed, manifestos on its core principles, and so on.</p>
+    <a class="icon-link" href="https://github.com/capitalJT/AJ-DLS/wiki" target="_blank">
+      <span class="icon ajmn-info"></span>
+      <span class="anchor-text">AJ DLS Wiki</span>
+    </a>
+    <span class="info block">External Link: github.com/capitalJT/AJ-DLS/wiki</span>
+  </article><!-- end sass-mixins -->
+
   <article id="logos" class="large-12 columns">
     <h3>AJMN Logos</h3>
     <p>The AJMN Logo template includes the logos for all Al Jazeera products and divisions.</p>
@@ -65,6 +75,12 @@
   <article id="icon-font" class="large-12 columns">
     <h3>Vector Icon Font</h3>
     <p>Our Icon fonts are incredibly light weight. Because it’s a single font file instead of multiple images, it requires just one HTTP request, which is great for site performance. They can be scaled smoothly to any size, and styled easily using CSS.</p>
+    <a class="icon-link" href="http://capital-j.com/playground/ajmn-fonts/" target="_blank">
+      <span class="icon ajmn-info"></span>
+      <span class="anchor-text">AJMN Icon Font Reference</span>
+    </a>
+    <span class="info block">Live &amp; In the Wild: Capital-J Server</span>
+
     <a class="icon-link" href="http://github.com/capitalJT/AJMN-font/" target="_blank">
       <span class="icon ajmn-info"></span>
       <span class="anchor-text">AJMN Icon Font</span>
