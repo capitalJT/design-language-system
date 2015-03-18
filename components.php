@@ -1,10 +1,10 @@
 <?php 
-  $page_title = "Style"; 
+  $page_title = "Components"; 
   include 'includes/head.php';
   include 'includes/masthead.php';
   include 'includes/hero.php';
-  include 'includes/colors.php';
-  include 'includes/typography.php';
-  include 'includes/icons.php';
+  include 'includes/forms.php';
+  include 'includes/accordian.php';
+  include 'includes/social-icons.php';
   include 'includes/footer.php';
 ?>

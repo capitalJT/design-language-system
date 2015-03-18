@@ -1,18 +1,10 @@
 .header{
-	padding:10px 0;
 	.logo{
-		height:75px;
-		width:auto;
+		margin-top:10px;
+		width:220px;
+		height:auto;
 		// background-color: pink;
 		float: left;
-	}
-}
-.hero{
-	background-color: $color-shadow;
-	padding:55px 40px 20px;
-	h1{
-		font-size: 7em;
-		line-height: 1em;
 	}
 }
 
@@ -25,15 +17,12 @@
 	}
 }
  
-@media only screen and (max-width: 767px) {}
-
 /* Medium screens - min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {}
- 
-/* This is the new media query  */
-@media only screen and (min-width: 768px) {}
-
-@media only screen and (min-width: 1000px) {}  
+@media only screen and (min-width: 40.063em) {
+	.header{
+		margin: 10px auto 20px;
+	}
+} 
 
 /*Large screens - min-width 1025px, large screens*/
 @media only screen and (min-width: 64.063em) {}

@@ -1,0 +1,28 @@
+.hero{
+	background-color: $color-shadow;
+	padding:2em 2.5em;
+	h1{
+		line-height: 1em;
+		margin:0;
+	}
+}
+
+/* Medium screens - min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+	.hero{
+		padding:2.5em 3em;
+		h1{
+			font-size: 4em;
+		}
+	}
+}
+ 
+/*Large screens - min-width 1025px, large screens*/
+@media only screen and (min-width: 64.063em) {
+	.hero{
+		padding:3em 3.5em;
+		h1{
+			font-size: 7em;
+		}
+	}
+}

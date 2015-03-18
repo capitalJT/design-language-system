@@ -7,7 +7,7 @@
 		<div class="large-4 columns">
 			<div>
 				<label>Input Label
-	      	<input type="text" placeholder="large-12.columns" />
+	      	<input type="text" placeholder="Placeholder text" />
 	      </label>	
 			</div>
 
@@ -17,14 +17,14 @@
 			      <span class="prefix">http://</span>
 			    </div>
 		    <div class="small-9 columns">
-		      <input type="text" placeholder="Enter your URL...">
+		      <input type="text" placeholder="Placeholder text">
 		    </div>
 		  </div>
 
 			<div class="row collapse">
         <label>Post-Fixed Label</label>
         <div class="small-9 columns">
-          <input type="text" placeholder="small-9.columns">
+          <input type="text" placeholder="Placeholder text">
         </div>
         <div class="small-3 columns">
           <span class="postfix">.com</span>
@@ -33,7 +33,7 @@
 
 			<div class="row collapse">
 			  <div class="small-9 columns">
-			    <input type="text" placeholder="Hex Value">
+			    <input type="text" placeholder="Placeholder text">
 			  </div>
 			  <div class="small-3 columns">
 			    <a href="#" class="button postfix">Go</a>
@@ -68,7 +68,7 @@
 
 			<div>
 	      <label>Textarea</label>
-        <textarea placeholder="small-12.columns"></textarea>
+        <textarea placeholder="Placeholder text"></textarea>
 			</div>				
 		</div>
 
@@ -78,14 +78,14 @@
 			    <legend>Fieldset Legend</legend>
 
 			    <label>Input Label
-			      <input type="text" placeholder="Inputs and other form elements...">
+			      <input type="text" placeholder="Placeholder text">
 			    </label>
 			  </fieldset>				
 			</div>
 			
 			<div>
 				<label class="error">Error
-				<input type="text" class="error" />
+					<input type="text" class="error" />
 				</label>
 				<small class="error">Invalid entry</small>
 			</div>

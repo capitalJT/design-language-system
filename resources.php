@@ -2,6 +2,7 @@
   $page_title = "Resources";
   include 'includes/head.php';
   include 'includes/masthead.php';
+  include 'includes/hero.php';
 ?>
 
 <section class="row">
@@ -16,7 +17,7 @@
       <li><a data-scroll href="#sass-mixins">SASS Mixins</a></li>
     </nav>
   </div>
-</section>
+</section><!-- end table of contents -->
 
 <section id="resources" class="row">
   <div class="large-12 columns">
@@ -125,8 +126,7 @@
     </a>
     <span class="info block">External Link</span>
   </article><!-- end sass-mixins -->
-
-</section>
+</section><!-- end #resources -->
 
 <?php
   include 'includes/footer.php';

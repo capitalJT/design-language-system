@@ -1,0 +1,25 @@
+.accordian-wrapper{
+	.ajmn-plus{
+		margin-right: 10px;
+		display: inline-block; // This allows the icon to rotate
+	}
+	.active{
+		.ajmn-plus{
+			@include rotate( $val: 45deg );
+		}
+	}
+	//these are the titles that are not in focus
+	.accordion .accordion-navigation > a, .accordion dd > a{
+		background-color: #D8D8D8;
+	}
+
+	//this is the title that is in focus
+	.accordion .accordion-navigation.active > a, .accordion dd.active > a{
+		background-color: #D8D8D8;
+	}
+
+	//this is the relevant content to the focused description list
+	.accordion .accordion-navigation > .content.active, .accordion dd > .content.active{
+		background-color: #fff;
+	}	
+}

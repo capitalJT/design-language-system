@@ -3,7 +3,7 @@
 
 // Or selectively include components
 @import "foundation/components/grid";
-// @import "foundation/components/accordion";
+@import "foundation/components/accordion";
 @import "foundation/components/alert-boxes";
 // @import "foundation/components/block-grid";
 // @import "foundation/components/breadcrumbs";
@@ -45,9 +45,11 @@
 @import "base";
 @import "masthead";
 @import "navigation";
+@import "hero";
 @import "typography";
 @import "brand-colors";
 @import "icon-font";
+@import "accordian";
 @import "resources";
 @import "footer";
 

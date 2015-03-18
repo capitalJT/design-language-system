@@ -2,6 +2,7 @@
   $page_title = "Design Language System";
   include 'includes/head.php';
   include 'includes/masthead.php';
+  include 'includes/hero.php';
 ?>
 
 <section class="row home-section">

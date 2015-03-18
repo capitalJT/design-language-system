@@ -1,4 +1,5 @@
 <?php $page = $_SERVER['SCRIPT_NAME']; ?>
+<div class="icon ajmn-menu"></div>
 <nav>
   <li class="has-submenu">
   	<a href="style.php" <?php if ($page == "/style.php"){ echo "class='active'";} ?>>Style</a>
@@ -21,6 +22,10 @@
   </li>
   <li class="has-submenu">
   	<a href="components.php" <?php if ($page == "/components.php"){ echo "class='active'";} ?>>Components</a>
+    <ul class="submenu-wrapper">
+      <li><a href="components.php#forms">Forms</a></li>
+      <li><a href="components.php#accordian">Accordian</a></li>
+    </ul>
   </li>
   <li <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>
   	<a href="templates.php" >Templates</a>

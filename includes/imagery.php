@@ -3,7 +3,7 @@
     <h1>Imagery - Aspect Ratios</h1>
   </div>
   <hr>
-	<div class="large-12 columns content imagery">
+	<div class="large-12 columns">
 		<h3>1:1</h3>
 		<img src="http://placehold.it/300x300">
 		<h3>4:3</h3>

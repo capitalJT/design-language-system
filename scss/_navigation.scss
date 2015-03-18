@@ -1,4 +1,13 @@
 .header{
+	.icon.ajmn-menu{
+		float: right;
+		margin-top: 10px;
+		// background-color: pink;
+		line-height: 1em;
+		font-size: 1.5em;
+		padding:15px 15px 10px;
+		margin-right: -0.6em; //this compensates for the padding in the .row
+	}
 	nav{
 		li{
 			list-style-type: none;
@@ -43,6 +52,7 @@
 @media only screen and (max-width: 40em) {
 	.header{
 		nav{
+			display:none;
 			width:100%;
 			clear: both;
 			li{
@@ -52,14 +62,16 @@
 	}
 }
  
-@media only screen and (max-width: 767px) {}
-
 /* Medium screens - min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
 	.header{
+		.icon.ajmn-menu{
+			display: none;
+		}		
 		nav{
 			margin-top: 20px;
 			float: right;
+			display:block !important;
 			li{
 				display:inline-block;
 			}
@@ -76,12 +88,7 @@
 			}
 		}
 	}
-}
- 
-/* This is the new media query  */
-@media only screen and (min-width: 768px) {}
-
-@media only screen and (min-width: 1000px) {}  
+} 
 
 /*Large screens - min-width 1025px, large screens*/
 @media only screen and (min-width: 64.063em) {}
