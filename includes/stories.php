@@ -48,7 +48,7 @@
 				</article>
 			</section><!-- end wide story section -->
 		</div><!-- end .content -->
-		
+
 		<div class="large-4 columns sidebar">
 			<section>
 				<h3 class="heading-section">Medium Story</h3>
@@ -83,6 +83,25 @@
 					<li><a href="#">Four arrested over deadly Tunisia museum attack</a></li>
 					<li><a href="#">Philippines' generation of sex tourism children</a></li>
 				</ol>
+			</section>
+			<hr>
+			<section class="opinions">
+				<h3 class="heading-section">Opinions</h3>
+				<article class="large-12 columns story">
+					<img src="http://placehold.it/100x100">
+					<h3>A turning point in Tunisia</h3>
+					<p>by Larbi Sadiki</p>
+				</article>
+				<article class="large-12 columns story">
+					<img src="http://placehold.it/100x100">
+					<h3>A turning point in Tunisia</h3>
+					<p>by Larbi Sadiki</p>
+				</article>
+				<article class="large-12 columns story">
+					<img src="http://placehold.it/100x100">
+					<h3>A turning point in Tunisia</h3>
+					<p>by Larbi Sadiki</p>
+				</article>
 			</section>
 		</div><!-- end .sidebar -->
 	</div>

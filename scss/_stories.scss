@@ -45,4 +45,20 @@
 			margin-bottom: 10px;
 		}
 	}
+	.opinions{
+		article{
+			padding:0;
+			margin-top: 10px;
+			margin-bottom: 0;
+		}
+		img{
+			float: left;
+			margin-right: 10px;
+			@include ht-w($Value: 50);
+		}
+		h3{
+			font-size: 1em;
+			margin-bottom: 0;
+		}
+	}
 }

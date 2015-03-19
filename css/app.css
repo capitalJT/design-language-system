@@ -9703,6 +9703,21 @@ time {
 #stories .most-read-stories li {
   margin-bottom: 10px;
 }
+#stories .opinions article {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#stories .opinions img {
+  float: left;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+#stories .opinions h3 {
+  font-size: 1em;
+  margin-bottom: 0;
+}
 
 #resources img {
   margin-bottom: 10px;
@@ -9747,7 +9762,7 @@ footer {
 footer p {
   margin: 0;
   padding-top: 5px;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 a {
