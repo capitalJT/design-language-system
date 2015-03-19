@@ -1,0 +1,48 @@
+#stories{
+	.heading-section{
+		@include helvetica-light();
+		text-transform: uppercase;
+		font-size: 1.2em;
+	}
+	.story{
+		h1,h2,h3,h4,h5{
+			@include helvetica-bold();
+			line-height: 1em;
+		}
+		// .heading-section{
+		// 	@include helvetica-light();
+		// 	text-transform: uppercase;
+		// 	font-size: 1.2em;
+		// }
+		.heading-story{
+			font-size: 1.2em;
+			margin-bottom: 10px;
+		}
+		img{
+			margin-bottom: 10px;
+		}
+		p{
+			margin-bottom: 10px;
+		}
+		.meta{
+			font-size: 0.8em;
+		}			
+	}
+	article{
+		margin-bottom: 20px;
+	}
+	.main{}
+	.wide{
+		padding:0;
+		.image-wrapper{
+			padding:0;
+		}
+	}
+	.content{}
+	.sidebar{}
+	.most-read-stories{
+		li{
+			margin-bottom: 10px;
+		}
+	}
+}

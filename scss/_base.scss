@@ -43,6 +43,12 @@ $color-text: darken($pale-sky, 15);
     line-height: ($Value) + px;
 }
 
+// a mixin for height, width
+@mixin ht-w($Value: 40) {
+    height: ($Value) + px;
+    width: ($Value) + px;
+}
+
 // a mixin for height, width, and line-height
 @mixin ht-w-lh($Value: 40) {
     height: ($Value) + px;
@@ -76,4 +82,16 @@ $color-text: darken($pale-sky, 15);
 	    -ms-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	     -o-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
+}
+
+@mixin helvetica-bold(){
+	font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+}
+
+@mixin helvetica-light(){
+	font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+}
+
+time{
+	color:$color-dark-shade;
 }

@@ -12,6 +12,7 @@
 		float: left;
 		width:6.5em;
 		img{
+			@include ht-w($Value: 100);
 			display: block;
 			border: solid thin $color-shadow;
 			margin-bottom: 0.5em;

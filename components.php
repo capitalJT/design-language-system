@@ -9,5 +9,6 @@
   include 'includes/hero.php';
   include 'includes/comments.php';
   include 'includes/brand-bar.php';
+  include 'includes/stories.php';
   include 'includes/footer.php';
 ?>
