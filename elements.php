@@ -2,7 +2,7 @@
   $page_title = "Elements"; 
   include 'includes/head.php';
   include 'includes/masthead.php';
-  include 'includes/hero.php';
+  include 'includes/site-hero.php';
   include 'includes/imagery.php';
   include 'includes/buttons.php';
   include 'includes/lists.php';

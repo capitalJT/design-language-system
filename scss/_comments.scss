@@ -1,0 +1,27 @@
+.comments-section{
+	ul{
+		list-style-type: none;
+	}
+	.comment-container{
+		margin-bottom: 1em;
+		list-style: none;
+		clear: both;
+		overflow: hidden;
+	}
+	.comment-meta{
+		float: left;
+		width:6.5em;
+		img{
+			display: block;
+			border: solid thin $color-shadow;
+			margin-bottom: 0.5em;
+		}
+	}
+	.comment-name{
+		font-size: 0.75em;
+		display: block;
+	}
+	.comment-text{
+		margin-left: 8.5em;
+	}
+}

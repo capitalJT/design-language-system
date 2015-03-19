@@ -1,25 +1,29 @@
 .accordian-wrapper{
 	.ajmn-plus{
 		margin-right: 10px;
-		display: inline-block; // This allows the icon to rotate
+		&:before{
+			float: left;
+			padding:5px;
+		}
 	}
 	.active{
-		.ajmn-plus{
+		.ajmn-plus:before{
 			@include rotate( $val: 45deg );
 		}
 	}
-	//these are the titles that are not in focus
+	//these are the titles that are not active
 	.accordion .accordion-navigation > a, .accordion dd > a{
-		background-color: #D8D8D8;
+		background-color: $color-shadow;
 	}
 
-	//this is the title that is in focus
+	//this is the title that is active
 	.accordion .accordion-navigation.active > a, .accordion dd.active > a{
-		background-color: #D8D8D8;
+		background-color: $color-shadow;
 	}
 
 	//this is the relevant content to the focused description list
 	.accordion .accordion-navigation > .content.active, .accordion dd > .content.active{
-		background-color: #fff;
+		// background-color: #fff;
+		border-bottom:solid thick $color-shadow;
 	}	
 }

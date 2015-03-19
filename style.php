@@ -2,7 +2,7 @@
   $page_title = "Style"; 
   include 'includes/head.php';
   include 'includes/masthead.php';
-  include 'includes/hero.php';
+  include 'includes/site-hero.php';
   include 'includes/colors.php';
   include 'includes/typography.php';
   include 'includes/icons.php';

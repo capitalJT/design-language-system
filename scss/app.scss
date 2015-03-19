@@ -38,7 +38,7 @@
 // @import "foundation/components/top-bar";
 @import "foundation/components/type";
 // @import "foundation/components/offcanvas";
-// @import "foundation/components/visibility";
+@import "foundation/components/visibility";
 
 /////////////////////////////////////////////////////////////
 
@@ -49,13 +49,12 @@
 @import "typography";
 @import "brand-colors";
 @import "icon-font";
+@import "social-icons";
 @import "accordian";
+@import "comments";
+@import "brand-bar";
 @import "resources";
 @import "footer";
-
-body{
-	font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
-}
 
 a{
 	color:$gold;
@@ -75,11 +74,14 @@ section.row{
 	margin-top:40px;
 }
 
+// Used on the index page
 .home-section{
 	p{
 		width:90%;
 	}
 }
+
+// Helper for inline elements
 .block{
 	display: block;
 }
@@ -87,6 +89,7 @@ section.row{
 	font-family: 'Helvetica-Neue-LT-Bold';
 }
 
+// Used on the Resources Page
 .toc{
 	border-left:solid thick $color-shadow;
 	h3{

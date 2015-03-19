@@ -39,7 +39,7 @@
 			    <a href="#" class="button postfix">Go</a>
 			  </div>
 			</div>
-		</div>
+		</div><!-- end .large-4 -->
 
 		<div class="large-4 columns">
 
@@ -70,7 +70,7 @@
 	      <label>Textarea</label>
         <textarea placeholder="Placeholder text"></textarea>
 			</div>				
-		</div>
+		</div><!-- end .large-4 -->
 
 		<div class="large-4 columns">
 			<div>
@@ -89,6 +89,6 @@
 				</label>
 				<small class="error">Invalid entry</small>
 			</div>
-		</div>
+		</div><!-- end .large-4 -->
   </div>
 </section>
