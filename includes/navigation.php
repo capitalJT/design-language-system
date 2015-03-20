@@ -14,6 +14,7 @@
     <ul class="submenu-wrapper">
       <li><a href="elements.php#imagery">Imagery</a></li>
       <li><a href="elements.php#buttons">Buttons</a></li>
+      <li><a href="elements.php#lists">Lists</a></li>
       <li><a href="elements.php#labels">Labels</a></li>
       <li><a href="elements.php#inputs">Inputs</a></li>
       <li><a href="elements.php#alerts">Alerts</a></li>

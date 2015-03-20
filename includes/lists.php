@@ -5,7 +5,7 @@
   <hr>
   <div class="large-12 columns">
     <div class="large-4 columns">
-      <h4>UL</h4>
+      <h4>Unordered List</h4>
       <ul>
         <li>Unordered List Item 1</li>
         <li>Unordered List Item 2</li>
@@ -15,7 +15,7 @@
       </ul>  
     </div>
     <div class="large-4 columns">
-      <h4>OL</h4>
+      <h4>Ordered List</h4>
       <ol>
         <li>Ordered List Item 1</li>
         <li>Ordered List Item 2</li>
@@ -25,7 +25,7 @@
       </ol>  
     </div>
     <div class="large-4 columns">
-      <h4>DL</h4>
+      <h4>Definition List</h4>
       <dl>
         <dt>Description Term Item 1</dt>
         <dd>Description Description Item 1</dd>
