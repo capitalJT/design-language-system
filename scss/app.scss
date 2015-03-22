@@ -21,7 +21,7 @@
 @import "foundation/components/labels";
 // @import "foundation/components/magellan";
 // @import "foundation/components/orbit";
-// @import "foundation/components/pagination";
+@import "foundation/components/pagination";
 @import "foundation/components/panels";
 // @import "foundation/components/pricing-tables";
 // @import "foundation/components/progress-bars";
@@ -55,6 +55,8 @@
 @import "brand-bar";
 @import "stories";
 @import "resources";
+@import "pagination";
+@import "cards";
 @import "footer";
 
 a{

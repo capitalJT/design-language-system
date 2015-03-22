@@ -11,6 +11,9 @@ $color-primary: $navy;
 $color-accent: $gold;
 $color-text: darken($pale-sky, 15);
 
+
+$spacing-value: 20px;
+
 @mixin rotate( $val: 90deg ) {
   -webkit-transform: rotate($val);
      -moz-transform: rotate($val);
@@ -90,6 +93,10 @@ $color-text: darken($pale-sky, 15);
 
 @mixin helvetica-light(){
 	font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+}
+
+@mixin round(){
+	border-radius: 100%;
 }
 
 time{

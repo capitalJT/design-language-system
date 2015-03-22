@@ -10,5 +10,8 @@
   include 'includes/comments.php';
   include 'includes/brand-bar.php';
   include 'includes/stories.php';
+  include 'includes/pagination.php';
+  include 'includes/navigation-component.php';
+  include 'includes/cards.php';
   include 'includes/footer.php';
 ?>

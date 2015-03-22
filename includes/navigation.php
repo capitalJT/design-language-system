@@ -1,6 +1,6 @@
 <?php $page = $_SERVER['SCRIPT_NAME']; ?>
 <div class="icon ajmn-menu"></div>
-<nav>
+<nav class="navigation site-navigation">
   <li class="has-submenu">
   	<a href="style.php" <?php if ($page == "/style.php"){ echo "class='active'";} ?>>Style</a>
   	<ul class="submenu-wrapper">
@@ -31,6 +31,9 @@
       <li><a href="components.php#comments">Comments</a></li>
       <li><a href="components.php#brand-bar">Brand Bar</a></li>
       <li><a href="components.php#stories">Stories</a></li>
+      <li><a href="components.php#pagination">Pagination</a></li>
+      <li><a href="components.php#navigation-component">Navigation</a></li>
+      <li><a href="components.php#cards">Cards</a></li>
     </ul>
   </li>
   <li <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>
