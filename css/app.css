@@ -9827,23 +9827,37 @@ nav.navigation .has-submenu li {
 }
 .comments-section .comment-meta {
   float: left;
-  width: 6.5em;
+  width: 4.5em;
 }
 .comments-section .comment-meta img {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   display: block;
   border: solid thin rgba(0, 0, 0, 0.125);
   margin-bottom: 0.5em;
 }
-.comments-section .comment-name {
+.comments-section .comment-meta .comment-name {
   font-size: 0.75em;
   display: block;
 }
 .comments-section .comment-text {
-  margin-left: 8.5em;
+  margin-left: 5.2em;
 }
 
+/* Medium screens - min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+  .comments-section .comment-meta {
+    width: 6.5em;
+  }
+  .comments-section .comment-meta img {
+    height: 100px;
+    width: 100px;
+  }
+  .comments-section .comment-text {
+    margin-left: 7.5em;
+  }
+}
+/*Large screens - min-width 1025px, large screens*/
 .brand-bar {
   padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.125);
@@ -9874,6 +9888,8 @@ nav.navigation .has-submenu li {
 }
 #stories .story img {
   margin-bottom: 10px;
+  width: 100%;
+  height: auto;
 }
 #stories .story p {
   margin-bottom: 10px;
