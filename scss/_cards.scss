@@ -25,6 +25,9 @@
 	.item{
 		padding:$spacing-value;
 	}
+	.item.tabs{
+		padding:$spacing-value 10px;
+	}
 	.avatar, .body{
 		border-bottom: solid thin $color-dark-shade;
 	}
@@ -52,16 +55,13 @@
 		margin-bottom: 0;
 	}
 	.tabs{
-		display:flex;
+		@include flexbox();
 		font-size: 0.8em;
 	}
 	.tab-item{
-		-webkit-box-flex: 1;
-		-webkit-flex: 1;
-		-moz-box-flex: 1;
-		-moz-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
+		@include flexbox-val();
+		display: block;
+		text-align: center;
 		.icon{
 			margin-right: 10px;
 		}

@@ -39,6 +39,14 @@ $spacing-value: 20px;
 	-ms-flex-direction: row;
 	-ms-flex-align: stetch;
 }
+@mixin flexbox-val($val:1) {
+	-webkit-box-flex: $val;
+	   -moz-box-flex: $val;
+	    -webkit-flex: $val;
+	       -moz-flex: $val;
+	        -ms-flex: $val;
+	            flex: $val;
+}
 
 // a mixin for height and line-height
 @mixin ht-lh($Value: 16) {

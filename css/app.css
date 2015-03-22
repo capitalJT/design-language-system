@@ -9979,6 +9979,9 @@ ul.pagination li a, ul.pagination li.current a {
 .card.showcase .item {
   padding: 20px;
 }
+.card.showcase .item.tabs {
+  padding: 20px 10px;
+}
 .card.showcase .avatar, .card.showcase .body {
   border-bottom: solid thin #9d9d9d;
 }
@@ -10007,16 +10010,24 @@ ul.pagination li a, ul.pagination li.current a {
   margin-bottom: 0;
 }
 .card.showcase .tabs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -ms-flex-direction: row;
+  -ms-flex-align: stetch;
   font-size: 0.8em;
 }
 .card.showcase .tab-item {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
   -moz-box-flex: 1;
+  -webkit-flex: 1;
   -moz-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  display: block;
+  text-align: center;
 }
 .card.showcase .tab-item .icon {
   margin-right: 10px;
