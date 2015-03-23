@@ -9859,9 +9859,9 @@ nav.navigation .has-submenu li {
 }
 /*Large screens - min-width 1025px, large screens*/
 .brand-bar {
+  margin-bottom: 20px;
   padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.125);
-  margin-bottom: 20px;
 }
 .brand-bar h1 {
   font-size: 1em;
@@ -9873,55 +9873,64 @@ nav.navigation .has-submenu li {
   padding: 20px;
 }
 
-#stories .heading-section {
+.stories-wrapper section {
+  border-top: solid thick rgba(0, 0, 0, 0.125);
+  padding-top: 20px;
+  clear: both;
+}
+.stories-wrapper .heading-section {
   font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
 }
-#stories .story h1, #stories .story h2, #stories .story h3, #stories .story h4, #stories .story h5 {
+.stories-wrapper .story {
+  margin-bottom: 20px;
+}
+.stories-wrapper .story h1, .stories-wrapper .story h2, .stories-wrapper .story h3, .stories-wrapper .story h4, .stories-wrapper .story h5 {
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   line-height: 1em;
 }
-#stories .story .heading-story {
+.stories-wrapper .story .heading-story {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
-#stories .story img {
+.stories-wrapper .story img {
   margin-bottom: 10px;
   width: 100%;
   height: auto;
 }
-#stories .story p {
+.stories-wrapper .story p {
   margin-bottom: 10px;
 }
-#stories .story .meta {
+.stories-wrapper .story .meta {
   font-size: 0.8em;
 }
-#stories article {
-  margin-bottom: 20px;
+.stories-wrapper .wide {
+  padding: 0;
+  display: block;
 }
-#stories .wide {
+.stories-wrapper .wide .image-wrapper {
   padding: 0;
 }
-#stories .wide .image-wrapper {
-  padding: 0;
+.stories-wrapper .content {
+  border-right: solid thin rgba(0, 0, 0, 0.125);
 }
-#stories .most-read-stories li {
+.stories-wrapper .anchor-list li {
   margin-bottom: 10px;
 }
-#stories .opinions article {
+.stories-wrapper .avatar-list article {
   padding: 0;
   margin-top: 10px;
   margin-bottom: 0;
 }
-#stories .opinions img {
+.stories-wrapper .avatar-list img {
   float: left;
   margin-right: 10px;
   height: 50px;
   width: 50px;
 }
-#stories .opinions h3 {
-  font-size: 1em;
+.stories-wrapper .avatar-list a h3 {
+  font-size: 1.2em;
   margin-bottom: 0;
 }
 
@@ -10059,6 +10068,10 @@ footer p {
   line-height: 1.5em;
 }
 
+.row {
+  max-width: 74em;
+}
+
 a {
   color: #d8a32a;
   -webkit-transition: all 0.3s ease-in-out;
@@ -10146,4 +10159,17 @@ blockquote:before {
   font-family: "ajmn-font";
   text-align: center;
   content: "I";
+}
+
+.item-title {
+  border-bottom: solid thin rgba(0, 0, 0, 0.125);
+  margin-bottom: 20px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
 }

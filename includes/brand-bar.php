@@ -1,11 +1,3 @@
-<section id="brand-bar" class="row">
-	<div class="large-12 columns">
-		<h1>Brand Bar</h1>
-	</div>
-	<hr>
-</section>
-
-
 <section class="brand-bar">
 	<div class="row">
 		<div class="large-12 columns">

@@ -59,6 +59,10 @@
 @import "cards";
 @import "footer";
 
+.row{
+	max-width: 74em;
+}
+
 a{
 	color:$gold;
 	&:focus{
@@ -143,3 +147,14 @@ blockquote{
 	}
 }
 
+.item-title{
+	border-bottom:solid thin $color-shadow;
+	margin-bottom: 20px;
+}
+// These are temp
+.pl-0{
+	padding-left: 0;
+}
+.pr-0{
+	padding-right: 0;
+}

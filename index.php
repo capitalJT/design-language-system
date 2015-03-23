@@ -1,5 +1,6 @@
 <?php 
   $page_title = "Design Language System";
+  $style_sheet_uri = "css/app.css";
   include 'includes/head.php';
   include 'includes/masthead.php';
   include 'includes/site-hero.php';

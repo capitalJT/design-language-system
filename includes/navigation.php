@@ -36,8 +36,11 @@
       <li><a href="components.php#cards">Cards</a></li>
     </ul>
   </li>
-  <li <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>
-  	<a href="templates.php" >Templates</a>
+  <li class="has-submenu">
+  	<a href="templates.php" <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>Templates</a>
+    <ul class="submenu-wrapper">
+      <li><a href="template-article-detail.php">Article Detail</a></li>
+    </ul>
   </li>
   <li <?php if ($page == "/resources.php"){ echo "class='active'";} ?>>
   	<a href="resources.php" >Resources</a>

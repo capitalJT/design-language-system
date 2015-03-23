@@ -10,14 +10,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144x144-precomposed.png">
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="<?php echo $style_sheet_uri; ?>" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   
     <!-- SEO stuff -->
     <meta name="description" content="Short description of the site">
     <meta name="author" content="Who was the author">
-    <meta name="keywords" content="key,words,separated,by,commas">
-
+    <meta name="keywords" content="key,words,separated,by,commas"> 
     <meta property="og:title" content="The best site">
     <meta property="og:image" content="link_to_image">
     <meta property="og:description" content="description goes here">
@@ -27,3 +26,4 @@
 
   <body>
     <div id="scroll-to-top"><span class="icon ajmn-download"></span></div>
+
