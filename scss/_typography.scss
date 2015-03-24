@@ -72,7 +72,7 @@
 
 #typography{
   section{
-    margin-bottom: 20px;
+    margin-bottom: $spacing-value;
     &:last-of-type{
       margin-bottom: 0;
     }

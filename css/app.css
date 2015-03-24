@@ -9270,6 +9270,23 @@ time {
   color: #9d9d9d;
 }
 
+blockquote {
+  border-left: solid thick rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.125);
+  color: rgba(0, 0, 0, 0.9);
+}
+blockquote cite {
+  color: rgba(0, 0, 0, 0.9);
+}
+blockquote:before {
+  display: inline-block;
+  margin-right: 8px;
+  font-family: "ajmn-font";
+  text-align: center;
+  content: "I";
+}
+
 .header .logo {
   margin-top: 10px;
   width: 220px;
@@ -9289,8 +9306,7 @@ time {
     margin: 10px auto 20px;
   }
 }
-/*Large screens - min-width 1025px, large screens*/
-.icon.ajmn-menu {
+.nav.icon.ajmn-menu {
   float: right;
   margin-top: 10px;
   line-height: 1em;
@@ -9301,7 +9317,7 @@ time {
 
 nav.navigation li {
   list-style-type: none;
-  font-family: 'Helvetica-Neue-LT-Bold';
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 nav.navigation li a {
   text-transform: uppercase;
@@ -9349,7 +9365,7 @@ nav.navigation .has-submenu li {
 }
 /* Medium screens - min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-  .icon.ajmn-menu {
+  .nav.icon.ajmn-menu {
     display: none;
   }
 
@@ -9501,9 +9517,6 @@ nav.navigation .has-submenu li {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-/* Medium screens - min-width 641px, medium screens */
-/*Large screens - min-width 1025px, large screens*/
 @font-face {
   font-family: "ajmn-font";
   src: url("../fonts/Icons/ajmn-font.eot");
@@ -9857,7 +9870,6 @@ nav.navigation .has-submenu li {
     margin-left: 7.5em;
   }
 }
-/*Large screens - min-width 1025px, large screens*/
 .brand-bar {
   margin-bottom: 20px;
   padding: 20px 0;
@@ -9954,7 +9966,7 @@ nav.navigation .has-submenu li {
   line-height: 1.5em;
   padding: 0;
   display: inline-block;
-  font-family: 'Helvetica-Neue-LT-Bold';
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   margin: 0 0 5px 0;
 }
 #resources .icon-link .icon {
@@ -10068,10 +10080,6 @@ footer p {
   line-height: 1.5em;
 }
 
-.row {
-  max-width: 74em;
-}
-
 a {
   color: #d8a32a;
   -webkit-transition: all 0.3s ease-in-out;
@@ -10100,7 +10108,7 @@ section.row {
 }
 
 .bold {
-  font-family: 'Helvetica-Neue-LT-Bold';
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 
 .toc {
@@ -10112,7 +10120,7 @@ section.row {
   margin-bottom: 10px;
 }
 .toc nav li {
-  font-family: 'Helvetica-Neue-LT-Bold';
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   list-style-type: none;
   margin-bottom: 5px;
 }
@@ -10144,23 +10152,6 @@ section.row {
   text-align: center;
 }
 
-blockquote {
-  border-left: solid thick rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.125);
-  color: rgba(0, 0, 0, 0.9);
-}
-blockquote cite {
-  color: rgba(0, 0, 0, 0.9);
-}
-blockquote:before {
-  display: inline-block;
-  margin-right: 8px;
-  font-family: "ajmn-font";
-  text-align: center;
-  content: "I";
-}
-
 .item-title {
   border-bottom: solid thin rgba(0, 0, 0, 0.125);
   margin-bottom: 20px;
@@ -10172,4 +10163,8 @@ blockquote:before {
 
 .pr-0 {
   padding-right: 0;
+}
+
+.template-page .hero {
+  margin-bottom: 20px;
 }

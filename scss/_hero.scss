@@ -4,7 +4,7 @@
 	h1{
 		line-height: 1em;
 		margin:0;
-		font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+		@include helvetica-bold();
 	}
 	.button{
 		margin-bottom: 0;

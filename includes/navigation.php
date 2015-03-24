@@ -1,5 +1,5 @@
 <?php $page = $_SERVER['SCRIPT_NAME']; ?>
-<div class="icon ajmn-menu"></div>
+<div class="icon nav ajmn-menu"></div>
 <nav class="navigation site-navigation">
   <li class="has-submenu">
   	<a href="style.php" <?php if ($page == "/style.php"){ echo "class='active'";} ?>>Style</a>

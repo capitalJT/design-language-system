@@ -1,7 +1,7 @@
 .swatches{
 	text-align: center;
 	.color{
-		padding:20px 0;
+		padding:$spacing-value 0;
 	}
 	.color-primary{
 		background-color: $color-primary;
@@ -17,12 +17,3 @@
 		background-color: $color-light-shade;
 	}
 }
-
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (max-width: 40em) {}
-
-/* Medium screens - min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {}
-
-/*Large screens - min-width 1025px, large screens*/
-@media only screen and (min-width: 64.063em) {}

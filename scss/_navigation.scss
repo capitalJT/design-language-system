@@ -1,4 +1,4 @@
-.icon.ajmn-menu{
+.nav.icon.ajmn-menu{
 	float: right;
 	margin-top: 10px;
 	// background-color: pink;
@@ -7,10 +7,12 @@
 	padding:15px 15px 10px;
 	margin-right: -0.6em; //this compensates for the padding in the .row
 }
+
+
 nav.navigation{
 	li{
 		list-style-type: none;
-		font-family: 'Helvetica-Neue-LT-Bold';
+		@include helvetica-bold();
 		a{
 			text-transform: uppercase;
 			padding:1em;
@@ -60,11 +62,11 @@ nav.navigation{
  
 /* Medium screens - min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-		.icon.ajmn-menu{
+		.nav.icon.ajmn-menu{
 			display: none;
 		}
 		.site-navigation{
-			margin-top: 20px;
+			margin-top: $spacing-value;
 			float: right;
 		}
 

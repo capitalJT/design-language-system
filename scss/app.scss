@@ -59,9 +59,9 @@
 @import "cards";
 @import "footer";
 
-.row{
-	max-width: 74em;
-}
+// .row{
+// 	max-width: 74em;
+// }
 
 a{
 	color:$gold;
@@ -93,7 +93,7 @@ section.row{
 	display: block;
 }
 .bold{
-	font-family: 'Helvetica-Neue-LT-Bold';
+	@include helvetica-bold();
 }
 
 // Used on the Resources Page
@@ -105,7 +105,7 @@ section.row{
 		margin-bottom: 10px;
 	}
 	nav li{
-		font-family: 'Helvetica-Neue-LT-Bold';
+		@include helvetica-bold();
 		list-style-type: none;
 		margin-bottom: 5px;
 	}
@@ -129,24 +129,6 @@ section.row{
 		text-align:center;
 	}
 }
-
-blockquote{
-	border-left:solid thick $color-light-shade;
-	padding:10px;
-	background-color: $color-shadow;
-	color:$black;
-	& cite{
-		color:$black;
-	}
-	&:before{
-		display:inline-block;
-		margin-right: 8px;
-		font-family: "ajmn-font";
-		text-align: center;
-		content:"I";
-	}
-}
-
 .item-title{
 	border-bottom:solid thin $color-shadow;
 	margin-bottom: 20px;
@@ -157,4 +139,9 @@ blockquote{
 }
 .pr-0{
 	padding-right: 0;
+}
+.template-page{
+	.hero{
+		margin-bottom: 20px;
+	}
 }

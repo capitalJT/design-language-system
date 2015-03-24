@@ -21,7 +21,6 @@ $spacing-value: 20px;
        -o-transform: rotate($val);
           transform: rotate($val);
 }
-
 @mixin transition($val: all 0.3s ease-in-out) {
 	-webkit-transition: $val;
 	   -moz-transition: $val;
@@ -29,7 +28,6 @@ $spacing-value: 20px;
 	     -o-transition: $val;
 	        transition: $val;
 }
-
 @mixin flexbox() {
 	display: -webkit-box;
 	display: -moz-box;
@@ -47,31 +45,26 @@ $spacing-value: 20px;
 	        -ms-flex: $val;
 	            flex: $val;
 }
-
 // a mixin for height and line-height
 @mixin ht-lh($Value: 16) {
     height: ($Value) + px;
     line-height: ($Value) + px;
 }
-
 // a mixin for height, width
 @mixin ht-w($Value: 40) {
     height: ($Value) + px;
     width: ($Value) + px;
 }
-
 // a mixin for height, width, and line-height
 @mixin ht-w-lh($Value: 40) {
     height: ($Value) + px;
     width: ($Value) + px;
     line-height: ($Value) + px;
 }
-
 @mixin img-flex() {
 	width:100%;
 	height:auto;
 }
-
 //this is used within the botttom-cta component
 @mixin vertical-center() {
 	display: -webkit-box;
@@ -82,7 +75,6 @@ $spacing-value: 20px;
 	flex-direction: column;
 	justify-content: center;
 }
-
 // a mixin for the social-search sliding effect within the header
 @mixin header-expand(){
 	height:0;
@@ -94,19 +86,31 @@ $spacing-value: 20px;
 	     -o-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 }
-
 @mixin helvetica-bold(){
 	font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
-
 @mixin helvetica-light(){
 	font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
 }
-
 @mixin round(){
 	border-radius: 100%;
 }
-
 time{
 	color:$color-dark-shade;
+}
+blockquote{
+	border-left:solid thick $color-light-shade;
+	padding:10px;
+	background-color: $color-shadow;
+	color:$black;
+	& cite{
+		color:$black;
+	}
+	&:before{
+		display:inline-block;
+		margin-right: 8px;
+		font-family: "ajmn-font";
+		text-align: center;
+		content:"I";
+	}
 }

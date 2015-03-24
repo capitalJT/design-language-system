@@ -1,7 +1,7 @@
 // "foundation/components/visibility"; needs to be enabled for display classes
 .brand-bar{
-	margin-bottom: 20px;
-	padding:20px 0;
+	margin-bottom: $spacing-value;
+	padding:$spacing-value 0;
 	background-color: $color-shadow;
 	h1{
 		font-size: 1em;
@@ -10,6 +10,6 @@
 		font-size: 1.5em;
 	}
 	article{
-		padding:20px;
+		padding:$spacing-value;
 	}
 }
