@@ -4,28 +4,17 @@
 		padding-top:$spacing-value;
 		clear: both;
 	}
-	.heading-section{
-		@include helvetica-light();
-		text-transform: uppercase;
-		font-size: 1.2em;
-		// margin-bottom: 0;
-	}
 	.story{
 		margin-bottom: $spacing-value;
-		h1,h2,h3,h4,h5{
-			@include helvetica-bold();
+		h2{
 			line-height: 1em;
 		}
-		.heading-story{
-			font-size: 1.2em;
-			margin-bottom: 10px;
-		}
 		img{
-			margin-bottom: 10px;
+			margin-bottom: $spacing-value / 2;
 			@include img-flex();
 		}
 		p{
-			margin-bottom: 10px;
+			margin-bottom: $spacing-value / 2;
 		}
 		.meta{
 			font-size: 0.8em;
@@ -34,35 +23,37 @@
 	.wide{
 		padding:0;
 		display: block;
+		margin-bottom: 10px;
 		.image-wrapper{
 			padding:0;
+		}
+		.heading-story{
+			margin-top: 0;
+		}
+		.medium-8{
+			padding-right: 0;
 		}
 	}
 	.content{
 		border-right:solid thin $color-shadow;
 	}
-	.sidebar{
-		// background-color: red;
-		// border-left:solid thin $color-shadow;
-	}
 	.anchor-list{
 		li{
-			margin-bottom: 10px;
+			margin-bottom: $spacing-value / 2;
 		}
 	}
 	.avatar-list{
 		article{
 			padding:0;
-			margin-top: 10px;
-			margin-bottom: 0;
+			margin-bottom: $spacing-value / 2;
 		}
 		img{
 			float: left;
-			margin-right: 10px;
+			margin-right: $spacing-value / 2;
 			@include ht-w($Value: 50);
 		}
 		a h3{
-			font-size: 1.2em;
+			font-size: 1em;
 			margin-bottom: 0;
 		}
 	}

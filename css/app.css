@@ -8351,7 +8351,7 @@ p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
@@ -8377,7 +8377,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-size: 60%;
+  font-size: 80%;
   color: #6f6f6f;
   line-height: 0;
 }
@@ -8436,7 +8436,7 @@ b {
 }
 
 small {
-  font-size: 60%;
+  font-size: 80%;
   line-height: inherit;
 }
 
@@ -8456,7 +8456,7 @@ ul,
 ol,
 dl {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit;
@@ -8538,7 +8538,7 @@ abbr[title] {
 /* Blockquotes */
 blockquote {
   margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  padding: 1.25rem;
   border-left: 1px solid #DDDDDD;
 }
 blockquote cite {
@@ -8556,7 +8556,7 @@ blockquote cite a:visited {
 
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.5;
   color: #6f6f6f;
 }
 
@@ -9285,6 +9285,84 @@ time {
   color: #9d9d9d;
 }
 
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Light';
+  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Regular';
+  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Bold';
+  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Heavy';
+  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Heavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Al-Jazeera-Arabic-Light';
+  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Bold';
+  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Light';
+  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Helvetica-Neue-LT-Roman';
+  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+}
+
+#typography section {
+  margin-bottom: 20px;
+}
+#typography section:last-of-type {
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: solid thick rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.125);
+  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.3em;
+}
+blockquote cite {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.9);
+}
+blockquote:before {
+  display: inline-block;
+  margin-right: 8px;
+  font-family: "ajmn-font";
+  text-align: center;
+  content: "I";
+}
+
+p.lead {
+  line-height: 1.5em;
+}
+
+.heading-section {
+  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.heading-story {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
 .header .logo {
   margin-top: 10px;
   width: 220px;
@@ -9421,117 +9499,6 @@ nav.navigation .has-submenu li {
     font-size: 7em;
   }
 }
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Light';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Regular';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Bold';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Heavy';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Heavy.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Light';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
-}
-.arabic-light {
-  font-family: 'Al-Jazeera-Arabic-Light';
-}
-
-.arabic-regular {
-  font-family: 'Al-Jazeera-Arabic-Regular';
-}
-
-.arabic-bold {
-  font-family: 'Al-Jazeera-Arabic-Bold';
-}
-
-.arabic-heavy {
-  font-family: 'Al-Jazeera-Arabic-Heavy';
-}
-
-@font-face {
-  font-family: 'Helvetica-Neue-LT-Bold';
-  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Bold.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Helvetica-Neue-LT-Light';
-  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: 'Helvetica-Neue-LT-Roman';
-  src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
-}
-.helvetica-lt-bold {
-  font-family: 'Helvetica-Neue-LT-Bold';
-}
-
-.helvetica-lt-light {
-  font-family: 'Helvetica-Neue-LT-Light';
-}
-
-.helvetica-roman {
-  font-family: 'Helvetica-Neue-LT-Roman';
-}
-
-.helvetica h1, .helvetica h2, .helvetica h3, .helvetica h4, .helvetica h5, .helvetica h6 {
-  font-family: 'Helvetica-Neue-LT-Bold';
-}
-.helvetica span {
-  color: #9d9d9d;
-}
-
-#typography section {
-  margin-bottom: 20px;
-}
-#typography section:last-of-type {
-  margin-bottom: 0;
-}
-#typography small {
-  font-size: 0.8em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
-}
-
-h3.category-label {
-  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
-
-blockquote {
-  border-left: solid thick rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.125);
-  color: rgba(0, 0, 0, 0.9);
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.3em;
-}
-blockquote cite {
-  margin-top: 10px;
-  color: rgba(0, 0, 0, 0.9);
-}
-blockquote:before {
-  display: inline-block;
-  margin-right: 8px;
-  font-family: "ajmn-font";
-  text-align: center;
-  content: "I";
-}
-
-p.lead {
-  line-height: 1.5em;
-}
-
 .swatches {
   text-align: center;
 }
@@ -9817,7 +9784,7 @@ p.lead {
   color: #d8a32a;
 }
 
-#social-icons .social li {
+.social li {
   list-style-type: none;
   display: inline-block;
   -webkit-transition: all 0.3s ease-in-out;
@@ -9826,11 +9793,11 @@ p.lead {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#social-icons .social li:hover {
+.social li:hover {
   color: #d8a32a;
 }
-#social-icons .social [class^="ajmn-"]:before,
-#social-icons .social [class*=" ajmn-"]:before {
+.social [class^="ajmn-"]:before,
+.social [class*=" ajmn-"]:before {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -9925,21 +9892,11 @@ p.lead {
   padding-top: 20px;
   clear: both;
 }
-.stories-wrapper .heading-section {
-  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
 .stories-wrapper .story {
   margin-bottom: 20px;
 }
-.stories-wrapper .story h1, .stories-wrapper .story h2, .stories-wrapper .story h3, .stories-wrapper .story h4, .stories-wrapper .story h5 {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+.stories-wrapper .story h2 {
   line-height: 1em;
-}
-.stories-wrapper .story .heading-story {
-  font-size: 1.2em;
-  margin-bottom: 10px;
 }
 .stories-wrapper .story img {
   margin-bottom: 10px;
@@ -9955,9 +9912,16 @@ p.lead {
 .stories-wrapper .wide {
   padding: 0;
   display: block;
+  margin-bottom: 10px;
 }
 .stories-wrapper .wide .image-wrapper {
   padding: 0;
+}
+.stories-wrapper .wide .heading-story {
+  margin-top: 0;
+}
+.stories-wrapper .wide .medium-8 {
+  padding-right: 0;
 }
 .stories-wrapper .content {
   border-right: solid thin rgba(0, 0, 0, 0.125);
@@ -9967,8 +9931,7 @@ p.lead {
 }
 .stories-wrapper .avatar-list article {
   padding: 0;
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .stories-wrapper .avatar-list img {
   float: left;
@@ -9977,7 +9940,7 @@ p.lead {
   width: 50px;
 }
 .stories-wrapper .avatar-list a h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 0;
 }
 
@@ -10073,7 +10036,7 @@ ul.pagination li a, ul.pagination li.current a {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0rem;
-  padding-top: 10px;
+  padding-top: 20px 10px;
 }
 .card.showcase .avatar p {
   margin-bottom: 0;
@@ -10102,19 +10065,60 @@ ul.pagination li a, ul.pagination li.current a {
   text-align: center;
 }
 .card.showcase .tab-item .icon {
-  margin-right: 10px;
+  margin-right: 20px 10px;
 }
 
-footer {
-  background-color: rgba(0, 0, 0, 0.125);
-  padding: 20px;
+.footer {
+  padding: 5px 15px;
+  background-color: #9d9d9d;
 }
-footer p {
+.footer p {
   margin: 0;
-  padding-top: 5px;
-  line-height: 1.5em;
+  margin-bottom: 20px 10px;
+}
+.footer .columns {
+  padding: 0;
+}
+.footer .footer-logo-wrapper {
+  border-bottom: solid thin rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+.footer .footer-logo-wrapper img {
+  margin: 0 0 5px 0;
+  width: 220px;
+  height: auto;
+}
+.footer .footer-links h3, .footer .footer-links a {
+  color: white !important;
+}
+.footer .footer-links h3 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer .footer-links ul {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding-right: 5px;
 }
 
+.copyright {
+  padding: 20px 0 5px;
+  color: #9d9d9d;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .footer-logo-wrapper img {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .footer .footer-logo-wrapper .social {
+    float: right;
+    margin: 20px 0 0 0;
+  }
+}
 .row {
   max-width: 74em;
 }

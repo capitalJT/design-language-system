@@ -3,7 +3,7 @@
         <h1>Typography</h1>
     </div>
     <hr>
-    <section class="large-12 columns helvetica">
+    <section class="large-12 columns">
         <div class="large-9 large-push-3 columns"><h1>This is a very large header.</h1></div>
         <div class="large-3 large-pull-9 columns span h1"><span>H1: 44px / 2.75rem</span></div>
         
@@ -25,11 +25,11 @@
         <div class="large-9 large-push-3 columns"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sit corporis, numquam praesentium soluta dolor nam velit voluptas quas. Quasi cupiditate non ab natus eveniet harum nulla maiores, deleniti necessitatibus.</p></div>
         <div class="large-3 large-pull-9 columns span h6"><span>Paragraph: 16px / 1rem</span></div>
 
-        <div class="large-9 large-push-3 columns"><h3 class="category-label">Special Series</h3></div>
+        <div class="large-9 large-push-3 columns"><h3 class="heading-section">Special Series</h3></div>
         <div class="large-3 large-pull-9 columns span h6"><span>Category Label: 20.7999px / 1.3rem</span></div>
     </section>
 
-    <section class="large-12 columns helvetica">
+    <section class="large-12 columns">
         <div class="large-9 large-push-3 columns">
             <img src="http://placehold.it/640x360">
             <span class="block">Brendan Smialowski / AFP / Getty Images</span>
@@ -39,7 +39,7 @@
         </div>
     </section>
 
-    <section class="large-12 columns helvetica">
+    <section class="large-12 columns">
         <div class="large-9 large-push-3 columns">
             <p class="lead">A man was injured yesterday when he fell off a rickety ladder that collapsed while he was painting his house.</p>
         </div>

@@ -34,6 +34,7 @@
       <li><a href="components.php#pagination">Pagination</a></li>
       <li><a href="components.php#navigation-component">Navigation</a></li>
       <li><a href="components.php#cards">Cards</a></li>
+      <li><a href="components.php#footer">Footer</a></li>
     </ul>
   </li>
   <li class="has-submenu">

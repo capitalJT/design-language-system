@@ -1,6 +1,6 @@
 .accordian-wrapper{
 	.ajmn-plus{
-		margin-right: 10px;
+		margin-right: $spacing-value / 2;
 		&:before{
 			float: left;
 			padding:2px;

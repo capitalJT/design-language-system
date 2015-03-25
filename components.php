@@ -28,5 +28,12 @@
   include 'includes/pagination.php';
   include 'includes/navigation-component.php';
   include 'includes/cards.php';
+?>
+<section id="footer" class="row item-title">
+  <div class="large-12 columns">
+    <h1>Footer</h1>
+  </div>
+</section>
+<?php
   include 'includes/footer.php';
 ?>

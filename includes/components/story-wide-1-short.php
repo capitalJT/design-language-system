@@ -1,4 +1,4 @@
-<article class="story wide">
+<article class="story">
 	<div class="medium-4 columns image-wrapper">
 		<a href="#"><img src="http://placehold.it/640x360&text=16:9" alt="Image Title"></a>	
 	</div>

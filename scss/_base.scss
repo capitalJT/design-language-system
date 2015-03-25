@@ -79,18 +79,11 @@ $spacing-value: 20px;
 @mixin header-expand(){
 	height:0;
 	overflow-y: hidden;
-
 	-webkit-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	   -moz-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	    -ms-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	     -o-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
-}
-@mixin helvetica-bold(){
-	font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
-}
-@mixin helvetica-light(){
-	font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
 }
 @mixin round(){
 	border-radius: 100%;

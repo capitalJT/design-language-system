@@ -5,12 +5,12 @@
   <hr>
 	<div class="large-12 columns">
 		<ul class="social">
-			<li><span class="icon ajmn-facebook"></span></li>
-			<li><span class="icon ajmn-twitter"></span></li>
-			<li><span class="icon ajmn-google-plus"></span></li>
-			<li><span class="icon ajmn-instagram"></span></li>
-			<li><span class="icon ajmn-linkedin"></span></li>
-			<li><span class="icon ajmn-youtube"></span></li>
+			<li><a href="#"><span class="icon ajmn-facebook"></span></a></li>
+			<li><a href="#"><span class="icon ajmn-twitter"></span></a></li>
+			<li><a href="#"><span class="icon ajmn-google-plus"></span></a></li>
+			<li><a href="#"><span class="icon ajmn-instagram"></span></a></li>
+			<li><a href="#"><span class="icon ajmn-linkedin"></span></a></li>
+			<li><a href="#"><span class="icon ajmn-youtube"></span></a></li>
 		</ul>
   </div>
 </section>

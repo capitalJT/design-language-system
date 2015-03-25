@@ -45,7 +45,7 @@
 			font-size: 1.3em;
 			line-height: 1em;
 			margin-bottom: 0rem;
-			padding-top:10px;
+			padding-top: $spacing-value $spacing-value / 2;
 		}
 		p{
 			margin-bottom: 0;
@@ -63,7 +63,7 @@
 		display: block;
 		text-align: center;
 		.icon{
-			margin-right: 10px;
+			margin-right: $spacing-value $spacing-value / 2;
 		}
 	}
 	.item-1{}
