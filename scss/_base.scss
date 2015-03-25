@@ -95,22 +95,21 @@ $spacing-value: 20px;
 @mixin round(){
 	border-radius: 100%;
 }
+
+a{
+	color:$gold;
+	&:focus{
+		color:$gold;
+	}
+	@include transition();
+	&:link{}
+	&:visited{}
+	&:active{}
+	&:hover{
+		color: $color-primary;
+	}
+}
+
 time{
 	color:$color-dark-shade;
-}
-blockquote{
-	border-left:solid thick $color-light-shade;
-	padding:10px;
-	background-color: $color-shadow;
-	color:$black;
-	& cite{
-		color:$black;
-	}
-	&:before{
-		display:inline-block;
-		margin-right: 8px;
-		font-family: "ajmn-font";
-		text-align: center;
-		content:"I";
-	}
 }

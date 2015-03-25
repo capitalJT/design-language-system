@@ -118,11 +118,17 @@ $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
+$primary-color: rgb(12,19,53);
 // $secondary-color: #e7e7e7;
+$secondary-color: #34495e;
 // $alert-color: #f04124;
+$alert-color: #e74c3c;
 // $success-color: #43AC6A;
+$success-color: #27ae60;
 // $warning-color: #f08a24;
+$warning-color: #e67e22;
 // $info-color: #a0d3e8;
+$info-color: #3498db;
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -463,7 +469,7 @@ $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $button-round: $global-rounded;
 
 // We use this to set default opacity and cursor for disabled buttons.
-// $button-disabled-opacity: 0.7;
+$button-disabled-opacity: 0.4;
 // $button-disabled-cursor: $cursor-default-value;
 
 // 06. Button Groups

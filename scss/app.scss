@@ -59,22 +59,11 @@
 @import "cards";
 @import "footer";
 
-// .row{
-// 	max-width: 74em;
-// }
 
-a{
-	color:$gold;
-	&:focus{
-		color:$gold;
-	}
-	@include transition();
-	&:link{}
-	&:visited{}
-	&:active{}
-	&:hover{
-		color: $color-primary;
-	}
+// $spacing-value: 20px;
+
+.row{
+	max-width: 74em;
 }
 
 section.row{
@@ -133,7 +122,7 @@ section.row{
 	border-bottom:solid thin $color-shadow;
 	margin-bottom: 20px;
 }
-// These are temp
+// These are temp - used in template-article-detail.php
 .pl-0{
 	padding-left: 0;
 }
@@ -145,3 +134,15 @@ section.row{
 		margin-bottom: 20px;
 	}
 }
+
+.contact-section{
+	// background-color: pink;
+	margin-bottom: $spacing-value;
+	label{
+		@include helvetica-bold();
+	}
+	h4{
+		margin-bottom: 0;
+	}
+}
+

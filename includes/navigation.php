@@ -40,6 +40,7 @@
   	<a href="templates.php" <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>Templates</a>
     <ul class="submenu-wrapper">
       <li><a href="template-article-detail.php">Article Detail</a></li>
+      <li><a href="template-contact-us.php">Contact Us</a></li>
     </ul>
   </li>
   <li <?php if ($page == "/resources.php"){ echo "class='active'";} ?>>
