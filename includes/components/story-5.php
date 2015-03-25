@@ -1,4 +1,4 @@
-<article class="story">
+<article class="story large">
 	<h2>Tunisia launches manhunt for third museum attacker</h2>
 	<p class="lead">Hunt begins after authorities release CCTV footage of the gunmen who killed 21 people in raid on Bardo Museum in Tunis.</p>
 	<p class="meta">

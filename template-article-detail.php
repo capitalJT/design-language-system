@@ -22,7 +22,12 @@
 		</div>
 		<div class="medium-4 columns sidebar">
 			<h3 class="heading-section">Related</h3>
-			<?php include 'includes/components/avatar-list.php'; ?>
+			<?php include 'includes/components/story-1.php'; ?>	
+			<section>
+				<h3 class="heading-section">Opinions</h3>
+				<?php include 'includes/components/avatar-list.php'; ?>
+			</section>
+		
 			<section>
 				<h3 class="heading-section">Most Viewed</h3>
 				<?php include 'includes/components/anchor-list.php'; ?>	
