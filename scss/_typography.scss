@@ -20,19 +20,19 @@
   src: url('../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf') format('truetype');
 }
 
-@mixin arabic-light(){
+.arabic-light{
 	font-family: 'Al-Jazeera-Arabic-Light';
 }
 
-@mixin arabic-regular(){
+.arabic-regular{
 	font-family: 'Al-Jazeera-Arabic-Regular';
 }
 
-@mixin arabic-bold(){
+.arabic-bold{
 	font-family: 'Al-Jazeera-Arabic-Bold';
 }
 
-@mixin arabic-heavy(){
+.arabic-heavy{
 	font-family: 'Al-Jazeera-Arabic-Heavy';
 }
 
@@ -49,17 +49,18 @@
   src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf') format('opentype');
 }
 
-@mixin helvetica-bold(){
+.helvetica-bold{
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
-@mixin helvetica-light(){
+.helvetica-light{
   font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
 }
-@mixin helvetica-roman(){
+.helvetica-roman{
   font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
 }
+
 h1,h2,h3,h4,h5,h6{
-  @include helvetica-bold();
+  @extend .helvetica-bold;
 }
 
 #typography{
@@ -75,7 +76,7 @@ blockquote{
   border-left:solid thick $color-light-shade;
   background-color: $color-shadow;
   color:$black;
-  @include helvetica-bold();
+  @extend .helvetica-bold;
   font-size: 1.3em;
   & cite{
     // background-color: red;
@@ -95,8 +96,8 @@ p.lead{
   line-height: 1.5em;
 }
 
-.heading-section{
-  @include helvetica-light();
+.header-category{
+  @extend .helvetica-light;
   text-transform: uppercase;
   font-size: 1.3em;
   line-height: 1em;

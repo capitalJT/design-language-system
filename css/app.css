@@ -9266,6 +9266,11 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+.m-lr-auto, .card.profile img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   color: #d8a32a;
   -webkit-transition: all 0.3s ease-in-out;
@@ -9305,6 +9310,22 @@ time {
   font-family: 'Al-Jazeera-Arabic-Light';
   src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
 }
+.arabic-light {
+  font-family: 'Al-Jazeera-Arabic-Light';
+}
+
+.arabic-regular {
+  font-family: 'Al-Jazeera-Arabic-Regular';
+}
+
+.arabic-bold {
+  font-family: 'Al-Jazeera-Arabic-Bold';
+}
+
+.arabic-heavy {
+  font-family: 'Al-Jazeera-Arabic-Heavy';
+}
+
 @font-face {
   font-family: 'Helvetica-Neue-LT-Bold';
   src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Bold.otf") format("opentype");
@@ -9317,8 +9338,16 @@ time {
   font-family: 'Helvetica-Neue-LT-Roman';
   src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
 }
-h1, h2, h3, h4, h5, h6 {
+.helvetica-bold, h1, h2, h3, h4, h5, h6, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .card h1, .card h2, .card h3, .card h4, .bold, .toc nav li, .contact-section label {
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.helvetica-light, .header-category {
+  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.helvetica-roman {
+  font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
 }
 
 #typography section {
@@ -9332,7 +9361,6 @@ blockquote {
   border-left: solid thick rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.125);
   color: rgba(0, 0, 0, 0.9);
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.3em;
 }
 blockquote cite {
@@ -9351,8 +9379,7 @@ p.lead {
   line-height: 1.5em;
 }
 
-.heading-section {
-  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+.header-category {
   text-transform: uppercase;
   font-size: 1.3em;
   line-height: 1em;
@@ -9393,7 +9420,6 @@ p.lead {
 
 nav.navigation li {
   list-style-type: none;
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 nav.navigation li a {
   text-transform: uppercase;
@@ -9414,7 +9440,7 @@ nav.navigation .has-submenu:before {
   line-height: 1em;
   padding: 0.8em;
   color: #353839;
-  content: 'e';
+  content: 'f';
   position: absolute;
   right: 0;
   top: 8px;
@@ -9475,7 +9501,6 @@ nav.navigation .has-submenu li {
 .hero h1 {
   line-height: 1em;
   margin: 0;
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 .hero .button {
   margin-bottom: 0;
@@ -9502,6 +9527,9 @@ nav.navigation .has-submenu li {
 .swatches {
   text-align: center;
 }
+.swatches h2 {
+  text-align: left;
+}
 .swatches .color {
   padding: 20px 0;
 }
@@ -9518,11 +9546,35 @@ nav.navigation .has-submenu li {
 .swatches .color-light-shade {
   background-color: rgba(0, 0, 0, 0.2);
 }
+.swatches .primary-color {
+  background-color: #0c1335;
+  color: white;
+}
+.swatches .secondary-color {
+  background-color: #34495e;
+  color: white;
+}
+.swatches .alert-color {
+  background-color: #e74c3c;
+}
+.swatches .success-color {
+  background-color: #27ae60;
+}
+.swatches .warning-color {
+  background-color: #e67e22;
+}
+.swatches .info-color {
+  background-color: #3498db;
+}
+
+.swatches.brand {
+  margin-bottom: 20px;
+}
 
 @font-face {
   font-family: "ajmn-font";
-  src: url("../fonts/Icons/ajmn-font.eot");
-  src: url("../fonts/Icons/ajmn-font.eot?#iefix") format("embedded-opentype"), url("../fonts/Icons/ajmn-font.woff") format("woff"), url("../fonts/Icons/ajmn-font.ttf") format("truetype"), url("../fonts/Icons/ajmn-font.svg#ajmn-font") format("svg");
+  src: url("../fonts/Icons/ajmn-icon-font.eot");
+  src: url("../fonts/Icons/ajmn-icon-font.eot?#iefix") format("embedded-opentype"), url("../fonts/Icons/ajmn-icon-font.woff") format("woff"), url("../fonts/Icons/ajmn-icon-font.ttf") format("truetype"), url("../fonts/Icons/ajmn-icon-font.svg#ajmn-font") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -9547,131 +9599,131 @@ nav.navigation .has-submenu li {
   content: "b";
 }
 
-.ajmn-calendar:before {
+.ajmn-arrow-ring:before {
   content: "c";
 }
 
-.ajmn-carel-right:before {
+.ajmn-avatar:before {
   content: "d";
 }
 
-.ajmn-caret-down:before {
+.ajmn-calendar:before {
   content: "e";
 }
 
-.ajmn-caret-left:before {
+.ajmn-caret-down:before {
   content: "f";
 }
 
-.ajmn-caret-up:before {
+.ajmn-caret-left:before {
   content: "g";
 }
 
-.ajmn-chat:before {
+.ajmn-caret-right:before {
   content: "h";
 }
 
-.ajmn-clock:before {
+.ajmn-caret-up:before {
   content: "i";
 }
 
-.ajmn-closed-quotes:before {
+.ajmn-chat:before {
   content: "j";
 }
 
-.ajmn-cog:before {
+.ajmn-chevron-left:before {
   content: "k";
 }
 
-.ajmn-double-left-arrow:before {
+.ajmn-chevron-right:before {
   content: "l";
 }
 
-.ajmn-double-right-arrow:before {
+.ajmn-clock:before {
   content: "m";
 }
 
-.ajmn-download:before {
+.ajmn-closed-quotes:before {
   content: "n";
 }
 
-.ajmn-facebook:before {
+.ajmn-double-chevron-left:before {
   content: "o";
 }
 
-.ajmn-fast-forward:before {
+.ajmn-double-chevron-right:before {
   content: "p";
 }
 
-.ajmn-full-screen:before {
+.ajmn-download:before {
   content: "q";
 }
 
-.ajmn-google-plus:before {
+.ajmn-expand:before {
   content: "r";
 }
 
-.ajmn-grid:before {
+.ajmn-facebook:before {
   content: "s";
 }
 
-.ajmn-info:before {
+.ajmn-fast-forward:before {
   content: "t";
 }
 
-.ajmn-instagram:before {
+.ajmn-forward:before {
   content: "u";
 }
 
-.ajmn-justified:before {
+.ajmn-google-plus:before {
   content: "v";
 }
 
-.ajmn-left-aligned:before {
+.ajmn-grid:before {
   content: "w";
 }
 
-.ajmn-left-arrow:before {
+.ajmn-info:before {
   content: "x";
 }
 
-.ajmn-linkedin:before {
+.ajmn-instagram:before {
   content: "y";
 }
 
-.ajmn-list:before {
+.ajmn-justified:before {
   content: "z";
 }
 
-.ajmn-record:before {
+.ajmn-left-aligned:before {
   content: "A";
 }
 
-.ajmn-profile:before {
+.ajmn-linkedin:before {
   content: "B";
 }
 
-.ajmn-printer:before {
+.ajmn-list:before {
   content: "C";
 }
 
-.ajmn-plus:before {
+.ajmn-live-feed:before {
   content: "D";
 }
 
-.ajmn-play:before {
+.ajmn-location:before {
   content: "E";
 }
 
-.ajmn-photo-gallery:before {
+.ajmn-mail:before {
   content: "F";
 }
 
-.ajmn-photo:before {
+.ajmn-menu:before {
   content: "G";
 }
 
-.ajmn-pause:before {
+.ajmn-more:before {
   content: "H";
 }
 
@@ -9679,84 +9731,96 @@ nav.navigation .has-submenu li {
   content: "I";
 }
 
-.ajmn-more:before {
+.ajmn-pause:before {
   content: "J";
 }
 
-.ajmn-menu:before {
+.ajmn-photo:before {
   content: "K";
 }
 
-.ajmn-mail:before {
+.ajmn-photo-gallery:before {
   content: "L";
 }
 
-.ajmn-location-pin:before {
+.ajmn-play:before {
   content: "M";
 }
 
-.ajmn-rewind:before {
+.ajmn-plus:before {
   content: "N";
 }
 
-.ajmn-right-aligned:before {
+.ajmn-printer:before {
   content: "O";
 }
 
-.ajmn-right-arrow:before {
+.ajmn-record:before {
   content: "P";
 }
 
-.ajmn-ring:before {
+.ajmn-refresh:before {
   content: "Q";
 }
 
-.ajmn-rotate:before {
+.ajmn-rewind:before {
   content: "R";
 }
 
-.ajmn-rss:before {
+.ajmn-right-aligned:before {
   content: "S";
 }
 
-.ajmn-search:before {
+.ajmn-rss:before {
   content: "T";
 }
 
-.ajmn-star:before {
+.ajmn-search:before {
   content: "U";
 }
 
-.ajmn-stop:before {
+.ajmn-settings:before {
   content: "V";
 }
 
-.ajmn-trash:before {
+.ajmn-share:before {
   content: "W";
 }
 
-.ajmn-twitter:before {
+.ajmn-star:before {
   content: "X";
 }
 
-.ajmn-video:before {
+.ajmn-stop:before {
   content: "Y";
 }
 
-.ajmn-video-gallery:before {
+.ajmn-trash:before {
   content: "Z";
 }
 
-.ajmn-volume-add:before {
+.ajmn-twitter:before {
   content: "0";
 }
 
-.ajmn-volume-off:before {
+.ajmn-video:before {
   content: "1";
 }
 
-.ajmn-youtube:before {
+.ajmn-video-gallery:before {
   content: "2";
+}
+
+.ajmn-volume:before {
+  content: "3";
+}
+
+.ajmn-volume-up:before {
+  content: "4";
+}
+
+.ajmn-youtube:before {
+  content: "5";
 }
 
 /*
@@ -9792,8 +9856,12 @@ nav.navigation .has-submenu li {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  color: red;
 }
-.social li:hover {
+.social a {
+  color: #353839;
+}
+.social a:hover {
   color: #d8a32a;
 }
 .social [class^="ajmn-"]:before,
@@ -9874,7 +9942,7 @@ nav.navigation .has-submenu li {
 }
 .brand-bar {
   margin-bottom: 20px;
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.125);
 }
 .brand-bar h1 {
@@ -9964,7 +10032,6 @@ nav.navigation .has-submenu li {
   line-height: 1.5em;
   padding: 0;
   display: inline-block;
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   margin: 0 0 5px 0;
 }
 #resources .icon-link .icon {
@@ -9989,6 +10056,7 @@ ul.pagination li a, ul.pagination li.current a {
   border: solid thin #9d9d9d;
   margin-bottom: 20px;
   padding: 20px;
+  position: relative;
 }
 .card h1, .card h2, .card h3, .card h4, .card h5 {
   line-height: 1em;
@@ -10000,12 +10068,18 @@ ul.pagination li a, ul.pagination li.current a {
   border-radius: 100%;
 }
 .card img {
+  display: block;
   margin-bottom: 20px;
+}
+
+.card.profile img {
+  height: 220px;
+  width: 220px;
+}
+
+.card.image img, .card.showcase img {
   width: 100%;
   height: auto;
-}
-.card h1, .card h2, .card h3, .card h4 {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 
 .card.showcase {
@@ -10021,7 +10095,7 @@ ul.pagination li a, ul.pagination li.current a {
   border-bottom: solid thin #9d9d9d;
 }
 .card.showcase .avatar {
-  min-height: 80px;
+  min-height: 100px;
   padding-left: 100px;
   display: block;
 }
@@ -10066,6 +10140,11 @@ ul.pagination li a, ul.pagination li.current a {
 }
 .card.showcase .tab-item .icon {
   margin-right: 20px 10px;
+}
+
+.ad {
+  padding: 20px;
+  background-color: #eee;
 }
 
 .footer {
@@ -10135,10 +10214,6 @@ section.row {
   display: block;
 }
 
-.bold {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
-}
-
 .toc {
   border-left: solid thick rgba(0, 0, 0, 0.125);
 }
@@ -10148,7 +10223,6 @@ section.row {
   margin-bottom: 10px;
 }
 .toc nav li {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
   list-style-type: none;
   margin-bottom: 5px;
 }
@@ -10199,9 +10273,6 @@ section.row {
 
 .contact-section {
   margin-bottom: 20px;
-}
-.contact-section label {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 .contact-section h4 {
   margin-bottom: 0;

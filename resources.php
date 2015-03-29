@@ -75,9 +75,9 @@
   </article><!-- end typefaces -->
 
   <article id="icon-font" class="large-12 columns">
-    <h3>Vector Icon Font</h3>
+    <h3>AJMN Icon Font</h3>
     <p>Our Icon fonts are incredibly light weight. Because it’s a single font file instead of multiple images, it requires just one HTTP request, which is great for site performance. They can be scaled smoothly to any size, and styled easily using CSS.</p>
-    <a class="icon-link" href="http://capital-j.com/playground/ajmn-fonts/" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/icon-font/" target="_blank">
       <span class="icon ajmn-info"></span>
       <span class="anchor-text">AJMN Icon Font Reference</span>
     </a>
@@ -89,23 +89,23 @@
     </a>
     <span class="info block">GitHub Repository</span>
 
-    <a class="icon-link" href="http://capital-j.com/ajmn/ajmn-icon-font/ajmn-icon-font-ai.zip" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/ajmn-icon-font/ajmn-icons-ai.zip" target="_blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">AJMN Vector Icons</span>
     </a>
-    <span class="info block">659 KB (.ai)</span>
+    <span class="info block">378 KB (.ai)</span>
 
-    <a class="icon-link" href="http://capital-j.com/ajmn/ajmn-icon-font/ajmn-icon-font-sketch.zip" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/ajmn-icon-font/ajmn-icons-sketch.zip" target="_blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">AJMN Vector Icons</span>
     </a>
-    <span class="info block">219 KB (.sketch)</span>
+    <span class="info block">260 KB (.sketch)</span>
 
-    <a class="icon-link" href="http://capital-j.com/ajmn/ajmn-icon-font/ajmn-icon-font-svg.zip" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/ajmn-icon-font/ajmn-icon-svg.zip" target="_blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">AJMN Vector Icons</span>
     </a>
-    <span class="info block">219 KB (svg)</span>
+    <span class="info block">70 KB (svg)</span>
   </article><!-- end icon-font -->
 
   <article id="zurb-foundation" class="large-12 columns">

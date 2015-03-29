@@ -4,7 +4,7 @@
   <li class="has-submenu">
   	<a href="style.php" <?php if ($page == "/style.php"){ echo "class='active'";} ?>>Style</a>
   	<ul class="submenu-wrapper">
-			<li><a href="style.php#brand-colors">Brand Colors</a></li>
+			<li><a href="style.php#colors">Colors</a></li>
 			<li><a href="style.php#typography">Typography</a></li>
 			<li><a href="style.php#icons">Icons</a></li>
     </ul>

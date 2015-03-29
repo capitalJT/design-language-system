@@ -1,10 +1,10 @@
 @font-face {
   font-family: "ajmn-font";
-  src:url("../fonts/Icons/ajmn-font.eot");
-  src:url("../fonts/Icons/ajmn-font.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Icons/ajmn-font.woff") format("woff"),
-    url("../fonts/Icons/ajmn-font.ttf") format("truetype"),
-    url("../fonts/Icons/ajmn-font.svg#ajmn-font") format("svg");
+  src:url("../fonts/Icons/ajmn-icon-font.eot");
+  src:url("../fonts/Icons/ajmn-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Icons/ajmn-icon-font.woff") format("woff"),
+    url("../fonts/Icons/ajmn-icon-font.ttf") format("truetype"),
+    url("../fonts/Icons/ajmn-icon-font.svg#ajmn-font") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -21,6 +21,7 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .ajmn-alert:before {
@@ -29,164 +30,173 @@
 .ajmn-arrow:before {
   content: "b";
 }
-.ajmn-calendar:before {
+.ajmn-arrow-ring:before {
   content: "c";
 }
-.ajmn-carel-right:before {
+.ajmn-avatar:before {
   content: "d";
 }
-.ajmn-caret-down:before {
+.ajmn-calendar:before {
   content: "e";
 }
-.ajmn-caret-left:before {
+.ajmn-caret-down:before {
   content: "f";
 }
-.ajmn-caret-up:before {
+.ajmn-caret-left:before {
   content: "g";
 }
-.ajmn-chat:before {
+.ajmn-caret-right:before {
   content: "h";
 }
-.ajmn-clock:before {
+.ajmn-caret-up:before {
   content: "i";
 }
-.ajmn-closed-quotes:before {
+.ajmn-chat:before {
   content: "j";
 }
-.ajmn-cog:before {
+.ajmn-chevron-left:before {
   content: "k";
 }
-.ajmn-double-left-arrow:before {
+.ajmn-chevron-right:before {
   content: "l";
 }
-.ajmn-double-right-arrow:before {
+.ajmn-clock:before {
   content: "m";
 }
-.ajmn-download:before {
+.ajmn-closed-quotes:before {
   content: "n";
 }
-.ajmn-facebook:before {
+.ajmn-double-chevron-left:before {
   content: "o";
 }
-.ajmn-fast-forward:before {
+.ajmn-double-chevron-right:before {
   content: "p";
 }
-.ajmn-full-screen:before {
+.ajmn-download:before {
   content: "q";
 }
-.ajmn-google-plus:before {
+.ajmn-expand:before {
   content: "r";
 }
-.ajmn-grid:before {
+.ajmn-facebook:before {
   content: "s";
 }
-.ajmn-info:before {
+.ajmn-fast-forward:before {
   content: "t";
 }
-.ajmn-instagram:before {
+.ajmn-forward:before {
   content: "u";
 }
-.ajmn-justified:before {
+.ajmn-google-plus:before {
   content: "v";
 }
-.ajmn-left-aligned:before {
+.ajmn-grid:before {
   content: "w";
 }
-.ajmn-left-arrow:before {
+.ajmn-info:before {
   content: "x";
 }
-.ajmn-linkedin:before {
+.ajmn-instagram:before {
   content: "y";
 }
-.ajmn-list:before {
+.ajmn-justified:before {
   content: "z";
 }
-.ajmn-record:before {
+.ajmn-left-aligned:before {
   content: "A";
 }
-.ajmn-profile:before {
+.ajmn-linkedin:before {
   content: "B";
 }
-.ajmn-printer:before {
+.ajmn-list:before {
   content: "C";
 }
-.ajmn-plus:before {
+.ajmn-live-feed:before {
   content: "D";
 }
-.ajmn-play:before {
+.ajmn-location:before {
   content: "E";
 }
-.ajmn-photo-gallery:before {
+.ajmn-mail:before {
   content: "F";
 }
-.ajmn-photo:before {
+.ajmn-menu:before {
   content: "G";
 }
-.ajmn-pause:before {
+.ajmn-more:before {
   content: "H";
 }
 .ajmn-open-quotes:before {
   content: "I";
 }
-.ajmn-more:before {
+.ajmn-pause:before {
   content: "J";
 }
-.ajmn-menu:before {
+.ajmn-photo:before {
   content: "K";
 }
-.ajmn-mail:before {
+.ajmn-photo-gallery:before {
   content: "L";
 }
-.ajmn-location-pin:before {
+.ajmn-play:before {
   content: "M";
 }
-.ajmn-rewind:before {
+.ajmn-plus:before {
   content: "N";
 }
-.ajmn-right-aligned:before {
+.ajmn-printer:before {
   content: "O";
 }
-.ajmn-right-arrow:before {
+.ajmn-record:before {
   content: "P";
 }
-.ajmn-ring:before {
+.ajmn-refresh:before {
   content: "Q";
 }
-.ajmn-rotate:before {
+.ajmn-rewind:before {
   content: "R";
 }
-.ajmn-rss:before {
+.ajmn-right-aligned:before {
   content: "S";
 }
-.ajmn-search:before {
+.ajmn-rss:before {
   content: "T";
 }
-.ajmn-star:before {
+.ajmn-search:before {
   content: "U";
 }
-.ajmn-stop:before {
+.ajmn-settings:before {
   content: "V";
 }
-.ajmn-trash:before {
+.ajmn-share:before {
   content: "W";
 }
-.ajmn-twitter:before {
+.ajmn-star:before {
   content: "X";
 }
-.ajmn-video:before {
+.ajmn-stop:before {
   content: "Y";
 }
-.ajmn-video-gallery:before {
+.ajmn-trash:before {
   content: "Z";
 }
-.ajmn-volume-add:before {
+.ajmn-twitter:before {
   content: "0";
 }
-.ajmn-volume-off:before {
+.ajmn-video:before {
   content: "1";
 }
-.ajmn-youtube:before {
+.ajmn-video-gallery:before {
   content: "2";
+}
+.ajmn-volume:before {
+  content: "3";
+}
+.ajmn-volume-up:before {
+  content: "4";
+}
+.ajmn-youtube:before {
+  content: "5";
 }
 
 /*

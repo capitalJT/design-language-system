@@ -57,6 +57,7 @@
 @import "resources";
 @import "pagination";
 @import "cards";
+@import "ad-units";
 @import "footer";
 
 
@@ -82,7 +83,7 @@ section.row{
 	display: block;
 }
 .bold{
-	@include helvetica-bold();
+	@extend .helvetica-bold;
 }
 
 // Used on the Resources Page
@@ -94,7 +95,7 @@ section.row{
 		margin-bottom: 10px;
 	}
 	nav li{
-		@include helvetica-bold();
+		@extend .helvetica-bold;
 		list-style-type: none;
 		margin-bottom: 5px;
 	}
@@ -139,7 +140,7 @@ section.row{
 	// background-color: pink;
 	margin-bottom: $spacing-value;
 	label{
-		@include helvetica-bold();
+		@extend .helvetica-bold;
 	}
 	h4{
 		margin-bottom: 0;

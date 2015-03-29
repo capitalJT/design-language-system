@@ -1,5 +1,8 @@
 .swatches{
 	text-align: center;
+	h2{
+		text-align: left;
+	}
 	.color{
 		padding:$spacing-value 0;
 	}
@@ -16,4 +19,28 @@
 	.color-light-shade{
 		background-color: $color-light-shade;
 	}
+
+	.primary-color{
+		background-color: rgb(12,19,53);
+		color:white;
+	}
+	.secondary-color{
+		background-color: #34495e;
+		color:white;
+	}
+	.alert-color{
+		background-color: #e74c3c;
+	}
+	.success-color{
+		background-color: #27ae60;
+	}
+	.warning-color{
+		background-color: #e67e22;
+	}
+	.info-color{
+		background-color: #3498db;
+	}
+}
+.swatches.brand{
+	margin-bottom: 20px;
 }

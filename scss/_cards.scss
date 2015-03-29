@@ -3,6 +3,7 @@
 	border: solid thin $color-dark-shade;
 	margin-bottom: $spacing-value;
 	padding:$spacing-value;
+	position: relative;
 	h1,h2,h3,h4,h5{
 		line-height: 1em;
 	}
@@ -13,13 +14,27 @@
 		@include round();
 	}
 	img{
+		display: block;
 		margin-bottom: $spacing-value;
-		@include img-flex();
 	}
 	h1,h2,h3,h4{
-		@include helvetica-bold();
+		@extend .helvetica-bold;
 	}
 }
+
+.card.profile{
+	img{
+		@include ht-w($Value: 220);
+		@extend .m-lr-auto;		
+	}
+}
+
+.card.image, .card.showcase{
+	img{
+		@include img-flex();
+	}
+}
+
 .card.showcase{
 	padding:0;
 	.item{
@@ -32,8 +47,8 @@
 		border-bottom: solid thin $color-dark-shade;
 	}
 	.avatar{
-		min-height:80px;
-		padding-left:100px;
+		min-height:$spacing-value * 5;
+		padding-left:$spacing-value * 5;
 		display: block;
 		img{
 			display: inline-block;
@@ -66,7 +81,4 @@
 			margin-right: $spacing-value $spacing-value / 2;
 		}
 	}
-	.item-1{}
-	.item-2{}
-	.item-3{}
 }

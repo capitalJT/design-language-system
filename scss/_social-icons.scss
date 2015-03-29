@@ -3,6 +3,10 @@
 		list-style-type: none;
 		display: inline-block;
 		@include transition();
+		color:red;
+	}
+	a{
+		color:$onyx;
 		&:hover{
 			color:$color-accent;
 		}

@@ -25,7 +25,7 @@
         <div class="large-9 large-push-3 columns"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sit corporis, numquam praesentium soluta dolor nam velit voluptas quas. Quasi cupiditate non ab natus eveniet harum nulla maiores, deleniti necessitatibus.</p></div>
         <div class="large-3 large-pull-9 columns span h6"><span>Paragraph: 16px / 1rem</span></div>
 
-        <div class="large-9 large-push-3 columns"><h3 class="heading-section">Special Series</h3></div>
+        <div class="large-9 large-push-3 columns"><h3 class="header-category">Special Series</h3></div>
         <div class="large-3 large-pull-9 columns span h6"><span>Category Label: 20.7999px / 1.3rem</span></div>
     </section>
 
