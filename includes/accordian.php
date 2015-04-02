@@ -1,4 +1,4 @@
-<section id="accordian" class="row">
+<section id="accordian" class="row section">
   <div class="large-12 columns">
     <h1>Accordian</h1>
   </div>

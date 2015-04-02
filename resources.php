@@ -3,7 +3,7 @@
   $style_sheet_uri = "css/app.css";
   include 'includes/head.php';
   include 'includes/masthead.php';
-  include 'includes/hero.php';
+  include 'includes/site-hero.php';
 ?>
 
 <section class="row">
@@ -39,7 +39,7 @@
   <article id="logos" class="large-12 columns">
     <h3>AJMN Logos</h3>
     <p>The AJMN Logo template includes the logos for all Al Jazeera products and divisions.</p>
-    <a class="icon-link" href="downloads/ajmn-logos.zip" target="blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/ajmn-logos.zip" target="blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">AJMN Logos</span>
     </a>
@@ -60,14 +60,14 @@
     <h3>AJMN Typefaces</h3>
     <p>Al Jazeera Media Network corporate typefaces are Al Jazeera Arabic and Helvetica Neue LT Pro. These typefaces should be used for all application.</p>
     <p>Note: All design files within this resource page are dependent on these typefaces.</p>
-    <a class="icon-link" href="downloads/Al-Jazeera-Arabic.zip" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/Al-Jazeera-Arabic.zip" target="_blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">Al Jazeera Arabic</span>
     </a>
     <span class="info block">112 KB (.zip)</span>
 
 
-    <a class="icon-link" href="downloads/Helvetica-Neue-LT-Pro.zip" target="_blank">
+    <a class="icon-link" href="http://capital-j.com/ajmn/downloads/Helvetica-Neue-LT-Pro.zip" target="_blank">
       <span class="icon ajmn-download"></span>
       <span class="anchor-text">Helvetica Neue LT Pro</span>
     </a>

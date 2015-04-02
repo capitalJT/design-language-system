@@ -147,3 +147,17 @@ section.row{
 	}
 }
 
+.container{
+	position: relative;
+}
+
+.sticky-sidebar{
+	clear: both;
+	position:fixed;
+	display: inline-block;
+	top:30px;
+	box-sizing:border-box;
+}
+a.active{
+	background-color: red;
+}

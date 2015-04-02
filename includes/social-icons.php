@@ -1,4 +1,4 @@
-<section id="social-icons" class="row">
+<section id="social-icons" class="row section">
   <div class="large-12 columns">
     <h1>Social Icons</h1>
   </div>

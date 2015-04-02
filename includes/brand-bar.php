@@ -1,4 +1,4 @@
-<section class="brand-bar">
+<section class="brand-bar section">
 	<div class="row">
 		<div class="large-12 columns">
 			<article class="medium-4  large-3 columns">

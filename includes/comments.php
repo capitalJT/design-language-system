@@ -1,4 +1,4 @@
-<section id="comments" class="row">
+<section id="comments" class="row section">
 	<div class="large-12 columns">
 		<h1>Comments</h1>
 	</div>

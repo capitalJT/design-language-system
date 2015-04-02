@@ -21,7 +21,6 @@
 			</section>
 		</div>
 		<div class="medium-4 columns sidebar">
-			<?php include 'includes/ad-med-rec.php'; ?>
 			<h3 class="header-category">Related</h3>
 			<?php include 'includes/components/story-1.php'; ?>	
 			<section>
