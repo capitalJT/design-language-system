@@ -149,6 +149,7 @@ section.row{
 
 .container{
 	position: relative;
+	margin-top: 20px;
 }
 
 .sticky-sidebar{
@@ -158,6 +159,17 @@ section.row{
 	top:30px;
 	box-sizing:border-box;
 }
+
+.item-nav{
+	padding-top:10px;
+	ul{
+		list-style-type: none;
+		text-transform: uppercase;
+		@extend .helvetica-bold;
+	}
+}
+
 a.active{
-	background-color: red;
+	text-decoration: underline;
+	color:$onyx;
 }

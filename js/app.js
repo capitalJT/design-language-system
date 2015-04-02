@@ -4,37 +4,36 @@ $(document).ready(function () {
 	smoothScroll.init();
 });//end ready
 
-
 // calculating some values
-var header = $('.header')
-  , header_height = header.outerHeight()
-  , hero = $('.hero')
-  , hero_height = hero.outerHeight()
-  , scroll_top_icon = $('#scroll-to-top')
-  , nav = $('.item-nav')
-  , combined_height = header_height + hero_height;
+var header = $('.header'), 
+  header_height = header.outerHeight(),
+  hero = $('.hero'),
+  hero_height = hero.outerHeight(),
+  scroll_top_icon = $('#scroll-to-top'),
+  nav = $('.item-nav'),
+  sections = $('.section'),
+  container_margin_top = $('.container').css('margin-top').replace("px", ""),
+  cmt = parseInt(container_margin_top), 
+  combined_height = header_height + hero_height;
 
 // Scroll to top function 1/2
 $(function(){
   $(window).scroll(function(){
     var $scrollTop = $(window).scrollTop();
-      if( $scrollTop > header_height ){
-          scroll_top_icon.fadeIn();
-      } else {
-          scroll_top_icon.fadeOut();
-      }
-      
-      // This is for the fixed side navigation
-      if( $scrollTop > combined_height ){
-        nav.addClass( 'sticky-sidebar' );
-      } else {
-        nav.removeClass( 'sticky-sidebar' );
-      }
+    
+    if( $scrollTop > header_height ){
+        scroll_top_icon.fadeIn();
+    } else {
+        scroll_top_icon.fadeOut();
+    }
+    
+    if( $scrollTop > combined_height + cmt ){
+      nav.addClass( 'sticky-sidebar' );
+    } else {
+      nav.removeClass( 'sticky-sidebar' );
+    }
   });   
 });
-
-
-var sections = $('.section');
 
 $(window).on('scroll', function () {
   var cur_pos = $(this).scrollTop();
@@ -58,8 +57,8 @@ $(window).on('scroll', function () {
 });
 
 nav.find('a').on('click', function () {
-  var $el = $(this)
-    , id = $el.attr('href');
+  var $el = $(this), 
+       id = $el.attr('href');
   
   $('html, body').animate({
     scrollTop: $(id).offset().top + 1
@@ -68,10 +67,8 @@ nav.find('a').on('click', function () {
   return false;
 });
 
-
 // Scroll to top function 2/2
-$('#scroll-to-top').click(function(){
-	console.log('scrolled');
+scroll_top_icon.click(function(){
   var body = $("html, body");
   body.animate({scrollTop:0}, '500', 'swing');
 });
@@ -86,8 +83,5 @@ $('.has-submenu').hover(function(event){
 $('.ajmn-menu').click(function(){
   $('.header nav').stop(true).slideToggle();
 });
-
-
-
 
 

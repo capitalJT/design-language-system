@@ -21,21 +21,8 @@
       <li><a href="elements.php#panels">Panels</a></li>
     </ul>
   </li>
-  <li class="has-submenu">
+  <li>
   	<a href="components.php" <?php if ($page == "/components.php"){ echo "class='active'";} ?>>Components</a>
-    <ul class="submenu-wrapper">
-      <li><a href="components.php#forms">Forms</a></li>
-      <li><a href="components.php#accordian">Accordian</a></li>
-      <li><a href="components.php#social-icons">Social Icons</a></li>
-      <li><a href="components.php#hero">Hero</a></li>
-      <li><a href="components.php#comments">Comments</a></li>
-      <li><a href="components.php#brand-bar">Brand Bar</a></li>
-      <li><a href="components.php#stories">Stories</a></li>
-      <li><a href="components.php#pagination">Pagination</a></li>
-      <li><a href="components.php#navigation-component">Navigation</a></li>
-      <li><a href="components.php#cards">Cards</a></li>
-      <li><a href="components.php#footer">Footer</a></li>
-    </ul>
   </li>
   <li class="has-submenu">
   	<a href="templates.php" <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>Templates</a>

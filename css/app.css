@@ -9338,7 +9338,7 @@ time {
   font-family: 'Helvetica-Neue-LT-Roman';
   src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
 }
-.helvetica-bold, h1, h2, h3, h4, h5, h6, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .card h1, .card h2, .card h3, .card h4, .bold, .toc nav li, .contact-section label {
+.helvetica-bold, h1, h2, h3, h4, h5, h6, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .card h1, .card h2, .card h3, .card h4, .bold, .toc nav li, .contact-section label, .item-nav ul {
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -10282,6 +10282,7 @@ section.row {
 
 .container {
   position: relative;
+  margin-top: 20px;
 }
 
 .sticky-sidebar {
@@ -10292,6 +10293,15 @@ section.row {
   box-sizing: border-box;
 }
 
+.item-nav {
+  padding-top: 10px;
+}
+.item-nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
 a.active {
-  background-color: red;
+  text-decoration: underline;
+  color: #353839;
 }
