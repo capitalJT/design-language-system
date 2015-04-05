@@ -1,4 +1,4 @@
-<section id="pagination" class="row">
+<section id="pagination" class="row section">
 	<div class="large-12 columns">
     <h1>Pagination</h1>
   </div>

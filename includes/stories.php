@@ -1,4 +1,8 @@
-<div class="row stories-wrapper">
+<section id="stories" class="row stories-wrapper section">
+	<div class="large-12 columns">
+    <h1>Stories</h1>
+  </div>
+  <hr>
 	<section class="large-12 columns">
 		<h3 class="header-category">War &amp; Conflict</h3>
 		<?php include 'components/story-5.php'; ?>
@@ -55,4 +59,4 @@
 			</section>	
 		</div><!-- end .sidebar -->
 	</section>
-</div>
+</section>

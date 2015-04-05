@@ -7,43 +7,7 @@
 ?>
 
 <div class="row container">
-  <div class="medium-9 columns">
-    <?php
-      include 'includes/forms.php';
-      include 'includes/accordian.php';
-      include 'includes/social-icons.php';
-      include 'includes/hero.php';
-      include 'includes/comments.php';
-    ?>    
-
-    <section id="brand-bar" class="row item-title">
-      <div class="large-12 columns">
-        <h1>Brand Bar</h1>
-      </div>
-    </section>
-
-    <?php
-      include 'includes/brand-bar.php';
-    ?>
-
-    <section id="stories" class="row item-title">
-      <div class="large-12 columns">
-        <h1>Stories</h1>
-      </div>
-    </section>
-    <?php
-      include 'includes/stories.php';
-      include 'includes/pagination.php';
-      include 'includes/navigation-component.php';
-      include 'includes/cards.php';
-    ?>
-    <section id="footer" class="row item-title">
-      <div class="large-12 columns">
-        <h1>Footer</h1>
-      </div>
-    </section>
-  </div>
-  <div class="medium-3 columns item-nav">
+  <div class="large-2 columns show-for-large-up item-nav">
     <ul>
       <li><a href="#forms">Forms</a></li>
       <li><a href="#accordian">Accordian</a></li>
@@ -57,7 +21,26 @@
       <li><a href="#cards">Cards</a></li>
       <li><a href="#footer">Footer</a></li>
     </ul>
-  </div>
+  </div><!-- end item-nav-->
+  <div class="medium-12 large-10 columns">
+    <?php
+      include 'includes/forms.php';
+      include 'includes/accordian.php';
+      include 'includes/social-icons.php';
+      include 'includes/hero.php';
+      include 'includes/comments.php';
+      include 'includes/brand-bar.php';
+      include 'includes/stories.php';
+      include 'includes/pagination.php';
+      include 'includes/navigation-component.php';
+      include 'includes/cards.php';
+    ?>
+    <section id="footer" class="row item-title">
+      <div class="large-12 columns">
+        <h1>Footer</h1>
+      </div>
+    </section>
+  </div><!-- end content-->
 </div>
 
 <?php

@@ -9266,6 +9266,10 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+.hero-component, .accordian-wrapper {
+  margin-bottom: 20px;
+}
+
 .m-lr-auto, .card.profile img {
   margin-left: auto;
   margin-right: auto;
@@ -9416,6 +9420,9 @@ p.lead {
   font-size: 1.5em;
   padding: 15px 15px 10px;
   margin-right: -0.6em;
+}
+.nav.icon.ajmn-menu:hover {
+  cursor: pointer;
 }
 
 nav.navigation li {
@@ -9944,13 +9951,13 @@ nav.navigation .has-submenu li {
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.125);
 }
-.brand-bar h1, .brand-bar h2 {
+.brand-bar h2, .brand-bar h3 {
   margin: 0;
 }
-.brand-bar h1 {
+.brand-bar h2 {
   font-size: 1em;
 }
-.brand-bar h2 {
+.brand-bar h3 {
   font-size: 1.5em;
 }
 .brand-bar article {
@@ -10068,6 +10075,7 @@ ul.pagination li a, ul.pagination li.current a {
 }
 .card img.round {
   border-radius: 100%;
+  height: auto !important;
 }
 .card img {
   display: block;
@@ -10142,11 +10150,6 @@ ul.pagination li a, ul.pagination li.current a {
 }
 .card.showcase .tab-item .icon {
   margin-right: 20px 10px;
-}
-
-.ad {
-  padding: 20px;
-  background-color: #eee;
 }
 
 .footer {
@@ -10256,11 +10259,6 @@ section.row {
   text-align: center;
 }
 
-.item-title {
-  border-bottom: solid thin rgba(0, 0, 0, 0.125);
-  margin-bottom: 20px;
-}
-
 .pl-0 {
   padding-left: 0;
 }
@@ -10297,11 +10295,16 @@ section.row {
   padding-top: 10px;
 }
 .item-nav ul {
+  margin: 0;
   list-style-type: none;
   text-transform: uppercase;
 }
+.item-nav ul li {
+  line-height: 2em;
+  padding-left: 10px;
+}
 
-a.active {
+a.active-nav {
   text-decoration: underline;
   color: #353839;
 }

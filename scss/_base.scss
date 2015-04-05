@@ -14,6 +14,10 @@ $color-text: darken($pale-sky, 15);
 
 $spacing-value: 20px;
 
+%margin-bottom{
+	margin-bottom:$spacing-value;
+}
+
 @mixin rotate( $val: 90deg ) {
   -webkit-transform: rotate($val);
      -moz-transform: rotate($val);
@@ -111,3 +115,20 @@ a{
 time{
 	color:$color-dark-shade;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

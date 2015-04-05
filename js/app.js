@@ -1,9 +1,5 @@
 $(document).foundation();
 
-$(document).ready(function () {
-	smoothScroll.init();
-});//end ready
-
 // calculating some values
 var header = $('.header'), 
   header_height = header.outerHeight(),
@@ -12,15 +8,14 @@ var header = $('.header'),
   scroll_top_icon = $('#scroll-to-top'),
   nav = $('.item-nav'),
   sections = $('.section'),
-  container_margin_top = $('.container').css('margin-top').replace("px", ""),
-  cmt = parseInt(container_margin_top), 
+  cmt = parseInt($('.container').css('margin-top'), 10), 
   combined_height = header_height + hero_height;
 
 // Scroll to top function 1/2
 $(function(){
   $(window).scroll(function(){
     var $scrollTop = $(window).scrollTop();
-    
+
     if( $scrollTop > header_height ){
         scroll_top_icon.fadeIn();
     } else {
@@ -35,7 +30,7 @@ $(function(){
   });   
 });
 
-$(window).on('scroll', function () {
+$(window).scroll(function () {
   var cur_pos = $(this).scrollTop();
 
   sections.each(function() {
@@ -43,14 +38,14 @@ $(window).on('scroll', function () {
         bottom = top + $(this).outerHeight();
 
     if (cur_pos >= top && cur_pos <= bottom) {
-      nav.find('a').removeClass('active');
-      sections.removeClass('active');
+      nav.find('a').removeClass('active-nav');
+      sections.removeClass('active-nav');
       
-      $(this).addClass('active');
-      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+      $(this).addClass('active-nav');
+      nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active-nav');
     }
     if (cur_pos < combined_height) {
-      nav.find('a').removeClass('active');
+      nav.find('a').removeClass('active-nav');
     }
 
   });
@@ -81,7 +76,7 @@ $('.has-submenu').hover(function(event){
 
 //Navigation toggle in mobile
 $('.ajmn-menu').click(function(){
-  $('.header nav').stop(true).slideToggle();
+  $('nav.navigation').stop(true).slideToggle();
 });
 
 

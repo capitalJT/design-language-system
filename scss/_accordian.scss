@@ -1,4 +1,5 @@
 .accordian-wrapper{
+	@extend %margin-bottom;
 	.ajmn-plus{
 		margin-right: $spacing-value / 2;
 		&:before{

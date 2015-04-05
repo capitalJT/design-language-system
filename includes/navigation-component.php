@@ -1,4 +1,4 @@
-<section id="navigation-component" class="row">
+<section id="navigation-component" class="row section">
   <div class="large-12 columns">
     <h1>Navigation</h1>
   </div>

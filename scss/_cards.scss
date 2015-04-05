@@ -7,11 +7,12 @@
 	h1,h2,h3,h4,h5{
 		line-height: 1em;
 	}
-	a.subdued{
+	a.subdued{ // this is for likes and comments
 		margin-right: $spacing-value;
 	}
 	img.round{
 		@include round();
+		height:auto !important;
 	}
 	img{
 		display: block;
@@ -41,7 +42,7 @@
 		padding:$spacing-value;
 	}
 	.item.tabs{
-		padding:$spacing-value 10px;
+		padding:$spacing-value $spacing-value / 2;
 	}
 	.avatar, .body{
 		border-bottom: solid thin $color-dark-shade;
