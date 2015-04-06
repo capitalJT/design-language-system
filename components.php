@@ -7,7 +7,7 @@
 ?>
 
 <div class="row container">
-  <div class="large-2 columns show-for-large-up item-nav">
+  <div class="large-2 columns show-for-large-up page-nav">
     <ul>
       <li><a href="#forms">Forms</a></li>
       <li><a href="#accordian">Accordian</a></li>
@@ -21,7 +21,7 @@
       <li><a href="#cards">Cards</a></li>
       <li><a href="#footer">Footer</a></li>
     </ul>
-  </div><!-- end item-nav-->
+  </div><!-- end page-nav-->
   <div class="medium-12 large-10 columns">
     <?php
       include 'includes/forms.php';

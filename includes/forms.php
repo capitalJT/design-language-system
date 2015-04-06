@@ -47,4 +47,9 @@
 			</form>
 		</div><!-- end .medium-4 -->
   </div>
+	<div class="large-12 columns">
+		<button class="info right gist-button">View Gist on GitHub<span class="icon ajmn-double-chevron-right"></span></button>
+	</div>
+
 </section>
+

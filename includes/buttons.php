@@ -1,4 +1,4 @@
-<section id="buttons" class="row">
+<section id="buttons" class="row section">
   <div class="large-12 columns">
     <h1>Buttons</h1>
   </div>

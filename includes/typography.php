@@ -1,4 +1,4 @@
-<section id="typography" class="row">
+<section id="typography" class="row section">
     <div class="large-12 columns">
         <h1>Typography</h1>
     </div>

@@ -1,4 +1,4 @@
-<section id="imagery" class="row">
+<section id="imagery" class="row section">
   <div class="large-12 columns">
     <h1>Imagery - Aspect Ratios</h1>
   </div>

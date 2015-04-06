@@ -19,26 +19,26 @@
 	.color-light-shade{
 		background-color: $color-light-shade;
 	}
-
+	//These colors are being pulled in from _settings.scss
 	.primary-color{
-		background-color: rgb(12,19,53);
+		background-color: $primary-color;
 		color:white;
 	}
 	.secondary-color{
-		background-color: #34495e;
+		background-color: $secondary-color;
 		color:white;
 	}
 	.alert-color{
-		background-color: #e74c3c;
+		background-color: $alert-color;
 	}
 	.success-color{
-		background-color: #27ae60;
+		background-color: $success-color;
 	}
 	.warning-color{
-		background-color: #e67e22;
+		background-color: $warning-color;
 	}
 	.info-color{
-		background-color: #3498db;
+		background-color: $info-color;
 	}
 }
 .swatches.brand{

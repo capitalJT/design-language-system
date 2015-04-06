@@ -1,4 +1,4 @@
-<section id="icons" class="row">
+<section id="icons" class="row section">
   <div class="large-12 columns">
     <h1>Icons</h1>
   </div>

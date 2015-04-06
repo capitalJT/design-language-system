@@ -1,29 +1,12 @@
-# Foundation libsass template
+# Welcome to the AJMN DLS project!
 
-This is a template to start your own project that uses Grunt and libsass!
+This project was built on top of the [Zurb Foundation](http://foundation.zurb.com/) framework using the [Foundation libsass template](https://github.com/zurb/foundation-libsass-template). All of the CSS markup is written in [SASS](http://sass-lang.com/). Sass is the easiest way to customize Foundation. 
 
-## Requirements
+I've set up the project on my machine with the help of [CodeKit](https://incident57.com/codekit/). Although its fairly easy to [set up a new project using the command line](http://foundation.zurb.com/docs/sass.html), Foundation is one of the default frameworks available when creating a new project with CodeKit. 
 
-You'll need to have the following items installed before continuing.
+>With zero setup and [Bower](http://bower.io/) built right into the system, CodeKit can compile any language with one click updates. From auto-refresh browsers to built-in minifiers, CodeKit has everything inside to help you get started.
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
-## Quickstart
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
 
-While you're working on your project, run:
 
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here

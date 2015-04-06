@@ -1,4 +1,4 @@
-<section id="colors" class="row">
+<section id="colors" class="row section">
   <div class="large-12 columns">
     <h1>Colors</h1>
   </div>
@@ -36,7 +36,7 @@
 			<span class="color">Warning Color<br>#e67e22</span>
 		</div>
 		<div class="medium-3 columns end color info-color">
-			<span class="color">Info Color<br>#3498db</span>
+			<span class="color">Info Color<br>#eeeeee</span>
 		</div>
   </div>
 </section>
