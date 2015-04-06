@@ -19,7 +19,7 @@
 		margin-bottom: $spacing-value;
 	}
 	h1,h2,h3,h4{
-		@extend .helvetica-bold;
+		@extend %helvetica-bold;
 	}
 }
 

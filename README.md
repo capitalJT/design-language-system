@@ -16,4 +16,6 @@ Its fairly easy to [set up a new project using the command line](http://foundati
 
 >With zero setup and built right into the system, CodeKit can compile any language with one click updates. From auto-refresh browsers to built-in minifiers, CodeKit has everything inside to help you get started.
 
+One of the added benefits of CodeKit is that the app includes syntax checkers and provides helpful notifications for error messages. It tells you where the error occurred and suggests a solution.
+
 The [Atomic Design Methodology](http://patternlab.io/about.html) was one of the main inspirations for the DLS. The main idea is to design elements that can be built into components for the creation of dynamic templates. By utilizing PHP includes components can be easily updated and shared throughout a project.  

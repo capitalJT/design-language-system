@@ -49,7 +49,7 @@
   src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf') format('opentype');
 }
 
-.helvetica-bold{
+%helvetica-bold{
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 .helvetica-light{
@@ -60,7 +60,7 @@
 }
 
 h1,h2,h3,h4,h5,h6{
-  @extend .helvetica-bold;
+  @extend %helvetica-bold;
 }
 
 #typography{
@@ -76,7 +76,7 @@ blockquote{
   border-left:solid thick $color-light-shade;
   background-color: $color-shadow;
   color:$black;
-  @extend .helvetica-bold;
+  @extend %helvetica-bold;
   font-size: 1.3em;
   & cite{
     // background-color: red;

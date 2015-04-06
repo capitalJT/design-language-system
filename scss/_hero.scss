@@ -4,7 +4,7 @@
 	h1{
 		line-height: 1em;
 		margin:0;
-		@extend .helvetica-bold;
+		@extend %helvetica-bold;
 	}
 	.button{
 		margin-bottom: 0;

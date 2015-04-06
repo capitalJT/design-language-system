@@ -70,6 +70,7 @@ $spacing-value: 20px;
 	height:auto;
 }
 //this is used within the botttom-cta component
+//I believe this was used in the the Training Center project
 @mixin vertical-center() {
 	display: -webkit-box;
 	display: -moz-box;
@@ -104,9 +105,9 @@ a{
 		color:$gold;
 	}
 	@include transition();
-	&:link{}
-	&:visited{}
-	&:active{}
+	// &:link{}
+	// &:visited{}
+	// &:active{}
 	&:hover{
 		color: $color-primary;
 	}
@@ -116,12 +117,11 @@ time{
 	color:$color-dark-shade;
 }
 
-.gist-button{
-	.icon{
-		font-size: 11px;
-		margin-left: 10px;
-	}
+.gist-button .icon{
+	font-size: 11px;
+	margin-left: 10px;
 }
+
 
 
 

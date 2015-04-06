@@ -14,7 +14,7 @@
 nav.navigation{
 	li{
 		list-style-type: none;
-		@extend .helvetica-bold;
+		@extend %helvetica-bold;
 		a{
 			text-transform: uppercase;
 			padding:1em;
