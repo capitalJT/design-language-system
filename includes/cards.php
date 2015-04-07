@@ -6,7 +6,7 @@
 	<div class="large-12 columns">
 		<div class="medium-4 columns ">
 			<h4>Profile Card</h4>
-			<div class="card profile">
+			<div class="panel profile">
 				<img class="round" src="http://placehold.it/250&text=1:1">
 				<h3>Alaa Mahmoud</h3>
 				<h4>TV Designer, Qatar</h4>
@@ -15,7 +15,7 @@
 		</div>
 		<div class="medium-4 columns">
 			<h4>Image Card</h4>
-			<div class="card image">
+			<div class="panel image">
 				<img src="http://placehold.it/400x300&text=4:3">
 				<h3>Alaa Mahmoud</h3>
 				<h4>TV Designer, Qatar</h4>
@@ -24,7 +24,7 @@
 		</div>
 		<div class="medium-4 columns">
 			<h4>Showcase Card</h4>
-			<div class="card showcase">
+			<div class="panel showcase">
 				<div class="item avatar">
 					<img src="http://placehold.it/500&text=1:1">
 					<h2>Marty McFly</h2>

@@ -85,21 +85,6 @@ section.row{
 	@extend %helvetica-bold;
 }
 
-// Used on the Resources Page
-.toc{
-	border-left:solid thick $color-shadow;
-	h3{
-		color:$color-dark-shade;
-		font-size: 1em;
-		margin-bottom: 10px;
-	}
-	nav li{
-		@extend %helvetica-bold;
-		list-style-type: none;
-		margin-bottom: 5px;
-	}
-}
-
 #scroll-to-top{
 	position: fixed;
 	z-index: 100;
@@ -128,12 +113,11 @@ section.row{
 }
 .template-page{
 	.hero{
-		margin-bottom: 20px;
+		@extend %margin-bottom;
 	}
 }
 
 .contact-section{
-	// background-color: pink;
 	margin-bottom: $spacing-value;
 	label{
 		@extend %helvetica-bold;
@@ -175,4 +159,10 @@ section.row{
 a.active-nav{
 	text-decoration: underline;
 	color:$onyx;
+}
+
+
+.gist-button .icon{
+	font-size: 11px;
+	margin-left: 10px;
 }

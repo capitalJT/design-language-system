@@ -32,6 +32,7 @@
       </div>
 
 			<div class="row collapse">
+				<label>Post-Fixed Button</label>
 			  <div class="small-9 columns">
 			    <input type="text" placeholder="Placeholder text">
 			  </div>

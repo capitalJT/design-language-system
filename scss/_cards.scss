@@ -1,7 +1,6 @@
-.card{
-	background-color: #eee;
+.panel{
 	border: solid thin $color-dark-shade;
-	margin-bottom: $spacing-value;
+	@extend %margin-bottom;
 	padding:$spacing-value;
 	position: relative;
 	h1,h2,h3,h4,h5{
@@ -16,27 +15,27 @@
 	}
 	img{
 		display: block;
-		margin-bottom: $spacing-value;
+		@extend %margin-bottom;
 	}
 	h1,h2,h3,h4{
 		@extend %helvetica-bold;
 	}
 }
 
-.card.profile{
+.panel.profile{
 	img{
 		@include ht-w($Value: 220);
 		@extend .m-lr-auto;		
 	}
 }
 
-.card.image, .card.showcase{
+.panel.image, .panel.showcase{
 	img{
 		@include img-flex();
 	}
 }
 
-.card.showcase{
+.panel.showcase{
 	padding:0;
 	.item{
 		padding:$spacing-value;

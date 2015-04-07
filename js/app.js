@@ -78,4 +78,3 @@ $('.has-submenu').hover(function(event){
 $('.ajmn-menu').click(function(){
   $('nav.navigation').stop(true).slideToggle();
 });
-

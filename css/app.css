@@ -9266,11 +9266,11 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-.hero-component, .accordian-wrapper {
+.hero-component, .swatches, .accordian-wrapper, .panel, .panel img, .template-page .hero {
   margin-bottom: 20px;
 }
 
-.m-lr-auto, .card.profile img {
+.m-lr-auto, .panel.profile img {
   margin-left: auto;
   margin-right: auto;
 }
@@ -9294,11 +9294,6 @@ time {
   color: #9d9d9d;
 }
 
-.gist-button .icon {
-  font-size: 11px;
-  margin-left: 10px;
-}
-
 @font-face {
   font-family: 'Al-Jazeera-Arabic-Light';
   src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
@@ -9315,23 +9310,19 @@ time {
   font-family: 'Al-Jazeera-Arabic-Heavy';
   src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Heavy.ttf") format("truetype");
 }
-@font-face {
-  font-family: 'Al-Jazeera-Arabic-Light';
-  src: url("../fonts/Al-Jazeera-Arabic/Al-Jazeera-Arabic-Light.ttf") format("truetype");
-}
-.arabic-light {
+#font-faces .arabic-light {
   font-family: 'Al-Jazeera-Arabic-Light';
 }
 
-.arabic-regular {
+#font-faces .arabic-regular {
   font-family: 'Al-Jazeera-Arabic-Regular';
 }
 
-.arabic-bold {
+#font-faces .arabic-bold {
   font-family: 'Al-Jazeera-Arabic-Bold';
 }
 
-.arabic-heavy {
+#font-faces .arabic-heavy {
   font-family: 'Al-Jazeera-Arabic-Heavy';
 }
 
@@ -9347,15 +9338,15 @@ time {
   font-family: 'Helvetica-Neue-LT-Roman';
   src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
 }
-h1, h2, h3, h4, h5, h6, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .card h1, .card h2, .card h3, .card h4, .bold, .toc nav li, .contact-section label, .page-nav ul {
+h1, h2, h3, h4, h5, h6, #font-faces .helvetica-bold, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .panel h1, .panel h2, .panel h3, .panel h4, .bold, .contact-section label, .page-nav ul {
   font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
 }
 
-.helvetica-light, .header-category {
+#font-faces .helvetica-light, .header-category {
   font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
 }
 
-.helvetica-roman {
+#font-faces .helvetica-roman {
   font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -9364,6 +9355,10 @@ h1, h2, h3, h4, h5, h6, blockquote, nav.navigation li, .hero h1, #resources .ico
 }
 #typography section:last-of-type {
   margin-bottom: 0;
+}
+
+#font-faces p {
+  font-size: 2em;
 }
 
 blockquote {
@@ -9536,14 +9531,9 @@ nav.navigation .has-submenu li {
     font-size: 7em;
   }
 }
-.swatches {
-  text-align: center;
-}
-.swatches h2 {
-  text-align: left;
-}
 .swatches .color {
   padding: 20px 0;
+  text-align: center;
 }
 .swatches .color-primary {
   background-color: #0c1335;
@@ -9577,10 +9567,6 @@ nav.navigation .has-submenu li {
 }
 .swatches .info-color {
   background-color: #eee;
-}
-
-.swatches.brand {
-  margin-bottom: 20px;
 }
 
 @font-face {
@@ -10065,75 +10051,72 @@ ul.pagination li a, ul.pagination li.current a {
   border-radius: 0;
 }
 
-.card {
-  background-color: #eee;
+.panel {
   border: solid thin #9d9d9d;
-  margin-bottom: 20px;
   padding: 20px;
   position: relative;
 }
-.card h1, .card h2, .card h3, .card h4, .card h5 {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5 {
   line-height: 1em;
 }
-.card a.subdued {
+.panel a.subdued {
   margin-right: 20px;
 }
-.card img.round {
+.panel img.round {
   border-radius: 100%;
   height: auto !important;
 }
-.card img {
+.panel img {
   display: block;
-  margin-bottom: 20px;
 }
 
-.card.profile img {
+.panel.profile img {
   height: 220px;
   width: 220px;
 }
 
-.card.image img, .card.showcase img {
+.panel.image img, .panel.showcase img {
   width: 100%;
   height: auto;
 }
 
-.card.showcase {
+.panel.showcase {
   padding: 0;
 }
-.card.showcase .item {
+.panel.showcase .item {
   padding: 20px;
 }
-.card.showcase .item.tabs {
+.panel.showcase .item.tabs {
   padding: 20px 10px;
 }
-.card.showcase .avatar, .card.showcase .body {
+.panel.showcase .avatar, .panel.showcase .body {
   border-bottom: solid thin #9d9d9d;
 }
-.card.showcase .avatar {
+.panel.showcase .avatar {
   min-height: 100px;
   padding-left: 100px;
   display: block;
 }
-.card.showcase .avatar img {
+.panel.showcase .avatar img {
   display: inline-block;
   height: 60px;
   width: 60px;
   position: absolute;
   left: 20px;
 }
-.card.showcase .avatar h2 {
+.panel.showcase .avatar h2 {
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0rem;
   padding-top: 20px 10px;
 }
-.card.showcase .avatar p {
+.panel.showcase .avatar p {
   margin-bottom: 0;
 }
-.card.showcase p.link-wrapper {
+.panel.showcase p.link-wrapper {
   margin-bottom: 0;
 }
-.card.showcase .tabs {
+.panel.showcase .tabs {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -10143,7 +10126,7 @@ ul.pagination li a, ul.pagination li.current a {
   -ms-flex-align: stetch;
   font-size: 0.8em;
 }
-.card.showcase .tab-item {
+.panel.showcase .tab-item {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -webkit-flex: 1;
@@ -10153,7 +10136,7 @@ ul.pagination li a, ul.pagination li.current a {
   display: block;
   text-align: center;
 }
-.card.showcase .tab-item .icon {
+.panel.showcase .tab-item .icon {
   margin-right: 20px 10px;
 }
 
@@ -10224,19 +10207,6 @@ section.row {
   display: block;
 }
 
-.toc {
-  border-left: solid thick rgba(0, 0, 0, 0.125);
-}
-.toc h3 {
-  color: #9d9d9d;
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-.toc nav li {
-  list-style-type: none;
-  margin-bottom: 5px;
-}
-
 #scroll-to-top {
   position: fixed;
   z-index: 100;
@@ -10270,10 +10240,6 @@ section.row {
 
 .pr-0 {
   padding-right: 0;
-}
-
-.template-page .hero {
-  margin-bottom: 20px;
 }
 
 .contact-section {
@@ -10312,4 +10278,9 @@ section.row {
 a.active-nav {
   text-decoration: underline;
   color: #353839;
+}
+
+.gist-button .icon {
+  font-size: 11px;
+  margin-left: 10px;
 }

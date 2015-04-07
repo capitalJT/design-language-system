@@ -4,7 +4,7 @@
   </div>
   <hr>
 	<div class="large-12 columns swatches brand">
-		<h2>Brand Colors</h2>
+		<h3>Brand Colors</h3>
 		<div class="medium-3 columns color color-primary">
 			<span class="color">AJMN Blue<br>#0c1335</span>
 		</div>
@@ -19,7 +19,7 @@
 		</div>
   </div>
   <div class="large-12 columns swatches">
-		<h2>Default Colors</h2>
+		<h3>Default Colors</h3>
 		<div class="medium-3 columns color primary-color">
 			<span class="color">Primary Color<br>rgb(12,19,53)</span>
 		</div>

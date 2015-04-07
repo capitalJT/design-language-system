@@ -3,30 +3,49 @@
         <h1>Typography</h1>
     </div>
     <hr>
+    <section id="font-faces" class="large-12 columns">
+        <h3>Font Faces</h3>
+        <div class="large-3 columns"><span>Al Jazeera Arabic Heavy</span></div>
+        <div class="large-9 columns arabic-heavy"><p>الجزيرة العربية الثقيلة</p></div>
+        <div class="large-3 columns"><span>Al Jazeera Arabic Bold</span></div>
+        <div class="large-9 columns arabic-bold"><p>الجزيرة العربية جريئة</p></div>
+        <div class="large-3 columns"><span>Al Jazeera Arabic Regular</span></div>
+        <div class="large-9 columns arabic-regular"><p>منتظم الجزيرة العربية</p></div>
+        <div class="large-3 columns"><span>Al Jazeera Arabic Light</span></div>
+        <div class="large-9 columns arabic-light"><p>الجزيرة العربية الخفيفة</p></div>
+        <div class="large-3 columns"><span>Helvetica Bold</span></div>
+        <div class="large-9 columns helvetica-bold"><p>Helvetica Neue LT Bold</p></div>
+        <div class="large-3 columns"><span>Helvetica Roman</span></div>
+        <div class="large-9 columns helvetica-roman"><p>Helvetica Neue LT Roman</p></div>
+        <div class="large-3 columns"><span>Helvetica Light</span></div>
+        <div class="large-9 columns helvetica-light"><p>Helvetica Neue LT Light</p></div>        
+    </section>
     <section class="large-12 columns">
-        <div class="large-9 large-push-3 columns"><h1>This is a very large header.</h1></div>
-        <div class="large-3 large-pull-9 columns span h1"><span>H1: 44px / 2.75rem</span></div>
+        <h3>Usage</h3>
+        <div class="large-3 columns"><span>H1: 44px / 2.75rem</span></div>
+        <div class="large-9 columns"><h1>This is a very large header.</h1></div>
         
-        <div class="large-9 large-push-3 columns"><h2>This is a large header.</h2></div>
-        <div class="large-3 large-pull-9 columns span h2"><span>H2: 37px / 2.3125rem</span></div>
+        <div class="large-3 columns"><span>H2: 37px / 2.3125rem</span></div>
+        <div class="large-9 columns"><h2>This is a large header.</h2></div>
         
-        <div class="large-9 large-push-3 columns"><h3>This is a medium header.</h3></div>
-        <div class="large-3 large-pull-9 columns span h3"><span>H3: 27px / 1.6875rem</span></div>
+        <div class="large-3 columns"><span>H3: 27px / 1.6875rem</span></div>
+        <div class="large-9 columns"><h3>This is a medium header.</h3></div>
         
-        <div class="large-9 large-push-3 columns"><h4>This is a moderate header.</h4></div>
-        <div class="large-3 large-pull-9 columns span h4"><span>H4: 23px / 1.4375rem</span></div>
+        <div class="large-3 columns"><span>H4: 23px / 1.4375rem</span></div>
+        <div class="large-9 columns"><h4>This is a moderate header.</h4></div>
         
-        <div class="large-9 large-push-3 columns"><h5>This is a small header.</h5></div>
-        <div class="large-3 large-pull-9 columns span h5"><span>H5: 18px / 1.125rem</span></div>
+        <div class="large-3 columns"><span>H5: 18px / 1.125rem</span></div>
+        <div class="large-9 columns"><h5>This is a small header.</h5></div>
         
-        <div class="large-9 large-push-3 columns"><h6>This is a tiny header.</h6></div>
-        <div class="large-3 large-pull-9 columns span h6"><span>H6: 16px / 1rem</span></div>
-
-        <div class="large-9 large-push-3 columns"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sit corporis, numquam praesentium soluta dolor nam velit voluptas quas. Quasi cupiditate non ab natus eveniet harum nulla maiores, deleniti necessitatibus.</p></div>
-        <div class="large-3 large-pull-9 columns span h6"><span>Paragraph: 16px / 1rem</span></div>
-
-        <div class="large-9 large-push-3 columns"><h3 class="header-category">Special Series</h3></div>
-        <div class="large-3 large-pull-9 columns span h6"><span>Category Label: 20.7999px / 1.3rem</span></div>
+        <div class="large-3 columns"><span>H6: 16px / 1rem</span></div>
+        <div class="large-9 columns"><h6>This is a tiny header.</h6></div>
+        
+        <div class="large-3 columns"><span>Paragraph: 16px / 1rem</span></div>
+        <div class="large-9 columns"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, sit corporis, numquam praesentium soluta dolor nam velit voluptas quas. Quasi cupiditate non ab natus eveniet harum nulla maiores, deleniti necessitatibus.</p></div>
+        
+        <div class="large-3 columns"><span>Category Label: 20.7999px / 1.3rem</span></div>
+        <div class="large-9 columns"><h3 class="header-category">Special Series</h3></div>
+        
     </section>
 
     <section class="large-12 columns">
