@@ -25,5 +25,5 @@
   </head>
 
   <body>
-    <div id="scroll-to-top"><span class="icon ajmn-download"></span></div>
+    <div id="scroll-to-top"><span class="icon icon-ajmn-download"></span></div>
 

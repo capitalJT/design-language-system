@@ -9445,12 +9445,12 @@ nav.navigation .has-submenu {
   z-index: 100;
 }
 nav.navigation .has-submenu:before {
-  font-family: "ajmn-font";
+  font-family: "ajmn-icons";
   font-size: 0.6em;
   line-height: 1em;
   padding: 0.8em;
   color: #353839;
-  content: 'f';
+  content: 'g';
   position: absolute;
   right: 0;
   top: 8px;
@@ -9844,7 +9844,7 @@ nav.navigation .has-submenu li {
   content: "\"";
 }
 
-.icon-ajmn-soundcoud:before {
+.icon-ajmn-soundcloud:before {
   content: "#";
 }
 
@@ -9937,8 +9937,8 @@ nav.navigation .has-submenu li {
 .social a:hover {
   color: #d8a32a;
 }
-.social [class^="ajmn-"]:before,
-.social [class*=" ajmn-"]:before {
+.social [class^="icon-"]:before,
+.social [class*=" icon-"]:before {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -10300,7 +10300,7 @@ section.row {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-#scroll-to-top .ajmn-download {
+#scroll-to-top .icon-ajmn-download {
   display: block;
   padding: 0;
   margin: 0;

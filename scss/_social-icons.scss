@@ -11,8 +11,8 @@
 			color:$color-accent;
 		}
 	}
-	[class^="ajmn-"]:before,
-	[class*=" ajmn-"]:before {
+	[class^="icon-"]:before,
+	[class*=" icon-"]:before {
 		display: inline-block;
 		background-color: $color-light-shade;
 		text-align: center;

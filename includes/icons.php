@@ -150,7 +150,7 @@
         <div class="icon icon-ajmn-reddit"></div>
       </li>
       <li>
-        <div class="icon icon-ajmn-soundcoud"></div>
+        <div class="icon icon-ajmn-soundcloud"></div>
       </li>
       <li>
         <div class="icon icon-ajmn-tumblr"></div>

@@ -4,16 +4,16 @@
           <img src="../images/logos/ajmn-logo.svg">
           <ul class="social">
             <li>
-              <a href="#"><span class="icon ajmn-facebook"></span></a>
+              <a href="#"><span class="icon icon-ajmn-facebook"></span></a>
             </li>
             <li>
-              <a href="#"><span class="icon ajmn-twitter"></span></a>
+              <a href="#"><span class="icon icon-ajmn-twitter"></span></a>
             </li>
             <li>
-              <a href="#"><span class="icon ajmn-google-plus"></span></a>
+              <a href="#"><span class="icon icon-ajmn-google-plus"></span></a>
             </li>
             <li>
-              <a href="#"><span class="icon ajmn-youtube"></span></a>
+              <a href="#"><span class="icon icon-ajmn-youtube"></span></a>
             </li>
           </ul><!-- end .social -->
         </div>

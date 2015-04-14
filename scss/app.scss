@@ -94,7 +94,7 @@ section.row{
 	box-sizing: border-box;
 	@include transition();
 	@include rotate( $val: 180deg );
-	.ajmn-download{
+	.icon-ajmn-download{
 		display:block;
 		padding:0;
 		margin:0;
