@@ -6,236 +6,232 @@
 	<div class="large-12 columns">
     <ul class="glyphs css-mapping">
       <li>
-        <div class="icon ajmn-alert"></div>
-        <input type="text" readonly="readonly" value="ajmn-alert">
+        <div class="icon icon-ajmn-location"></div>
       </li>
       <li>
-        <div class="icon ajmn-arrow"></div>
-        <input type="text" readonly="readonly" value="ajmn-arrow">
+        <div class="icon icon-ajmn-play"></div>
       </li>
       <li>
-        <div class="icon ajmn-arrow-ring"></div>
-        <input type="text" readonly="readonly" value="ajmn-arrow-ring">
+        <div class="icon icon-ajmn-stop"></div>
       </li>
       <li>
-        <div class="icon ajmn-avatar"></div>
-        <input type="text" readonly="readonly" value="ajmn-avatar">
+        <div class="icon icon-ajmn-pause"></div>
       </li>
       <li>
-        <div class="icon ajmn-calendar"></div>
-        <input type="text" readonly="readonly" value="ajmn-calendar">
+        <div class="icon icon-ajmn-record"></div>
       </li>
       <li>
-        <div class="icon ajmn-caret-down"></div>
-        <input type="text" readonly="readonly" value="ajmn-caret-down">
+        <div class="icon icon-ajmn-rewind"></div>
       </li>
       <li>
-        <div class="icon ajmn-caret-left"></div>
-        <input type="text" readonly="readonly" value="ajmn-caret-left">
+        <div class="icon icon-ajmn-fast-forward"></div>
       </li>
       <li>
-        <div class="icon ajmn-caret-right"></div>
-        <input type="text" readonly="readonly" value="ajmn-caret-right">
+        <div class="icon icon-ajmn-menu"></div>
       </li>
       <li>
-        <div class="icon ajmn-caret-up"></div>
-        <input type="text" readonly="readonly" value="ajmn-caret-up">
+        <div class="icon icon-ajmn-arrow-circle"></div>
       </li>
       <li>
-        <div class="icon ajmn-chat"></div>
-        <input type="text" readonly="readonly" value="ajmn-chat">
+        <div class="icon icon-ajmn-phone"></div>
       </li>
       <li>
-        <div class="icon ajmn-chevron-left"></div>
-        <input type="text" readonly="readonly" value="ajmn-chevron-left">
+        <div class="icon icon-ajmn-plus"></div>
       </li>
       <li>
-        <div class="icon ajmn-chevron-right"></div>
-        <input type="text" readonly="readonly" value="ajmn-chevron-right">
+        <div class="icon icon-ajmn-close"></div>
       </li>
       <li>
-        <div class="icon ajmn-clock"></div>
-        <input type="text" readonly="readonly" value="ajmn-clock">
+        <div class="icon icon-ajmn-close-circle"></div>
       </li>
       <li>
-        <div class="icon ajmn-closed-quotes"></div>
-        <input type="text" readonly="readonly" value="ajmn-closed-quotes">
+        <div class="icon icon-ajmn-star"></div>
       </li>
       <li>
-        <div class="icon ajmn-double-chevron-left"></div>
-        <input type="text" readonly="readonly" value="ajmn-double-chevron-left">
+        <div class="icon icon-ajmn-download"></div>
       </li>
       <li>
-        <div class="icon ajmn-double-chevron-right"></div>
-        <input type="text" readonly="readonly" value="ajmn-double-chevron-right">
+        <div class="icon icon-ajmn-more"></div>
       </li>
       <li>
-        <div class="icon ajmn-download"></div>
-        <input type="text" readonly="readonly" value="ajmn-download">
+        <div class="icon icon-ajmn-clock"></div>
       </li>
       <li>
-        <div class="icon ajmn-expand"></div>
-        <input type="text" readonly="readonly" value="ajmn-expand">
+        <div class="icon icon-ajmn-search"></div>
       </li>
       <li>
-        <div class="icon ajmn-facebook"></div>
-        <input type="text" readonly="readonly" value="ajmn-facebook">
+        <div class="icon icon-ajmn-chevron-left"></div>
       </li>
       <li>
-        <div class="icon ajmn-fast-forward"></div>
-        <input type="text" readonly="readonly" value="ajmn-fast-forward">
+        <div class="icon icon-ajmn-chevron-right"></div>
       </li>
       <li>
-        <div class="icon ajmn-forward"></div>
-        <input type="text" readonly="readonly" value="ajmn-forward">
+        <div class="icon icon-ajmn-chevron-dbl-left"></div>
       </li>
       <li>
-        <div class="icon ajmn-google-plus"></div>
-        <input type="text" readonly="readonly" value="ajmn-google-plus">
+        <div class="icon icon-ajmn-chevron-dbl-right"></div>
       </li>
       <li>
-        <div class="icon ajmn-grid"></div>
-        <input type="text" readonly="readonly" value="ajmn-grid">
+        <div class="icon icon-ajmn-globe"></div>
       </li>
       <li>
-        <div class="icon ajmn-info"></div>
-        <input type="text" readonly="readonly" value="ajmn-info">
+        <div class="icon icon-ajmn-mail"></div>
       </li>
       <li>
-        <div class="icon ajmn-instagram"></div>
-        <input type="text" readonly="readonly" value="ajmn-instagram">
+        <div class="icon icon-ajmn-trash"></div>
       </li>
       <li>
-        <div class="icon ajmn-justified"></div>
-        <input type="text" readonly="readonly" value="ajmn-justified">
+        <div class="icon icon-ajmn-settings"></div>
       </li>
       <li>
-        <div class="icon ajmn-left-aligned"></div>
-        <input type="text" readonly="readonly" value="ajmn-left-aligned">
+        <div class="icon icon-ajmn-refresh"></div>
       </li>
       <li>
-        <div class="icon ajmn-linkedin"></div>
-        <input type="text" readonly="readonly" value="ajmn-linkedin">
+        <div class="icon icon-ajmn-profile"></div>
       </li>
       <li>
-        <div class="icon ajmn-list"></div>
-        <input type="text" readonly="readonly" value="ajmn-list">
+        <div class="icon icon-ajmn-quote-open"></div>
       </li>
       <li>
-        <div class="icon ajmn-live-feed"></div>
-        <input type="text" readonly="readonly" value="ajmn-live-feed">
+        <div class="icon icon-ajmn-quote-closed"></div>
       </li>
       <li>
-        <div class="icon ajmn-location"></div>
-        <input type="text" readonly="readonly" value="ajmn-location">
+        <div class="icon icon-ajmn-calendar"></div>
       </li>
       <li>
-        <div class="icon ajmn-mail"></div>
-        <input type="text" readonly="readonly" value="ajmn-mail">
+        <div class="icon icon-ajmn-vol-off"></div>
       </li>
       <li>
-        <div class="icon ajmn-menu"></div>
-        <input type="text" readonly="readonly" value="ajmn-menu">
+        <div class="icon icon-ajmn-vol-decrease"></div>
       </li>
       <li>
-        <div class="icon ajmn-more"></div>
-        <input type="text" readonly="readonly" value="ajmn-more">
+        <div class="icon icon-ajmn-vol-increase"></div>
       </li>
       <li>
-        <div class="icon ajmn-open-quotes"></div>
-        <input type="text" readonly="readonly" value="ajmn-open-quotes">
+        <div class="icon icon-ajmn-chat"></div>
       </li>
       <li>
-        <div class="icon ajmn-pause"></div>
-        <input type="text" readonly="readonly" value="ajmn-pause">
+        <div class="icon icon-ajmn-grid"></div>
       </li>
       <li>
-        <div class="icon ajmn-photo"></div>
-        <input type="text" readonly="readonly" value="ajmn-photo">
+        <div class="icon icon-ajmn-list"></div>
       </li>
       <li>
-        <div class="icon ajmn-photo-gallery"></div>
-        <input type="text" readonly="readonly" value="ajmn-photo-gallery">
+        <div class="icon icon-ajmn-print"></div>
       </li>
       <li>
-        <div class="icon ajmn-play"></div>
-        <input type="text" readonly="readonly" value="ajmn-play">
+        <div class="icon icon-ajmn-expand"></div>
       </li>
       <li>
-        <div class="icon ajmn-plus"></div>
-        <input type="text" readonly="readonly" value="ajmn-plus">
+        <div class="icon icon-ajmn-facebook"></div>
       </li>
       <li>
-        <div class="icon ajmn-printer"></div>
-        <input type="text" readonly="readonly" value="ajmn-printer">
+        <div class="icon icon-ajmn-twitter"></div>
       </li>
       <li>
-        <div class="icon ajmn-record"></div>
-        <input type="text" readonly="readonly" value="ajmn-record">
+        <div class="icon icon-ajmn-linkedin"></div>
       </li>
       <li>
-        <div class="icon ajmn-refresh"></div>
-        <input type="text" readonly="readonly" value="ajmn-refresh">
+        <div class="icon icon-ajmn-google-plus"></div>
       </li>
       <li>
-        <div class="icon ajmn-rewind"></div>
-        <input type="text" readonly="readonly" value="ajmn-rewind">
+        <div class="icon icon-ajmn-rss"></div>
       </li>
       <li>
-        <div class="icon ajmn-right-aligned"></div>
-        <input type="text" readonly="readonly" value="ajmn-right-aligned">
+        <div class="icon icon-ajmn-youtube"></div>
       </li>
       <li>
-        <div class="icon ajmn-rss"></div>
-        <input type="text" readonly="readonly" value="ajmn-rss">
+        <div class="icon icon-ajmn-instagram"></div>
       </li>
       <li>
-        <div class="icon ajmn-search"></div>
-        <input type="text" readonly="readonly" value="ajmn-search">
+        <div class="icon icon-ajmn-live-stream"></div>
       </li>
       <li>
-        <div class="icon ajmn-settings"></div>
-        <input type="text" readonly="readonly" value="ajmn-settings">
+        <div class="icon icon-ajmn-reddit"></div>
       </li>
       <li>
-        <div class="icon ajmn-share"></div>
-        <input type="text" readonly="readonly" value="ajmn-share">
+        <div class="icon icon-ajmn-soundcoud"></div>
       </li>
       <li>
-        <div class="icon ajmn-star"></div>
-        <input type="text" readonly="readonly" value="ajmn-star">
+        <div class="icon icon-ajmn-tumblr"></div>
       </li>
       <li>
-        <div class="icon ajmn-stop"></div>
-        <input type="text" readonly="readonly" value="ajmn-stop">
+        <div class="icon icon-ajmn-caret"></div>
       </li>
       <li>
-        <div class="icon ajmn-trash"></div>
-        <input type="text" readonly="readonly" value="ajmn-trash">
+        <div class="icon icon-ajmn-history"></div>
       </li>
       <li>
-        <div class="icon ajmn-twitter"></div>
-        <input type="text" readonly="readonly" value="ajmn-twitter">
+        <div class="icon icon-ajmn-contacts"></div>
       </li>
       <li>
-        <div class="icon ajmn-video"></div>
-        <input type="text" readonly="readonly" value="ajmn-video">
+        <div class="icon icon-ajmn-photo"></div>
       </li>
       <li>
-        <div class="icon ajmn-video-gallery"></div>
-        <input type="text" readonly="readonly" value="ajmn-video-gallery">
+        <div class="icon icon-ajmn-photo-gallery"></div>
       </li>
       <li>
-        <div class="icon ajmn-volume"></div>
-        <input type="text" readonly="readonly" value="ajmn-volume">
+        <div class="icon icon-ajmn-video"></div>
       </li>
       <li>
-        <div class="icon ajmn-volume-up"></div>
-        <input type="text" readonly="readonly" value="ajmn-volume-up">
+        <div class="icon icon-ajmn-video-gallery"></div>
       </li>
       <li>
-        <div class="icon ajmn-youtube"></div>
-        <input type="text" readonly="readonly" value="ajmn-youtube">
+        <div class="icon icon-ajmn-share"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-forward"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-edit"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-arrow"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-document"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-document-stack"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-complete"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-check"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-notification"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-embed"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-cart"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-loading"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-flag"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-bookmark"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-heart"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-alert"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-question"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-info"></div>
+      </li>
+      <li>
+        <div class="icon icon-ajmn-accessible"></div>
       </li>
     </ul>
   </div>

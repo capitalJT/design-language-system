@@ -59,6 +59,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #typography{
+  margin-bottom: $spacing-value;
   section{
     margin-bottom: $spacing-value;
     &:last-of-type{
@@ -111,9 +112,9 @@ blockquote{
   &:before{
     display:inline-block;
     margin-right: 8px;
-    font-family: "ajmn-font";
+    font-family: "ajmn-icons";
     text-align: center;
-    content:"I";
+    content:"3";
   }
 }
 
