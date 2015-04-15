@@ -1,6 +1,6 @@
 .accordian-wrapper{
 	@extend %margin-bottom;
-	.ajmn-plus{
+	.icon-ajmn-plus{
 		margin-right: $spacing-value / 2;
 		&:before{
 			float: left;
@@ -8,7 +8,7 @@
 		}
 	}
 	.active{
-		.ajmn-plus:before{
+		.icon-ajmn-plus:before{
 			@include rotate( $val: 45deg );
 		}
 	}

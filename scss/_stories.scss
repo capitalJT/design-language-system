@@ -34,9 +34,6 @@
 			padding-right: 0;
 		}
 	}
-	.content{
-		border-right:solid thin $color-shadow;
-	}
 	.anchor-list{
 		li{
 			margin-bottom: $spacing-value / 2;
@@ -55,6 +52,13 @@
 		a h3{
 			font-size: 1em;
 			margin-bottom: 0;
+		}
+	}
+}
+@media only screen and (min-width: 40.063em) {
+	.stories-wrapper{
+		.content{
+			border-right:solid thin $color-shadow;
 		}
 	}
 }

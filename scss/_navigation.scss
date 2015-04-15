@@ -1,4 +1,4 @@
-.nav.icon.ajmn-menu{
+.nav.icon.icon-ajmn-menu{
 	float: right;
 	margin-top: 10px;
 	line-height: 1em;
@@ -48,6 +48,9 @@ nav.navigation{
 			display:block !important;
 		}
 	}
+	.submenu-wrapper{
+		background-color: #eee;
+	}
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -64,7 +67,7 @@ nav.navigation{
  
 /* Medium screens - min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-		.nav.icon.ajmn-menu{
+		.nav.icon.icon-ajmn-menu{
 			display: none;
 		}
 		.site-navigation{
@@ -82,10 +85,6 @@ nav.navigation{
 				ul{
 					position:absolute;
 					width:200px;
-					background-color: #fff;
-					a:hover{
-						background-color: #eee;
-					}
 				}
 			}
 		}

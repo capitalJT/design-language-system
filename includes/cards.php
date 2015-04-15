@@ -40,15 +40,15 @@
 				</div>
 				<div class="item tabs">
 					<a href="#" class="tab-item item-1">
-						<span class="icon ajmn-plus"></span>
+						<span class="icon icon-ajmn-heart"></span>
 						Like
 					</a>
 					<a href="#" class="tab-item item-2">
-						<span class="icon ajmn-plus"></span>
+						<span class="icon icon-ajmn-chat"></span>
 						Comment
 					</a>
 					<a href="#" class="tab-item item-3">
-						<span class="icon ajmn-plus"></span>
+						<span class="icon icon-ajmn-share"></span>
 						Share
 					</a>
 				</div>	

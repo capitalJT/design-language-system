@@ -7,7 +7,7 @@
 		<dl class="accordion" data-accordion>
 		  <dd class="accordion-navigation">
 		    <a href="#panel1-1">
-		    	<span class="icon ajmn-plus"></span>
+		    	<span class="icon icon-ajmn-plus"></span>
 		    	<span class="bold">How do I apply for a job?</span>
 		    </a>
 		    <div id="panel1-1" class="content">
@@ -16,7 +16,7 @@
 		  </dd>
 		  <dd class="accordion-navigation">
 		    <a href="#panel1-2">
-		    	<span class="icon ajmn-plus"></span>
+		    	<span class="icon icon-ajmn-plus"></span>
 		    	<span class="bold">How long does it take for a response after I apply for a job?</span>
 		    </a>
 		    <div id="panel1-2" class="content">
@@ -25,7 +25,7 @@
 		  </dd>
 		  <dd class="accordion-navigation">
 		    <a href="#panel1-3">
-		    	<span class="icon ajmn-plus"></span>
+		    	<span class="icon icon-ajmn-plus"></span>
 		    	<span class="bold">Do I need to be based in a certain country?</span>
 		    </a>
 		    <div id="panel1-3" class="content">
@@ -34,7 +34,7 @@
 		  </dd>
 		  <dd class="accordion-navigation">
 		    <a href="#panel1-4">
-		    	<span class="icon ajmn-plus"></span>
+		    	<span class="icon icon-ajmn-plus"></span>
 		    	<span class="bold">Are there freelance jobs available?</span>
 		    </a>
 		    <div id="panel1-4" class="content">

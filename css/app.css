@@ -9339,15 +9339,15 @@ time {
   src: url("../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf") format("opentype");
 }
 h1, h2, h3, h4, h5, h6, #font-faces .helvetica-bold, blockquote, nav.navigation li, .hero h1, #resources .icon-link, .panel h1, .panel h2, .panel h3, .panel h4, .bold, .contact-section label, .page-nav ul {
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica-Neue-LT-Bold", Helvetica, Roboto, Arial, sans-serif;
 }
 
 #font-faces .helvetica-light, .header-category {
-  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica-Neue-LT-Light", Helvetica, Roboto, Arial, sans-serif;
 }
 
 #font-faces .helvetica-roman {
-  font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica-Neue-LT-Roman", Helvetica, Roboto, Arial, sans-serif;
 }
 
 #typography {
@@ -9416,7 +9416,7 @@ p.lead {
     margin: 10px auto 20px;
   }
 }
-.nav.icon.ajmn-menu {
+.nav.icon.icon-ajmn-menu {
   float: right;
   margin-top: 10px;
   line-height: 1em;
@@ -9424,7 +9424,7 @@ p.lead {
   padding: 15px 15px 10px;
   margin-right: -0.6em;
 }
-.nav.icon.ajmn-menu:hover {
+.nav.icon.icon-ajmn-menu:hover {
   cursor: pointer;
 }
 
@@ -9463,6 +9463,9 @@ nav.navigation .has-submenu ul {
 nav.navigation .has-submenu li {
   display: block !important;
 }
+nav.navigation .submenu-wrapper {
+  background-color: #eee;
+}
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
@@ -9477,7 +9480,7 @@ nav.navigation .has-submenu li {
 }
 /* Medium screens - min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-  .nav.icon.ajmn-menu {
+  .nav.icon.icon-ajmn-menu {
     display: none;
   }
 
@@ -9498,10 +9501,6 @@ nav.navigation .has-submenu li {
   nav.navigation .has-submenu ul {
     position: absolute;
     width: 200px;
-    background-color: #fff;
-  }
-  nav.navigation .has-submenu ul a:hover {
-    background-color: #eee;
   }
 }
 .hero {
@@ -9929,10 +9928,11 @@ nav.navigation .has-submenu li {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: red;
+  margin-bottom: 5px;
 }
 .social a {
   color: #353839;
+  display: inline-block;
 }
 .social a:hover {
   color: #d8a32a;
@@ -9948,14 +9948,14 @@ nav.navigation .has-submenu li {
   line-height: 40px;
 }
 
-.accordian-wrapper .ajmn-plus {
+.accordian-wrapper .icon-ajmn-plus {
   margin-right: 10px;
 }
-.accordian-wrapper .ajmn-plus:before {
+.accordian-wrapper .icon-ajmn-plus:before {
   float: left;
   padding: 2px;
 }
-.accordian-wrapper .active .ajmn-plus:before {
+.accordian-wrapper .active .icon-ajmn-plus:before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -9974,6 +9974,7 @@ nav.navigation .has-submenu li {
 
 .comments-section ul {
   list-style-type: none;
+  margin-left: 0;
 }
 .comments-section .comment-container {
   margin-bottom: 1em;
@@ -9997,7 +9998,7 @@ nav.navigation .has-submenu li {
   display: block;
 }
 .comments-section .comment-text {
-  margin-left: 5.2em;
+  margin-left: 4.8em;
 }
 
 /* Medium screens - min-width 641px, medium screens */
@@ -10066,9 +10067,6 @@ nav.navigation .has-submenu li {
 .stories-wrapper .wide .medium-8 {
   padding-right: 0;
 }
-.stories-wrapper .content {
-  border-right: solid thin rgba(0, 0, 0, 0.125);
-}
 .stories-wrapper .anchor-list li {
   margin-bottom: 10px;
 }
@@ -10087,6 +10085,11 @@ nav.navigation .has-submenu li {
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 40.063em) {
+  .stories-wrapper .content {
+    border-right: solid thin rgba(0, 0, 0, 0.125);
+  }
+}
 #resources img {
   margin-bottom: 10px;
   width: 100%;

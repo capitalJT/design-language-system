@@ -44,14 +44,22 @@
   src: url('../fonts/Helvetica-Neue-LT/Helvetica-Neue-LT-Roman.otf') format('opentype');
 }
 
+$helvetiva-bold: 'Helvetica-Neue-LT-Bold';
+$helvetiva-light: 'Helvetica-Neue-LT-Light';
+$helvetiva-roman: 'Helvetica-Neue-LT-Roman';
+
+@mixin font-family($val){
+  font-family: $val, Helvetica, Roboto, Arial, sans-serif;
+}
+
 %helvetica-bold{
-  font-family: 'Helvetica-Neue-LT-Bold', Helvetica, Roboto, Arial, sans-serif;
+  @include font-family($val: $helvetiva-bold);
 }
 %helvetica-light{
-  font-family: 'Helvetica-Neue-LT-Light', Helvetica, Roboto, Arial, sans-serif;
+  @include font-family($val: $helvetiva-light);
 }
 %helvetica-roman{
-  font-family: 'Helvetica-Neue-LT-Roman', Helvetica, Roboto, Arial, sans-serif;
+  @include font-family($val: $helvetiva-roman);
 }
 
 h1,h2,h3,h4,h5,h6{

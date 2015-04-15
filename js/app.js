@@ -75,6 +75,6 @@ $('.has-submenu').hover(function(event){
 });
 
 //Navigation toggle in mobile
-$('.ajmn-menu').click(function(){
+$('.icon-ajmn-menu').click(function(){
   $('nav.navigation').stop(true).slideToggle();
 });

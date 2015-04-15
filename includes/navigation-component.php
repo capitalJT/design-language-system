@@ -4,7 +4,7 @@
   </div>
   <hr>
   <div class="large-12 columns">
-    <div class="icon ajmn-menu"></div>
+    <!-- <div class="icon icon-ajmn-menu"></div> -->
     <nav class="navigation">
       <li class="has-submenu">
         <a href="#">Sub-Menu</a>
