@@ -9533,6 +9533,84 @@ nav.navigation .submenu-wrapper {
     font-size: 7em;
   }
 }
+.carousel {
+  margin-bottom: 0;
+}
+.carousel .carousel-slide {
+  position: relative;
+}
+.carousel .carousel-slide h1, .carousel .carousel-slide p {
+  margin: 0;
+  color: white;
+}
+.carousel .carousel-slide h1 {
+  line-height: 1em;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+.carousel .carousel-slide p {
+  font-size: 1.2em;
+}
+.carousel .carousel-slide button {
+  margin-top: 10px;
+  background-color: #d8a32a;
+}
+.carousel .blurb {
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.slick-dots {
+  position: absolute;
+  margin: 0;
+  bottom: 10px;
+  right: 15px;
+  width: 70px;
+}
+.slick-dots li {
+  height: 10px;
+  width: 10px;
+}
+.slick-dots li button:before {
+  background-color: white;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+
+.slick-prev, .slick-next {
+  width: 45px;
+  height: 45px;
+  margin-top: -30px;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: "ajmn-icons";
+  font-size: 45px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+.slick-prev:before {
+  content: "m";
+}
+
+.slick-next {
+  right: 10px;
+}
+.slick-next:before {
+  content: "n";
+}
+
+@media only screen and (max-width: 40em) {
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+}
 .swatches .color {
   padding: 20px 0;
   text-align: center;
@@ -10339,6 +10417,10 @@ section.row {
   top: 30px;
   box-sizing: border-box;
 }
+.sticky-sidebar .active-nav {
+  text-decoration: underline;
+  color: #353839;
+}
 
 .page-nav {
   padding-top: 10px;
@@ -10353,12 +10435,6 @@ section.row {
   padding-left: 10px;
 }
 
-a.active-nav {
-  text-decoration: underline;
-  color: #353839;
-}
-
-.gist-button .icon {
-  font-size: 11px;
-  margin-left: 10px;
+.template-thumbs img {
+  border: solid thin #eee;
 }

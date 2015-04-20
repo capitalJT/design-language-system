@@ -78,3 +78,10 @@ $('.has-submenu').hover(function(event){
 $('.icon-ajmn-menu').click(function(){
   $('nav.navigation').stop(true).slideToggle();
 });
+
+//This is for the carousel
+$('.carousel-wrapper').slick({
+    autoplay: true,
+    dots: true,
+    // arrows:false
+});

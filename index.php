@@ -1,11 +1,15 @@
 <?php 
-  $page_title = "Design<br/>Language<br/>System";
+  $page_title = "Design Language System";
   $style_sheet_uri = "css/app.css";
   include 'includes/head.php';
   include 'includes/masthead.php';
-  include 'includes/site-hero.php';
 ?>
 
+<div class="row hero">
+  <div class="large-12 columns helvetica">
+    <h1>Design<br/>Language<br/>System</h1>
+  </div>
+</div>
 <section class="row home-section">
   <div class="large-12 columns">
     <h1>Introduction</h1>

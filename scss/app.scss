@@ -47,6 +47,7 @@
 @import "masthead";
 @import "navigation";
 @import "hero";
+@import "carousel";
 @import "brand-colors";
 @import "icon-font";
 @import "social-icons";
@@ -132,15 +133,18 @@ section.row{
 	margin-top: 20px;
 }
 
+// Dynamic fixed nav
 .sticky-sidebar{
 	clear: both;
 	position:fixed;
 	display: inline-block;
 	top:30px;
 	box-sizing:border-box;
+	.active-nav{
+		text-decoration: underline;
+		color:$onyx;
+	}
 }
-
-//this is the temp for the sidebar
 .page-nav{
 	padding-top:10px;
 
@@ -155,14 +159,11 @@ section.row{
 		}
 	}
 }
-
-a.active-nav{
-	text-decoration: underline;
-	color:$onyx;
-}
+// End Dynamic fixed nav
 
 
-.gist-button .icon{
-	font-size: 11px;
-	margin-left: 10px;
+.template-thumbs{
+	img{
+		border:solid thin #eee;
+	}
 }

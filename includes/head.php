@@ -10,6 +10,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144x144-precomposed.png">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="<?php echo $style_sheet_uri; ?>" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   
