@@ -1,0 +1,29 @@
+.bottom-cta{
+  padding-top:20px;
+	background-color: $color-light-shade;
+	h1, h2, p{
+		color:white;
+	}
+	h1, h2{
+		margin: 0;
+	}
+	h1{
+		font-size: 1.5em;
+	}
+	h2{
+		font-size: 3em;
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+	.bottom-cta{
+		height:430px;
+		// background-image: url("../images/bottom-cta-bg.png");
+		background-size: cover;
+		border-bottom:solid thin $color-primary;
+		@include vertical-center();
+		p{
+			max-width:75%;
+		}
+	}
+}

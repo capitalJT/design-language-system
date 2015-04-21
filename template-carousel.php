@@ -73,5 +73,6 @@
 </div><!-- end .carousel-->
 
 <?php
+  include 'includes/bottom-cta.php';
   include 'includes/footer.php';
 ?>

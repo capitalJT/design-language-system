@@ -14,6 +14,6 @@
   	<a href="templates.php" <?php if ($page == "/templates.php"){ echo "class='active'";} ?>>Templates</a>
   </li>
   <li>
-  	<a href="https://github.com/capitalJT/AJ-DLS/wiki" target="_blank">Resources</a>
+  	<a class="special-button" href="https://github.com/capitalJT/AJ-DLS/wiki" target="_blank">Resources</a>
   </li>
 </nav>

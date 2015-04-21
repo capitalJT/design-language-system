@@ -5,7 +5,7 @@
   <hr>
 	<div class="large-12 columns">
 		<div class="large-6 columns">
-			<div data-alert class="alert-box">
+			<div data-alert class="alert-box standard">
 			  This is a standard alert.
 			  <a href="#" class="close">&times;</a>
 			</div>

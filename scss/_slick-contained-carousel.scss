@@ -1,0 +1,45 @@
+.contained-carousel-wrapper{
+	background-color: $color-dark-shade;
+	padding-top:20px;
+	h2{
+		color:white;
+	}
+	.slick-slider{
+		margin-bottom: 20px;
+		// .slick-prev, .slick-next{}	
+	}
+	.slick-slide{
+		border-left:solid thin $color-dark-shade;
+		border-right:solid thin $color-dark-shade;
+		background-color: #FFF;
+		h3, p{
+			padding:5px 10px;
+		}
+		img{
+			margin-bottom: 10px;
+		}
+		h3{
+			line-height: 1em;
+			margin: 0;
+		}
+	}
+	.slick-dots{
+		position:relative;
+		margin: 0 auto;
+		display: block;
+		bottom:-10px; 
+		li{
+			height:10px;
+			width:10px;
+		}
+		li button{
+			&:before{
+				background-color: white;
+				content:"";
+				height:10px;
+				width:10px;
+				border-radius: 100%;
+			}
+		}
+	}
+}

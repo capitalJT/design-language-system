@@ -28,51 +28,51 @@
 		left:0;
 		right:0;
 	}
-}
-
-.slick-dots{
-	position:absolute;
-	margin:0;
-	bottom:10px;
-	right:15px;
-	width:70px;
-	li{
-		height:10px;
-		width:10px;
-	}
-	li button{
-		&:before{
-			background-color: white;
-			content:"";
+	.slick-dots{
+		position:absolute;
+		margin:0;
+		bottom:10px;
+		right:15px;
+		width:70px;
+		li{
 			height:10px;
 			width:10px;
-			border-radius: 100%;
+		}
+		li button{
+			&:before{
+				background-color: white;
+				content:"";
+				height:10px;
+				width:10px;
+				border-radius: 100%;
+			}
 		}
 	}
-}
 
-.slick-prev, .slick-next{
-	width:45px;
-	height:45px;
-	margin-top: -30px;
-	&:before{
-		font-family: "ajmn-icons";
-		font-size: 45px;
+	.slick-prev, .slick-next{
+		width:45px;
+		height:45px;
+		margin-top: -30px;
+		&:before{
+			font-family: "ajmn-icons";
+			font-size: 45px;
+		}
 	}
-}
 
-.slick-prev{
-	left:10px; //prevents weird margins
-	&:before{
-		content:"m";
+	.slick-prev{
+		left:10px; //prevents weird margins
+		&:before{
+			content:"m";
+		}
 	}
-}
 
-.slick-next{
-	right:10px; //prevents weird margins
-	&:before{
-		content:"n";
+	.slick-next{
+		right:10px; //prevents weird margins
+		&:before{
+			content:"n";
+		}
 	}
+
 }
 
 @media only screen and (max-width: 40em) {

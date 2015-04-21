@@ -12,6 +12,10 @@
 	img.round{
 		@include round();
 		height:auto !important;
+		&:hover{
+			border:solid thick $color-accent;
+			@include transition();
+		}
 	}
 	img{
 		display: block;

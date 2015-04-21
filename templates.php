@@ -31,20 +31,24 @@
 			<a href="template-carousel.php">
 				<div class="medium-4 columns">
 					<img src="assets/images/placeholder-carousel.png" alt="Image Title">
-					<p>Carousel template</p>
+					<p>Slick Full-bleed Carousel</p>
 				</div>	
+			</a>
+			<a href="template-contained-carousel.php">
+				<div class="medium-4 columns">
+					<img src="assets/images/placeholder-carousel-contained.png" alt="Image Title">
+					<p>Slick Contained Carousel</p>
+				</div>				
+			</a>
+			<a href="template-video-player.php">
+				<div class="medium-4 columns">
+					<img src="assets/images/placeholder-video.png" alt="Image Title">
+					<p>Video Player Template</p>
+				</div>				
 			</a>
 			<div class="medium-4 columns">
 				<img src="http://placehold.it/640x360&text=16:9" alt="Image Title">
-				<p>Link to view template</p>
-			</div>
-			<div class="medium-4 columns">
-				<img src="http://placehold.it/640x360&text=16:9" alt="Image Title">
-				<p>Link to view template</p>
-			</div>
-			<div class="medium-4 columns">
-				<img src="http://placehold.it/640x360&text=16:9" alt="Image Title">
-				<p>Link to view template</p>
+				<p>Placeholder template link</p>
 			</div>
 		</div>
 	</div>	

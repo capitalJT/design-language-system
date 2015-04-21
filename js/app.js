@@ -1,10 +1,8 @@
 $(document).foundation();
 
 // calculating some values
-var header = $('.header'), 
-  header_height = header.outerHeight(),
-  hero = $('.hero'),
-  hero_height = hero.outerHeight(),
+var header_height = $('.header').outerHeight(),
+  hero_height = $('.hero').outerHeight(),
   scroll_top_icon = $('#scroll-to-top'),
   nav = $('.page-nav'),
   sections = $('.section'),
@@ -51,6 +49,7 @@ $(window).scroll(function () {
   });
 });
 
+//this is for the sticky dynamic nav
 nav.find('a').on('click', function () {
   var $el = $(this), 
        id = $el.attr('href');
@@ -79,9 +78,45 @@ $('.icon-ajmn-menu').click(function(){
   $('nav.navigation').stop(true).slideToggle();
 });
 
-//This is for the carousel
+//Template carousel page
 $('.carousel-wrapper').slick({
     autoplay: true,
     dots: true,
     // arrows:false
+});
+
+//SLICK contained carousel
+$('.contained-carousel').slick({
+  autoplay:true,
+  dots: true,
+  infinite: true,
+  arrows:false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
 });
