@@ -35,12 +35,12 @@
 		<div class="medium-8 columns content">
 			<h3 class="header-category">War &amp; Conflict</h3>
 			<?php include 'includes/stories/story-5.php'; ?>
-			<section>
+			<section class="split-stories">
 				<h3 class="header-category">Two Medium Stories</h3>
-				<div class="medium-6 columns pl-0">
+				<div class="medium-6 columns split-stories-left">
 					<?php include 'includes/stories/story-1.php'; ?>
 				</div>
-				<div class="medium-6 columns pr-0">
+				<div class="medium-6 columns split-stories-right">
 					<?php include 'includes/stories/story-2.php'; ?>
 				</div>
 			</section>

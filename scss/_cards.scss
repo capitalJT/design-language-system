@@ -61,7 +61,7 @@
 			left:$spacing-value;
 		}
 		h2{
-			font-size: $h5-font-size;
+			@extend %h5-font-size;
 			line-height: 1em;
 			margin-bottom: 0rem;
 			padding-top: $spacing-value $spacing-value / 2;
@@ -75,7 +75,7 @@
 	}
 	.tabs{
 		@include flexbox();
-		font-size: $small-font-size;
+		@extend %small-font-size;
 	}
 	.tab-item{
 		@include flexbox-val();

@@ -9,17 +9,16 @@
 		h1{
 			line-height: 1em;
 			font-weight: bold;
-			font-size: $h3-font-size;
+			@extend %h3-font-size;
 		}
 		p{
-			font-size: $h5-font-size;
+			@extend %h5-font-size;
 		}
 		button{
 			margin-top: 10px;
 			background-color: $color-accent;
 		}
 	}
-
 	.blurb{
 		padding:10px 0;
 		position: absolute;
@@ -47,36 +46,29 @@
 			}
 		}
 	}
-
 	.slick-prev, .slick-next{
-		width:45px;
-		height:45px;
+		@include ht-w($Value: 45);
 		margin-top: -30px;
 		&:before{
 			font-family: "ajmn-icons";
 			font-size: 45px;
 		}
 	}
-
+	@include small-screen{
+		.slick-prev, .slick-next{
+			display:none !important;
+		}
+	}
 	.slick-prev{
 		left:10px; //prevents weird margins
 		&:before{
 			content:"m";
 		}
 	}
-
 	.slick-next{
 		right:10px; //prevents weird margins
 		&:before{
 			content:"n";
-		}
-	}
-}
-
-@media only screen and (max-width: 40em) {
-	.carousel{
-		.slick-prev, .slick-next{
-			display:none !important;
 		}
 	}
 }

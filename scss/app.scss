@@ -60,15 +60,8 @@
 @import "cards";
 @import "footer";
 
-//this is just for example
-$spacing-value: 20px;
-
 .row{
 	max-width: 74em;
-}
-
-section.row{
-	margin-top:40px;
 }
 
 // Used on the index page
@@ -106,17 +99,17 @@ section.row{
 		font-size:2em;
 		text-align:center;
 		&:before{
-			float: left; //this is a bit of a hack
+			float: left; //this is a bit of a hack - it removes spacing that's similar to padding
 			padding:5px;
 		}
 	}
 }
 
-// These are temp - used in template-article-detail.php
-.pl-0{
+// These are temp - used in template-article-detail.php - Two medium stories
+.split-stories-left{
 	padding-left: 0;
 }
-.pr-0{
+.split-stories-right{
 	padding-right: 0;
 }
 .template-page{

@@ -8,20 +8,17 @@
 		margin: 0;
 	}
 	h1{
-		font-size: $h4-font-size;
+		@extend %h4-font-size;
 	}
 	h2{
-		font-size: $h1-font-size;
+		@extend %h1-font-size;
 	}
-}
-
-@media only screen and (min-width: 40.063em) {
-	.bottom-cta{
+	@include medium-screen{
 		height:430px;
 		// background-image: url("../images/bottom-cta-bg.png");
 		background-size: cover;
 		border-bottom:solid thin $color-primary;
-		@include vertical-center();
+		@include vertical-center;
 		p{
 			max-width:75%;
 		}

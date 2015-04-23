@@ -6,15 +6,15 @@
 		margin:0;
 	} 
 	h2{
-		font-size: $h6-font-size;
+		@extend %h6-font-size;
 	}
 	h3{
-		font-size: $h4-font-size;
+		@extend %h4-font-size;
 	}
 	article{
 		padding:$spacing-value;
 	}
 	a{
-		font-size: $small-font-size;
+		@extend %small-font-size;
 	}
 }

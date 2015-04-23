@@ -17,7 +17,7 @@
 		display: inline-block;
 		background-color: $color-light-shade;
 		text-align: center;
-		font-size: 1.5em;
-		@include ht-w-lh();
+		@extend %h4-font-size;
+		@include ht-w-lh($Value: 40);
 	}
 }

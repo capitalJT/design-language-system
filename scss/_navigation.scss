@@ -2,14 +2,16 @@
 	float: right;
 	margin-top: 10px;
 	line-height: 1em;
-	font-size: $h4-font-size;
+	@extend %h4-font-size;
 	padding:15px 15px 10px;
 	margin-right: -0.6em; //this compensates for the padding in the .row
 	&:hover{
 		cursor:pointer;
 	}
+	@include medium-screen{
+		display: none;
+	}
 }
-
 
 nav.navigation{
 	li{
@@ -51,46 +53,36 @@ nav.navigation{
 	.submenu-wrapper{
 		background-color: #eee;
 	}
+	@include small-screen{
+		display:none;
+		width:100%;
+		clear: both;
+		li{
+			border-bottom:solid thin $color-light-shade;
+		}
+	}
+	@include medium-screen{
+		display:block;
+		li{
+			display:inline-block;
+		}
+		.has-submenu{
+			padding-right:12px;
+			ul{
+				position:absolute;
+				width:200px;
+			}
+		}
+	}
 }
-
-
 .resource-button{
 	border:solid thin $color-accent;
 	padding-top:1.2em !important;
 }
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (max-width: 40em) {
-		nav.navigation{
-			display:none;
-			width:100%;
-			clear: both;
-			li{
-				border-bottom:solid thin $color-light-shade;
-			}
-		}
-}
- 
-/* Medium screens - min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {
-		.nav.icon.icon-ajmn-menu{
-			display: none;
-		}
-		.site-navigation{
-			margin-top: $spacing-value;
-			float: right;
-		}
 
-		nav.navigation{
-			display:block;
-			li{
-				display:inline-block;
-			}
-			.has-submenu{
-				padding-right:12px;
-				ul{
-					position:absolute;
-					width:200px;
-				}
-			}
-		}
+@media only screen and (min-width: 40.063em) {
+	.site-navigation{
+		margin-top: $spacing-value;
+		float: right;
+	}
 }

@@ -38,12 +38,12 @@
 		margin-bottom: 5px;
 		.icon-ajmn-play{
 			color:white;
-			font-size: 3em;
+			@extend %h1-font-size;
 			position: absolute;
 			top:50%;
 			right:50%;
-			margin-top: -24px;
-			margin-right: -24px;
+			margin-top: -22px;
+			margin-right: -22px;
 			&:before{
 				float: left;
 			}

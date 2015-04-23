@@ -5,31 +5,21 @@
 		line-height: 1em;
 		margin:0;
 		@extend %helvetica-bold;
+		@extend %h2-font-size;
 	}
-	.button{
-		margin-bottom: 0;
-	}
-}
-
-.hero-component{
-	@extend %margin-bottom;
-}
-/* Medium screens - min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {
-	.hero{
+	@include medium-screen{
 		padding:40px;
-		h1{
-			font-size: $h1-font-size;
-		}
 	}
-}
- 
-/*Large screens - min-width 1025px, large screens*/
-@media only screen and (min-width: 64.063em) {
-	.hero{
+	@include large-screen{
 		padding:60px;
 		h1{
 			font-size: 7em;
 		}
 	}
+	.button{
+		margin-bottom: 0;
+	}
+}
+.hero-component{
+	@extend %margin-bottom;
 }

@@ -5,7 +5,14 @@
 		height:auto;
 		// background-color: pink;
 		float: left;
-
+	}
+	@include small-screen{
+		.logo{
+			margin-bottom: 10px;
+		}
+	}
+	@include medium-screen{
+		margin: 10px auto $spacing-value;
 	}
 }
 
@@ -27,18 +34,3 @@
 	 	margin-top: 14px;
 	 }
 }
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (max-width: 40em) {
-	.header{
-		.logo{
-			margin-bottom: 10px;
-		}
-	}
-}
- 
-/* Medium screens - min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) {
-	.header{
-		margin: 10px auto $spacing-value;
-	}
-} 

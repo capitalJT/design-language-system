@@ -20,7 +20,7 @@
 		margin-bottom: 0.5em;
 	}
 	.comment-name{
-		font-size: $small-font-size;
+		@extend %small-font-size;
 		display: block;
 	}
 	.comment-text{

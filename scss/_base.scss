@@ -33,7 +33,7 @@ $spacing-value: 20px;
 	     -o-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
 }
-@mixin flexbox() {
+@mixin flexbox{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -51,17 +51,17 @@ $spacing-value: 20px;
 	            flex: $val;
 }
 // a mixin for height and line-height
-@mixin ht-lh($Value: 16) {
+@mixin ht-lh($Value) {
     height: ($Value) + px;
     line-height: ($Value) + px;
 }
 // a mixin for height, width
-@mixin ht-w($Value: 40) {
+@mixin ht-w($Value) {
     height: ($Value) + px;
     width: ($Value) + px;
 }
 // a mixin for height, width, and line-height
-@mixin ht-w-lh($Value: 40) {
+@mixin ht-w-lh($Value) {
     height: ($Value) + px;
     width: ($Value) + px;
     line-height: ($Value) + px;
@@ -72,7 +72,7 @@ $spacing-value: 20px;
 }
 //this is used within the botttom-cta component
 //I believe this was used in the the Training Center project
-@mixin vertical-center() {
+@mixin vertical-center{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -82,7 +82,7 @@ $spacing-value: 20px;
 	justify-content: center;
 }
 // a mixin for the social-search sliding effect within the header
-@mixin header-expand(){
+@mixin header-expand{
 	height:0;
 	overflow-y: hidden;
 	-webkit-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
@@ -128,4 +128,45 @@ a{
 
 time{
 	color:$color-dark-shade;
+}
+// Media Query Mixins
+@mixin small-screen{
+	@media only screen and (max-width: 40em) {
+		@content;
+	}
+}
+@mixin medium-screen{
+	@media only screen and (min-width: 40.063em) {
+		@content;
+	}
+}
+@mixin medium-screen-only{
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		@content;
+	}
+}
+@mixin large-screen{
+	@media only screen and (min-width: 64.063em) {
+		@content;
+	}
+}
+@mixin large-screen-only{
+	@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+		@content;
+	}
+}
+@mixin xlarge-screen{
+	@media only screen and (min-width: 90.063em) {
+		@content;
+	}
+}
+@mixin xlarge-screen-only{
+	@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+		@content;
+	}
+}
+@mixin xxlarge-screen{
+	@media only screen and (min-width: 120.063em) {
+		@content;
+	}
 }

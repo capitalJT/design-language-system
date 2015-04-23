@@ -17,7 +17,7 @@
 			margin-bottom: $spacing-value / 2;
 		}
 		.meta{
-			font-size:$small-font-size;
+			@extend %small-font-size;
 		}			
 	}
 	.wide{
@@ -50,16 +50,14 @@
 			@include ht-w($Value: 50);
 		}
 		a h3{
-			font-size: 1em;
+			@extend %h6-font-size;
 			margin-bottom: 0;
 		}
 		p{
-			font-size:$small-font-size;
+			@extend %small-font-size;
 		}
 	}
-}
-@media only screen and (min-width: 40.063em) {
-	.stories-wrapper{
+	@include medium-screen{
 		.content{
 			border-right:solid thin $color-shadow;
 		}

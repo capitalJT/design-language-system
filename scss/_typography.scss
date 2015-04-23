@@ -18,15 +18,12 @@
 %arabic-light{
 	font-family: 'Al-Jazeera-Arabic-Light';
 }
-
 %arabic-regular{
 	font-family: 'Al-Jazeera-Arabic-Regular';
 }
-
 %arabic-bold{
   font-family: 'Al-Jazeera-Arabic-Bold';
 }
-
 %arabic-heavy{
 	font-family: 'Al-Jazeera-Arabic-Heavy';
 }
@@ -76,14 +73,31 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-// For the Font Faces on the style page
-%type-example{
+%h1-font-size{
+  font-size: $h1-font-size;
+}
+%h2-font-size{
   font-size: $h2-font-size;
+}
+%h3-font-size{
+  font-size: $h3-font-size;
+}
+%h4-font-size{
+  font-size: $h4-font-size;
+}
+%h5-font-size{
+  font-size: $h5-font-size;
+}
+%h6-font-size{
+  font-size: $h6-font-size;
+}
+%small-font-size{
+  font-size: $small-font-size;
 }
 
 #font-faces{
   p{
-    @extend %type-example;
+    @extend %h2-font-size;
   }
   .arabic-heavy{
     @extend %arabic-heavy;
@@ -113,7 +127,7 @@ blockquote{
   background-color: $color-shadow;
   color:$black;
   @extend %helvetica-bold;
-  font-size: $h4-font-size;
+  @extend %h4-font-size;
   & cite{
     // background-color: red;
     margin-top: 10px;
@@ -136,14 +150,14 @@ p.lead{
 .header-category{
   @extend %helvetica-light;
   @extend %uppercase;
-  font-size: $h5-font-size;
+  @extend %h5-font-size;
   line-height: 1em;
 }
 .heading-story{
-  font-size: $h5-font-size;
+  @extend %h5-font-size;
   margin-bottom: 0;
 }
 .image-credit{
-  font-size: $small-font-size;
+  @extend %small-font-size;
 }
 
