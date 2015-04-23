@@ -28,15 +28,14 @@
 	}
 }
 .video-thumbnails{
-	padding-top:20px;
 	padding-bottom:10px;
 	.meta-info{
-		font-size: 0.9em;
+		font-size: $small-font-size;
 	}
 	.img-wrapper{
 		position: relative;
 		display: block;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 		.icon-ajmn-play{
 			color:white;
 			font-size: 3em;

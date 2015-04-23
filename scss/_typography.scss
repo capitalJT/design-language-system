@@ -67,18 +67,20 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #typography{
-  margin-bottom: $spacing-value;
+  @extend %margin-bottom;
   section{
-    margin-bottom: $spacing-value;
+    @extend %margin-bottom;
     &:last-of-type{
       margin-bottom: 0;
     }
   }
 }
 
+// For the Font Faces on the style page
 %type-example{
-  font-size: 2em;
+  font-size: $h2-font-size;
 }
+
 #font-faces{
   p{
     @extend %type-example;
@@ -111,7 +113,7 @@ blockquote{
   background-color: $color-shadow;
   color:$black;
   @extend %helvetica-bold;
-  font-size: 1.3em;
+  font-size: $h4-font-size;
   & cite{
     // background-color: red;
     margin-top: 10px;
@@ -122,22 +124,26 @@ blockquote{
     margin-right: 8px;
     font-family: "ajmn-icons";
     text-align: center;
-    content:"3";
+    content:"3"; //open quotation icon
   }
 }
 
+//this is used in articles
 p.lead{
   line-height: 1.5em;
 }
+
 .header-category{
   @extend %helvetica-light;
-  text-transform: uppercase;
-  font-size: 1.3em;
+  @extend %uppercase;
+  font-size: $h5-font-size;
   line-height: 1em;
 }
 .heading-story{
-  font-size: 1.2em;
+  font-size: $h5-font-size;
   margin-bottom: 0;
 }
-
+.image-credit{
+  font-size: $small-font-size;
+}
 

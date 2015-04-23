@@ -80,24 +80,24 @@
 			<section>
 				<h3 class="header-category">Two Medium Stories</h3>
 				<div class="medium-6 columns pl-0">
-					<?php include 'includes/components/story-1.php'; ?>
+					<?php include 'includes/stories/story-1.php'; ?>
 				</div>
 				<div class="medium-6 columns pr-0">
-					<?php include 'includes/components/story-2.php'; ?>
+					<?php include 'includes/stories/story-2.php'; ?>
 				</div>
 			</section>
 		</div>
 		<div class="medium-4 columns sidebar">
 			<h3 class="header-category">Related</h3>
 			<div class="large-12 columns wide">
-				<?php include 'includes/components/story-wide-1.php'; ?>	
+				<?php include 'includes/stories/story-wide-1.php'; ?>	
 			</div>
 			<div class="large-12 columns wide">
-				<?php include 'includes/components/story-wide-2.php'; ?>	
+				<?php include 'includes/stories/story-wide-2.php'; ?>	
 			</div>
 			<section>
 				<h3 class="header-category">Most Viewed</h3>
-				<?php include 'includes/components/anchor-list.php'; ?>	
+				<?php include 'includes/stories/anchor-list.php'; ?>	
 			</section>
 		</div>
 	</section>

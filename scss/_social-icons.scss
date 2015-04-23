@@ -2,7 +2,7 @@
 	li{
 		list-style-type: none;
 		display: inline-block;
-		@include transition();
+		@extend %transition;
 		margin-bottom: 5px;
 	}
 	a{

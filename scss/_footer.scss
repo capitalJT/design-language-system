@@ -5,9 +5,6 @@
 		margin:0;
 		margin-bottom: $spacing-value $spacing-value / 2;
 	}
-	.columns{
-		padding:0;
-	}
 
 	.footer-logo-wrapper{
 		border-bottom: solid thin $color-light-shade;
@@ -20,12 +17,12 @@
 	}
 	.footer-links{
 		h3, a{
-			color:white !important;
+			color:white;
 		}
 		h3{
 			margin-bottom: 15px;
-			font-size: 1.2em;
-			text-transform: uppercase;
+			font-size: $h6-font-size;
+			@extend %uppercase;
 			font-weight: bold;
 		}
 		ul{
@@ -37,8 +34,11 @@
 }
 
 .copyright{
-	padding:20px 0 5px;
+	padding:20px 0 0;
 	color: $color-dark-shade;
+	p{
+		font-size: $small-font-size;
+	}
 }
 
 // Medium screens

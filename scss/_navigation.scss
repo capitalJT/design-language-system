@@ -2,7 +2,7 @@
 	float: right;
 	margin-top: 10px;
 	line-height: 1em;
-	font-size: 1.5em;
+	font-size: $h4-font-size;
 	padding:15px 15px 10px;
 	margin-right: -0.6em; //this compensates for the padding in the .row
 	&:hover{
@@ -16,7 +16,7 @@ nav.navigation{
 		list-style-type: none;
 		@extend %helvetica-bold;
 		a{
-			text-transform: uppercase;
+			@extend %uppercase;
 			padding:1em;
 			line-height: 1em;
 			display:block;
@@ -45,7 +45,7 @@ nav.navigation{
 			background-color: #eee;
 		}
 		li{
-			display:block !important;
+			display:block;
 		}
 	}
 	.submenu-wrapper{
@@ -53,6 +53,11 @@ nav.navigation{
 	}
 }
 
+
+.resource-button{
+	border:solid thin $color-accent;
+	padding-top:1.2em !important;
+}
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 		nav.navigation{
@@ -76,7 +81,7 @@ nav.navigation{
 		}
 
 		nav.navigation{
-			display:block !important;
+			display:block;
 			li{
 				display:inline-block;
 			}

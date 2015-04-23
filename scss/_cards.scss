@@ -10,11 +10,11 @@
 		margin-right: $spacing-value;
 	}
 	img.round{
-		@include round();
+		@extend %round;
 		height:auto !important;
 		&:hover{
 			border:solid thick $color-accent;
-			@include transition();
+			@extend %transition;
 		}
 	}
 	img{
@@ -29,13 +29,13 @@
 .panel.profile{
 	img{
 		@include ht-w($Value: 220);
-		@extend .m-lr-auto;		
+		@extend %m-lr-auto;		
 	}
 }
 
 .panel.image, .panel.showcase{
 	img{
-		@include img-flex();
+		@extend %img-flex;
 	}
 }
 
@@ -61,7 +61,7 @@
 			left:$spacing-value;
 		}
 		h2{
-			font-size: 1.3em;
+			font-size: $h5-font-size;
 			line-height: 1em;
 			margin-bottom: 0rem;
 			padding-top: $spacing-value $spacing-value / 2;
@@ -75,7 +75,7 @@
 	}
 	.tabs{
 		@include flexbox();
-		font-size: 0.8em;
+		font-size: $small-font-size;
 	}
 	.tab-item{
 		@include flexbox-val();

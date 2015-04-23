@@ -19,7 +19,7 @@
         </div>
 
         <div class="large-12 columns footer-links">
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 1</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 
@@ -28,7 +28,7 @@
               <li><a href="#">Link 4</a></li> 
             </ul>
           </div>
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 2</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 
@@ -37,7 +37,7 @@
               <li><a href="#">Link 4</a></li> 
             </ul>
           </div>
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 3</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 
@@ -46,7 +46,7 @@
               <li><a href="#">Link 4</a></li> 
             </ul>
           </div>
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 4</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 
@@ -55,7 +55,7 @@
               <li><a href="#">Link 4</a></li> 
             </ul>
           </div>
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 5</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 
@@ -64,7 +64,7 @@
               <li><a href="#">Link 4</a></li> 
             </ul>
           </div>
-          <div class="medium-2 columns">
+          <div class="small-6 medium-4 large-2 columns">
             <h3>Column 6</h3>
             <ul>
               <li><a href="#">Link 1</a></li> 

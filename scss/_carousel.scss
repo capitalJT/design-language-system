@@ -9,10 +9,10 @@
 		h1{
 			line-height: 1em;
 			font-weight: bold;
-			font-size: 1.7em;
+			font-size: $h3-font-size;
 		}
 		p{
-			font-size: 1.2em;
+			font-size: $h5-font-size;
 		}
 		button{
 			margin-top: 10px;
@@ -21,7 +21,6 @@
 	}
 
 	.blurb{
-		// background-color: rgba(0,0,0,0.5);	
 		padding:10px 0;
 		position: absolute;
 		bottom:0;
@@ -72,11 +71,12 @@
 			content:"n";
 		}
 	}
-
 }
 
 @media only screen and (max-width: 40em) {
-	.slick-prev, .slick-next{
-		display:none !important;
+	.carousel{
+		.slick-prev, .slick-next{
+			display:none !important;
+		}
 	}
 }

@@ -11,19 +11,18 @@
 	}
 	.comment-meta{
 		float: left;
-		width:4.5em;
-		img{
-			@include ht-w($Value: 60);
-			display: block;
-			border: solid thin $color-shadow;
-			margin-bottom: 0.5em;
-		}
-		.comment-name{
-			font-size: 0.75em;
-			display: block;
-		}		
+		width:4.5em;		
 	}
-
+	img{
+		@include ht-w($Value: 60);
+		display: block;
+		border: solid thin $color-shadow;
+		margin-bottom: 0.5em;
+	}
+	.comment-name{
+		font-size: $small-font-size;
+		display: block;
+	}
 	.comment-text{
 		margin-left: 4.8em;
 	}
@@ -34,9 +33,9 @@
 	.comments-section{
 		.comment-meta{
 			width:6.5em;
-			img{
-				@include ht-w($Value: 100);
-			}
+		}
+		img{
+			@include ht-w($Value: 100);
 		}
 		.comment-text{
 			margin-left: 7.5em;

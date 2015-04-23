@@ -5,9 +5,28 @@
 		height:auto;
 		// background-color: pink;
 		float: left;
+
 	}
 }
 
+//this is for testing purposes
+
+.header.is-scrolled{
+	background-color: rgba(255,255,255,1);
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 100;
+	margin-top: 0;
+	padding-bottom:20px;
+	border-bottom:solid thick $color-primary;
+	transition: all 0.4s cubic-bezier(0.51,-0.02, 0.61, 1.01);
+	@include box-shadow;
+	 & .logo{
+	 	margin-top: 14px;
+	 }
+}
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 	.header{

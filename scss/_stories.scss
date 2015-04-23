@@ -1,23 +1,23 @@
 .stories-wrapper{
 	section{
-		border-top: solid thick $color-shadow;
+		border-top: solid thin $color-shadow;
 		padding-top:$spacing-value;
 		clear: both;
 	}
 	.story{
-		margin-bottom: $spacing-value;
+		@extend %margin-bottom;
 		h2{
 			line-height: 1em;
 		}
 		img{
 			margin-bottom: $spacing-value / 2;
-			@include img-flex();
+			@extend %img-flex;
 		}
 		p{
 			margin-bottom: $spacing-value / 2;
 		}
 		.meta{
-			font-size: 0.8em;
+			font-size:$small-font-size;
 		}			
 	}
 	.wide{
@@ -52,6 +52,9 @@
 		a h3{
 			font-size: 1em;
 			margin-bottom: 0;
+		}
+		p{
+			font-size:$small-font-size;
 		}
 	}
 }

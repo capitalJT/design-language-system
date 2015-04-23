@@ -17,7 +17,7 @@
 			<li class="comment-container">
 				<div class="comment-meta">
 					<img src="http://placeimg.com/100/100/tech/sepia" alt="Avatar">
-					<h5 class="comment-name"><a href="#">Matthias Macguinness</a></h5>
+					<h5 class="comment-name"><a href="#">Matthias Guinness</a></h5>
 				</div>
 				<div class="comment-text">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit, nisl a ultricies tempor, urna dui viverra lorem, tincidunt imperdiet nulla ipsum in dolor. Cras mattis lorem a laoreet venenatis. Aliquam erat volutpat. Curabitur feugiat sapien at ligula sodales, et tincidunt justo tincidunt.</p>

@@ -34,28 +34,28 @@
 	<section class="large-12 columns">
 		<div class="medium-8 columns content">
 			<h3 class="header-category">War &amp; Conflict</h3>
-			<?php include 'includes/components/story-5.php'; ?>
+			<?php include 'includes/stories/story-5.php'; ?>
 			<section>
 				<h3 class="header-category">Two Medium Stories</h3>
 				<div class="medium-6 columns pl-0">
-					<?php include 'includes/components/story-1.php'; ?>
+					<?php include 'includes/stories/story-1.php'; ?>
 				</div>
 				<div class="medium-6 columns pr-0">
-					<?php include 'includes/components/story-2.php'; ?>
+					<?php include 'includes/stories/story-2.php'; ?>
 				</div>
 			</section>
 		</div>
 		<div class="medium-4 columns sidebar">
 			<h3 class="header-category">Related</h3>
-			<?php include 'includes/components/story-1.php'; ?>	
+			<?php include 'includes/stories/story-1.php'; ?>	
 			<section>
 				<h3 class="header-category">Opinions</h3>
-				<?php include 'includes/components/avatar-list.php'; ?>
+				<?php include 'includes/stories/avatar-list.php'; ?>
 			</section>
 		
 			<section>
 				<h3 class="header-category">Most Viewed</h3>
-				<?php include 'includes/components/anchor-list.php'; ?>	
+				<?php include 'includes/stories/anchor-list.php'; ?>	
 			</section>
 		</div>
 	</section>

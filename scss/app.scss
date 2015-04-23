@@ -9,12 +9,11 @@
 // @import "foundation/components/breadcrumbs";
 @import "foundation/components/button-groups";
 @import "foundation/components/buttons";
-@import "foundation/components/clearing";
+// @import "foundation/components/clearing";
 // @import "foundation/components/dropdown";
 // @import "foundation/components/dropdown-buttons";
 // @import "foundation/components/flex-video"; 
 @import "foundation/components/forms";
-@import "foundation/components/icon-bar";
 @import "foundation/components/inline-lists";
 // @import "foundation/components/joyride";
 // @import "foundation/components/keystrokes";
@@ -29,7 +28,6 @@
 @import "foundation/components/reveal";
 // @import "foundation/components/side-nav";
 @import "foundation/components/split-buttons";
-@import "foundation/components/sub-nav";
 // @import "foundation/components/switches";
 // @import "foundation/components/tables";
 // @import "foundation/components/tabs";
@@ -58,7 +56,6 @@
 @import "comments";
 @import "brand-bar";
 @import "stories";
-@import "resources";
 @import "pagination";
 @import "cards";
 @import "footer";
@@ -92,11 +89,11 @@ section.row{
 #scroll-to-top{
 	position: fixed;
 	z-index: 100;
-	bottom:15px;
-	right:15px;
+	bottom:8px;
+	right:5px;
 	display:none;
 	background-color: rgba(255,255,255,0.8);
-	@include transition();
+	@extend %transition;
 	@include rotate( $val: 180deg );
 	&:hover{
 		cursor:pointer;
@@ -161,8 +158,8 @@ section.row{
 	ul{
 		margin:0;
 		list-style-type: none;
-		text-transform: uppercase;
 		@extend %helvetica-bold;
+		@extend %uppercase;
 		li{
 			line-height: 2em;
 			padding-left:10px;
@@ -185,9 +182,4 @@ section.row{
 	.close{
 		color:white;
 	}
-}
-
-a.special-button{
-	border:solid thin $color-accent;
-	padding-top:1.2em !important;
 }

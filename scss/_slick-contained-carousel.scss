@@ -5,7 +5,7 @@
 		color:white;
 	}
 	.slick-slider{
-		margin-bottom: 20px;
+		@extend %margin-bottom;
 		// .slick-prev, .slick-next{}	
 	}
 	.slick-slide{
