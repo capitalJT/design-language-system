@@ -1,5 +1,5 @@
 .comments-section{
-	ul{
+	.comment-list{
 		list-style-type: none;
 		margin-left: 0;
 	}
@@ -13,7 +13,7 @@
 		float: left;
 		width:4.5em;		
 	}
-	img{
+	.avatar{
 		@include ht-w($Value: 60);
 		display: block;
 		border: solid thin $color-shadow;
@@ -34,7 +34,7 @@
 		.comment-meta{
 			width:6.5em;
 		}
-		img{
+		.avatar{
 			@include ht-w($Value: 100);
 		}
 		.comment-text{

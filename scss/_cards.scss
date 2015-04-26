@@ -6,10 +6,19 @@
 	h1,h2,h3,h4,h5{
 		line-height: 1em;
 	}
-	a.subdued{ // this is for likes and comments
-		margin-right: $spacing-value;
+	h1,h2,h3,h4{
+		@extend %helvetica-bold;
 	}
-	img.round{
+	img{
+		@extend %block;
+		@extend %margin-bottom;
+	}
+}
+
+.panel-profile{
+	img{
+		@include ht-w($Value: 220);
+		@extend %m-lr-auto;	
 		@extend %round;
 		height:auto !important;
 		&:hover{
@@ -17,35 +26,18 @@
 			@extend %transition;
 		}
 	}
-	img{
-		display: block;
-		@extend %margin-bottom;
-	}
-	h1,h2,h3,h4{
-		@extend %helvetica-bold;
-	}
 }
 
-.panel.profile{
-	img{
-		@include ht-w($Value: 220);
-		@extend %m-lr-auto;		
-	}
-}
-
-.panel.image, .panel.showcase{
+.panel-image, .panel-showcase{
 	img{
 		@extend %img-flex;
 	}
 }
 
-.panel.showcase{
+.panel-showcase{
 	padding:0;
-	.item{
+	.panel-section{
 		padding:$spacing-value;
-	}
-	.item.tabs{
-		padding:$spacing-value $spacing-value / 2;
 	}
 	.avatar, .body{
 		border-bottom: solid thin $color-dark-shade;
@@ -53,7 +45,7 @@
 	.avatar{
 		min-height:$spacing-value * 5;
 		padding-left:$spacing-value * 5;
-		display: block;
+		@extend %block;
 		img{
 			display: inline-block;
 			@include ht-w($Value:60);
@@ -70,16 +62,17 @@
 			margin-bottom: 0;
 		}
 	}
-	p.link-wrapper{
-		margin-bottom: 0;
+	.showcase-stats{ // this is for likes and comments
+		margin-right: $spacing-value;
 	}
 	.tabs{
-		@include flexbox();
+		@include flexbox;
 		@extend %small-font-size;
+		padding:$spacing-value $spacing-value / 2;
 	}
-	.tab-item{
-		@include flexbox-val();
-		display: block;
+	.showcase-card-tab{
+		@include flexbox-val;
+		@extend %block;
 		text-align: center;
 		.icon{
 			margin-right: $spacing-value $spacing-value / 2;

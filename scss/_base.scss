@@ -13,18 +13,15 @@ $color-text: darken($pale-sky, 15);
 
 $spacing-value: 20px;
 
+%block{
+	display:block;
+}
+
 %margin-bottom{
 	margin-bottom:$spacing-value;
 }
 %uppercase{
 	text-transform: uppercase;
-}
-@mixin rotate( $val: 90deg ) {
-  -webkit-transform: rotate($val);
-     -moz-transform: rotate($val);
-      -ms-transform: rotate($val);
-       -o-transform: rotate($val);
-          transform: rotate($val);
 }
 %transition {
 	-webkit-transition: all 0.3s ease-in-out;
@@ -32,6 +29,26 @@ $spacing-value: 20px;
 	    -ms-transition: all 0.3s ease-in-out;
 	     -o-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
+}
+%img-flex{
+	width:100%;
+	height:auto;
+}
+%round{
+	border-radius: 100%;
+}
+%m-lr-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@mixin rotate( $val: 90deg ) {
+  -webkit-transform: rotate($val);
+     -moz-transform: rotate($val);
+      -ms-transform: rotate($val);
+       -o-transform: rotate($val);
+          transform: rotate($val);
 }
 @mixin flexbox{
 	display: -webkit-box;
@@ -66,10 +83,7 @@ $spacing-value: 20px;
     width: ($Value) + px;
     line-height: ($Value) + px;
 }
-%img-flex{
-	width:100%;
-	height:auto;
-}
+
 //this is used within the botttom-cta component
 //I believe this was used in the the Training Center project
 @mixin vertical-center{
@@ -91,11 +105,6 @@ $spacing-value: 20px;
 	     -o-transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.4s cubic-bezier(0, 1, 0.5, 1);
 }
-
-%round{
-	border-radius: 100%;
-}
-
 // $h = horizontal length
 // $v = vertical length
 // $b = blur radius
@@ -106,12 +115,6 @@ $spacing-value: 20px;
 	   -moz-box-shadow: $h $v $b $s $c;
 	        box-shadow: $h $v $b $s $c;
 }
-
-%m-lr-auto{
-	margin-left: auto;
-	margin-right: auto;
-}
-
 a{
 	color:$gold;
 	&:focus{

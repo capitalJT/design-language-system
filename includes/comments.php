@@ -7,7 +7,7 @@
 		<ul class="comment-list">
 			<li class="comment-container">
 				<div class="comment-meta">
-					<img src="http://placeimg.com/100/100/people" alt="Avatar">
+					<img class="avatar" src="http://placeimg.com/100/100/people" alt="Avatar">
 					<h5 class="comment-name"><a href="#">Junius Koolen</a></h5>
 				</div>
 				<div class="comment-text">
@@ -16,7 +16,7 @@
 			</li>
 			<li class="comment-container">
 				<div class="comment-meta">
-					<img src="http://placeimg.com/100/100/tech/sepia" alt="Avatar">
+					<img class="avatar" src="http://placeimg.com/100/100/tech/sepia" alt="Avatar">
 					<h5 class="comment-name"><a href="#">Matthias Guinness</a></h5>
 				</div>
 				<div class="comment-text">
@@ -25,7 +25,7 @@
 			</li>
 			<li class="comment-container">
 				<div class="comment-meta">
-					<img src="http://placeimg.com/100/100/any/sepia" alt="Avatar">
+					<img class="avatar" src="http://placeimg.com/100/100/any/sepia" alt="Avatar">
 					<h5 class="comment-name"><a href="#">Jacobus Sneiders</a></h5>
 				</div>
 				<div class="comment-text">
@@ -34,7 +34,7 @@
 			</li>
 			<li class="comment-container">
 				<div class="comment-meta">
-					<img src="http://placeimg.com/100/100/people/grayscale" alt="Avatar">
+					<img class="avatar" src="http://placeimg.com/100/100/people/grayscale" alt="Avatar">
 					<h5 class="comment-name"><a href="#">Fergus Althuis</a></h5>
 				</div>
 				<div class="comment-text">

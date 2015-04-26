@@ -8443,6 +8443,10 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+.panel img, .panel-showcase .avatar, .panel-showcase .showcase-card-tab {
+  display: block;
+}
+
 #typography, #typography section, .hero-component, .contained-carousel-wrapper .slick-slider, .swatches, .accordian-wrapper, .brand-bar, .stories-wrapper .story, .panel, .panel img, .template-page .hero {
   margin-bottom: 20px;
 }
@@ -8451,7 +8455,7 @@ th.hide-for-touch {
   text-transform: uppercase;
 }
 
-a, .social li, .panel img.round:hover, #scroll-to-top {
+a, .social li, .panel-profile img:hover, #scroll-to-top {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -8459,16 +8463,16 @@ a, .social li, .panel img.round:hover, #scroll-to-top {
   transition: all 0.3s ease-in-out;
 }
 
-.stories-wrapper .story img, .panel.image img, .panel.showcase img {
+.stories-wrapper .story img, .panel-image img, .panel-showcase img {
   width: 100%;
   height: auto;
 }
 
-.panel img.round {
+.panel-profile img {
   border-radius: 100%;
 }
 
-.panel.profile img {
+.panel-profile img {
   margin-left: auto;
   margin-right: auto;
 }
@@ -8564,7 +8568,7 @@ blockquote, .nav.icon.icon-ajmn-menu, .bottom-cta h1, .social [class^="icon-"]:b
   font-size: 1.4375rem;
 }
 
-.header-category, .heading-story, .carousel .carousel-slide p, .panel.showcase .avatar h2 {
+.header-category, .heading-story, .carousel .carousel-slide p, .panel-showcase .avatar h2 {
   font-size: 1.125rem;
 }
 
@@ -8572,7 +8576,7 @@ blockquote, .nav.icon.icon-ajmn-menu, .bottom-cta h1, .social [class^="icon-"]:b
   font-size: 1rem;
 }
 
-.image-credit, .comments-section .comment-name, .brand-bar a, .stories-wrapper .story .meta, .stories-wrapper .avatar-list p, .panel.showcase .tabs {
+.image-credit, .comments-section .comment-name, .brand-bar a, .stories-wrapper .story .meta, .stories-wrapper .avatar-list p, .panel-showcase .tabs {
   font-size: 80%;
 }
 
@@ -9392,7 +9396,7 @@ nav.navigation .submenu-wrapper {
   border-bottom: solid thick rgba(0, 0, 0, 0.125);
 }
 
-.comments-section ul {
+.comments-section .comment-list {
   list-style-type: none;
   margin-left: 0;
 }
@@ -9406,7 +9410,7 @@ nav.navigation .submenu-wrapper {
   float: left;
   width: 4.5em;
 }
-.comments-section img {
+.comments-section .avatar {
   height: 60px;
   width: 60px;
   display: block;
@@ -9425,7 +9429,7 @@ nav.navigation .submenu-wrapper {
   .comments-section .comment-meta {
     width: 6.5em;
   }
-  .comments-section img {
+  .comments-section .avatar {
     height: 100px;
     width: 100px;
   }
@@ -9505,60 +9509,48 @@ ul.pagination li a, ul.pagination li.current a {
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5 {
   line-height: 1em;
 }
-.panel a.subdued {
-  margin-right: 20px;
-}
-.panel img.round {
-  height: auto !important;
-}
-.panel img.round:hover {
-  border: solid thick #d8a32a;
-}
-.panel img {
-  display: block;
-}
 
-.panel.profile img {
+.panel-profile img {
   height: 220px;
   width: 220px;
+  height: auto !important;
+}
+.panel-profile img:hover {
+  border: solid thick #d8a32a;
 }
 
-.panel.showcase {
+.panel-showcase {
   padding: 0;
 }
-.panel.showcase .item {
+.panel-showcase .panel-section {
   padding: 20px;
 }
-.panel.showcase .item.tabs {
-  padding: 20px 10px;
-}
-.panel.showcase .avatar, .panel.showcase .body {
+.panel-showcase .avatar, .panel-showcase .body {
   border-bottom: solid thin #9d9d9d;
 }
-.panel.showcase .avatar {
+.panel-showcase .avatar {
   min-height: 100px;
   padding-left: 100px;
-  display: block;
 }
-.panel.showcase .avatar img {
+.panel-showcase .avatar img {
   display: inline-block;
   height: 60px;
   width: 60px;
   position: absolute;
   left: 20px;
 }
-.panel.showcase .avatar h2 {
+.panel-showcase .avatar h2 {
   line-height: 1em;
   margin-bottom: 0rem;
   padding-top: 20px 10px;
 }
-.panel.showcase .avatar p {
+.panel-showcase .avatar p {
   margin-bottom: 0;
 }
-.panel.showcase p.link-wrapper {
-  margin-bottom: 0;
+.panel-showcase .showcase-stats {
+  margin-right: 20px;
 }
-.panel.showcase .tabs {
+.panel-showcase .tabs {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -9566,18 +9558,18 @@ ul.pagination li a, ul.pagination li.current a {
   display: flex;
   -ms-flex-direction: row;
   -ms-flex-align: stetch;
+  padding: 20px 10px;
 }
-.panel.showcase .tab-item {
+.panel-showcase .showcase-card-tab {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -webkit-flex: 1;
   -moz-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  display: block;
   text-align: center;
 }
-.panel.showcase .tab-item .icon {
+.panel-showcase .showcase-card-tab .icon {
   margin-right: 20px 10px;
 }
 
