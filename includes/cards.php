@@ -7,7 +7,7 @@
 		<div class="medium-4 columns ">
 			<h4>Profile Card</h4>
 			<div class="panel panel-profile">
-				<img src="http://placehold.it/250&text=1:1">
+				<img src="http://placehold.it/250x250&text=1:1">
 				<h3>Alaa Mahmoud</h3>
 				<h4>TV Designer, Qatar</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nisi reprehenderit in cum voluptatum, rerum porro eius, vel quisquam dolorem.</p>	

@@ -9511,9 +9511,7 @@ ul.pagination li a, ul.pagination li.current a {
 }
 
 .panel-profile img {
-  height: 220px;
-  width: 220px;
-  height: auto !important;
+  text-align: center;
 }
 .panel-profile img:hover {
   border: solid thick #d8a32a;

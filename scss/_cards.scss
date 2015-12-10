@@ -17,10 +17,13 @@
 
 .panel-profile{
 	img{
-		@include ht-w($Value: 220);
+		// @include ht-w($Value: 220);
+		// height: 220px;
+		// width: auto;
+		// max-width: 220px;
 		@extend %m-lr-auto;	
 		@extend %round;
-		height:auto !important;
+		text-align: center;
 		&:hover{
 			border:solid thick $color-accent;
 			@extend %transition;
