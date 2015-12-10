@@ -1,7 +1,7 @@
 		<div id="footer" class="footer section">
       <div class="row medium-uncollapse large-collapse">
         <div class="large-12 columns footer-logo-wrapper">
-          <img src="../images/logos/ajmn-logo.svg">
+          <img src="images/logos/ajmn-logo.svg">
           <ul class="social">
             <li>
               <a href="#"><span class="icon icon-ajmn-facebook"></span></a>
