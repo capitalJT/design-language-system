@@ -30,7 +30,7 @@
     <header class="header">
       <div class="row">
         <div class="large-12 columns">
-          <a href="index.php"><img class="logo" src="../images/logos/ajmn-logo.svg" alt="AJMN Icon"></a>
+          <a href="index.php"><img class="logo" src="../images/logos/logo.svg" alt="AJMN Icon"></a>
           <?php include 'includes/navigation.php'; ?>
         </div>        
       </div>
@@ -96,7 +96,7 @@
     <div id="footer" class="footer section">
       <div class="row medium-uncollapse large-collapse">
         <div class="large-12 columns footer-logo-wrapper">
-          <img src="../images/logos/ajmn-logo.svg">
+          <img src="../images/logos/logo.svg">
           <ul class="social">
             <li>
               <a href="#"><span class="icon icon-ajmn-facebook"></span></a>

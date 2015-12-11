@@ -1,8 +1,8 @@
-# Welcome to the AJMN DLS project!
+# Welcome to the DLS project!
 
 ###Introduction###
 
-DLS is short for Design Language System. Al Jazeera's Design Language Sysytem is a living, breathing dynamic style guide for the design of our products. We wish to give our products a unique but consistent look and feel. Our DLS describes choices for design aspects such as colour schemes, patterns, templates, and layouts.
+DLS is short for Design Language System. Its a living, breathing dynamic style guide for the design of our products. We wish to give our products a unique but consistent look and feel. Our DLS describes choices for design aspects such as colour schemes, patterns, templates, and layouts.
 
 ###Goals###
 

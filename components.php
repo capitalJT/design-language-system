@@ -1,5 +1,6 @@
 <?php 
   $page_title = "Components"; 
+  $hero_blurb = "Combine multiple elements to create components.";
   $style_sheet_uri = "css/app.css";
   include 'includes/head.php';
   include 'includes/masthead.php';

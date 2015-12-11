@@ -6,10 +6,10 @@
 	<div class="large-12 columns swatches brand">
 		<h3>Brand Colors</h3>
 		<div class="medium-3 columns color color-primary">
-			<span class="color">AJMN Blue<br>#0c1335</span>
+			<span class="color">Blue<br>#0c1335</span>
 		</div>
 		<div class="medium-3 columns color color-accent">
-			<span class="color">AJMN Gold<br>#d8a32a</span>
+			<span class="color">Orange<br>#e24d25</span>
 		</div>
 		<div class="medium-3 columns color color-shadow">
 			<span class="color">$color-shadow<br>rgba(0, 0, 0, 0.125)</span>

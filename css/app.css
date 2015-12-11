@@ -8478,10 +8478,10 @@ a, .social li, .panel-profile img:hover, #scroll-to-top {
 }
 
 a {
-  color: #d8a32a;
+  color: #e24d25;
 }
 a:focus {
-  color: #d8a32a;
+  color: #e24d25;
 }
 a:hover {
   color: #0c1335;
@@ -8611,7 +8611,7 @@ p.lead {
 
 .header .logo {
   margin-top: 10px;
-  width: 220px;
+  width: 70px;
   height: auto;
   float: left;
 }
@@ -8725,7 +8725,7 @@ nav.navigation .submenu-wrapper {
 }
 
 .resource-button {
-  border: solid thin #d8a32a;
+  border: solid thin #e24d25;
   padding-top: 1.2em !important;
 }
 
@@ -8776,7 +8776,7 @@ nav.navigation .submenu-wrapper {
 }
 .carousel .carousel-slide button {
   margin-top: 10px;
-  background-color: #d8a32a;
+  background-color: #e24d25;
 }
 .carousel .blurb {
   padding: 10px 0;
@@ -8907,7 +8907,7 @@ nav.navigation .submenu-wrapper {
   color: white;
 }
 .swatches .color-accent {
-  background-color: #d8a32a;
+  background-color: #e24d25;
 }
 .swatches .color-shadow {
   background-color: rgba(0, 0, 0, 0.125);
@@ -9282,7 +9282,7 @@ nav.navigation .submenu-wrapper {
   line-height: 50px;
 }
 .glyphs.css-mapping .icon:hover {
-  color: #d8a32a;
+  color: #e24d25;
 }
 
 .video-container {
@@ -9359,7 +9359,7 @@ nav.navigation .submenu-wrapper {
   display: inline-block;
 }
 .social a:hover {
-  color: #d8a32a;
+  color: #e24d25;
 }
 .social [class^="icon-"]:before,
 .social [class*=" icon-"]:before {
@@ -9514,7 +9514,7 @@ ul.pagination li a, ul.pagination li.current a {
   text-align: center;
 }
 .panel-profile img:hover {
-  border: solid thick #d8a32a;
+  border: solid thick #e24d25;
 }
 
 .panel-showcase {
@@ -9585,7 +9585,7 @@ ul.pagination li a, ul.pagination li.current a {
 }
 .footer .footer-logo-wrapper img {
   margin: 0 0 5px 0;
-  width: 220px;
+  width: 70px;
   height: auto;
 }
 .footer .footer-links h3, .footer .footer-links a {
@@ -9651,7 +9651,7 @@ ul.pagination li a, ul.pagination li.current a {
   display: block;
   padding: 0;
   margin: 0;
-  color: #d8a32a;
+  color: #e24d25;
   font-size: 2em;
   text-align: center;
 }

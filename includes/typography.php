@@ -5,14 +5,6 @@
     <hr>
     <section id="font-faces" class="large-12 columns">
         <h3>Font Faces</h3>
-        <div class="large-3 columns"><span>Al Jazeera Arabic Heavy</span></div>
-        <div class="large-9 columns arabic-heavy"><p>الجزيرة العربية الثقيلة</p></div>
-        <div class="large-3 columns"><span>Al Jazeera Arabic Bold</span></div>
-        <div class="large-9 columns arabic-bold"><p>الجزيرة العربية جريئة</p></div>
-        <div class="large-3 columns"><span>Al Jazeera Arabic Regular</span></div>
-        <div class="large-9 columns arabic-regular"><p>منتظم الجزيرة العربية</p></div>
-        <div class="large-3 columns"><span>Al Jazeera Arabic Light</span></div>
-        <div class="large-9 columns arabic-light"><p>الجزيرة العربية الخفيفة</p></div>
         <div class="large-3 columns"><span>Helvetica Bold</span></div>
         <div class="large-9 columns helvetica-bold"><p>Helvetica Neue LT Bold</p></div>
         <div class="large-3 columns"><span>Helvetica Roman</span></div>

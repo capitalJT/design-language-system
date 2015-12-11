@@ -1,5 +1,6 @@
 $black: rgba(0,0,0,0.9);
 $gold: #d8a32a;
+$orange: #e24d25;
 $navy: rgb(12,19,53);
 $pale-sky: #6b717f;
 $onyx: #353839;
@@ -8,7 +9,7 @@ $color-shadow: rgba($black, .125);
 $color-light-shade: rgba($black, .2);
 $color-dark-shade: #9d9d9d;
 $color-primary: $navy;
-$color-accent: $gold;
+$color-accent: $orange;
 $color-text: darken($pale-sky, 15);
 
 $spacing-value: 20px;
@@ -116,9 +117,9 @@ $spacing-value: 20px;
 	        box-shadow: $h $v $b $s $c;
 }
 a{
-	color:$gold;
+	color:$color-accent;
 	&:focus{
-		color:$gold;
+		color:$color-accent;
 	}
 	@extend %transition;
 	// &:link{}
