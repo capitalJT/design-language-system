@@ -2,6 +2,7 @@
   <div class="large-12 columns">
     <h1>Accordian</h1>
   </div>
+  <span class="gist"><a class="icon icon-ajmn-embed" href="https://gist.github.com/capitalJT/13d3120ac48cfdd55fc8" target="_blank"></a></span>
   <hr>
 	<div class="large-12 columns accordian-wrapper">
 		<dl class="accordion" data-accordion>

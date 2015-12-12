@@ -9715,3 +9715,21 @@ ul.pagination li a, ul.pagination li.current a {
 .alert-box.standard .close, .alert-box.secondary .close {
   color: white;
 }
+
+section {
+  position: relative;
+}
+section .gist {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 100;
+}
+section .gist a {
+  padding: 10px 10px 7px;
+  font-size: 1.3em;
+  border-radius: 4px;
+}
+section .gist a:hover {
+  background-color: rgba(0, 0, 0, 0.125);
+}

@@ -3,6 +3,7 @@
 		<div class="large-12 columns">
 	    <h1>Brand Bar</h1>
 	  </div>
+	  <span class="gist"><a class="icon icon-ajmn-embed" href="https://gist.github.com/capitalJT/cfdcf8b714e6e5fd8627" target="_blank"></a></span>
 	  <hr>
 		<div class="large-12 columns brand-bar ">
 			<article class="medium-4  large-3 columns">

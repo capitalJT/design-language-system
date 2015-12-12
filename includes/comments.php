@@ -2,6 +2,7 @@
 	<div class="large-12 columns">
 		<h1>Comments</h1>
 	</div>
+	<span class="gist"><a class="icon icon-ajmn-embed" href="https://gist.github.com/capitalJT/2c78cdf407f8e8acd960" target="_blank"></a></span>
 	<hr>
 	<div class="large-12 columns comments-section">
 		<ul class="comment-list">

@@ -2,6 +2,7 @@
   <div class="large-12 columns">
     <h1>Social Icons</h1>
   </div>
+  <span class="gist"><a class="icon icon-ajmn-embed" href="https://gist.github.com/capitalJT/e155be7a18531079ba4a" target="_blank"></a></span>
   <hr>
 	<div class="large-12 columns">
 		<ul class="social">

@@ -2,6 +2,7 @@
   <div class="large-12 columns">
     <h1>Navigation</h1>
   </div>
+  <span class="gist"><a class="icon icon-ajmn-embed" href="https://gist.github.com/capitalJT/11eebfca637c27b453e6" target="_blank"></a></span>
   <hr>
   <div class="large-12 columns">
     <!-- <div class="icon icon-ajmn-menu"></div> -->

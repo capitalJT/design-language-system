@@ -75,7 +75,7 @@
 		<div id="footer" class="footer section">
       <div class="row medium-uncollapse large-collapse">
         <div class="large-12 columns footer-logo-wrapper">
-          <img src="../images/logos/ajmn-logo.svg">
+          <img src="../images/logos/logo.svg">
           <ul class="social">
             <li>
               <a href="#"><span class="icon icon-ajmn-facebook"></span></a>
@@ -152,7 +152,7 @@
     </div>
     <div class="row copyright">
       <div class="large-12 columns">
-        <p>&copy; 2015 Al Jazeera Media Network. All rights reserved.</p>
+        <p>&copy; 2015 Design Language System. All rights reserved.</p>
       </div>
     </div>
 

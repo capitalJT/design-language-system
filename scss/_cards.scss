@@ -17,10 +17,6 @@
 
 .panel-profile{
 	img{
-		// @include ht-w($Value: 220);
-		// height: 220px;
-		// width: auto;
-		// max-width: 220px;
 		@extend %m-lr-auto;	
 		@extend %round;
 		text-align: center;

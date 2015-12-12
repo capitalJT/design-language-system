@@ -36,7 +36,7 @@
 		<div class="medium-8 columns content">
 			<h3 class="header-category">About Us</h3>
 			<h2>Contact Us</h2>
-			<p>How to get in touch with Al Jazeera English</p>
+			<p>How to get in touch with Capital J Creative</p>
 			<hr>
 			<div class="large-6 columns">
 				<form action="#">
@@ -64,17 +64,17 @@
 		  </div>
 			<div class="large-6 columns">
 				<div class="contact-section">
-					<h4>Al Jazeera English</h4>
+					<h4>Capital J Creative</h4>
 					<span class="block">PO Box 23127</span>
-					<span class="block">Doha, Qatar</span>	
+					<span class="block">San Francisco, CA</span>	
 				</div>
 				<div class="contact-section">
 					<h4>Advertising</h4>
 					<span class="block">PO Box 23123</span>
-					<span class="block">Doha, Qatar</span>
-					<span class="block">Dept: 1 +974 4489-7446</span>
-					<span class="block">Dept: 2 +974 4489-7451</span>
-					<span class="block">Dept: 2 +974 4489-7449</span>		
+					<span class="block">San Francisco, CA</span>
+					<span class="block">Dept: 1 (415) 650-7446</span>
+					<span class="block">Dept: 2 (415) 650-7451</span>
+					<span class="block">Dept: 3 (415) 650-7449</span>		
 				</div>
 			</div>
 			<section>
