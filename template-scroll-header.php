@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Al Jazeera - DLS - Scroll-Top Template</title>
+    <title>DLS - Scroll-Top Template</title>
 
     <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57x57-precomposed.png">
@@ -30,7 +30,7 @@
     <header class="header">
       <div class="row">
         <div class="large-12 columns">
-          <a href="index.php"><img class="logo" src="../images/logos/logo.svg" alt="AJMN Icon"></a>
+          <a href="index.php"><img class="logo" src="images/logos/logo.svg" alt="AJMN Icon"></a>
           <?php include 'includes/navigation.php'; ?>
         </div>        
       </div>

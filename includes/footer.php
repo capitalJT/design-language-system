@@ -62,12 +62,12 @@
             </ul>
           </div>
           <div class="small-6 medium-4 large-2 columns">
-            <h3>Column 6</h3>
+            <h3>Site Map</h3>
             <ul>
-              <li><a href="#">Link 1</a></li> 
-              <li><a href="#">Link 2</a></li> 
-              <li><a href="#">Link 3</a></li> 
-              <li><a href="#">Link 4</a></li> 
+              <li><a href="style.php">Style</a></li> 
+              <li><a href="elements.php">Elements</a></li> 
+              <li><a href="components.php">Components</a></li> 
+              <li><a href="templates.php">Templates</a></li> 
             </ul>
           </div>
         </div><!-- end .large-12 -->

@@ -38,9 +38,9 @@
 			<div class="blurb ">
 				<div class="row">
 					<div class="large-12 columns">
-						<h1>Get your career going with Al Jazeera</h1>
-						<p class="show-for-medium-up">Our people come from all over the world, with a broad diversity of educational an professional backgrounds.</p>
-						<button class="show-for-medium-up">EXPLORE OPPORTUNITIES</button>
+						<h1>This is text wrapped in an h1 tag</h1>
+						<p class="show-for-medium-up">This is a blurb that will show-for-medium-up</p>
+						<button class="show-for-medium-up">Medium UP CTA</button>
 					</div>
 				</div>
 			</div>
@@ -50,9 +50,9 @@
 			<div class="blurb ">
 				<div class="row">
 					<div class="large-12 columns">
-						<h1>Get your career going with Al Jazeera</h1>
-						<p class="show-for-medium-up">Our people come from all over the world, with a broad diversity of educational an professional backgrounds.</p>
-						<button class="show-for-medium-up">EXPLORE OPPORTUNITIES</button>
+						<h1>This is text wrapped in an h1 tag</h1>
+						<p class="show-for-medium-up">This is a blurb that will show-for-medium-up</p>
+						<button class="show-for-medium-up">Medium UP CTA</button>
 					</div>
 				</div>
 			</div>
@@ -62,9 +62,9 @@
 			<div class="blurb ">
 				<div class="row">
 					<div class="large-12 columns">
-						<h1>Get your career going with Al Jazeera</h1>
-						<p class="show-for-medium-up">Our people come from all over the world, with a broad diversity of educational an professional backgrounds.</p>
-						<button class="show-for-medium-up">EXPLORE OPPORTUNITIES</button>
+						<h1>This is text wrapped in an h1 tag</h1>
+						<p class="show-for-medium-up">This is a blurb that will show-for-medium-up</p>
+						<button class="show-for-medium-up">Medium UP CTA</button>
 					</div>
 				</div>
 			</div>

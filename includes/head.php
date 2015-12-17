@@ -26,5 +26,6 @@
   </head>
 
   <body>
+    <?php include_once("analyticstracking.php") ?>
     <div id="scroll-to-top"><span class="icon icon-ajmn-download"></span></div>
 
